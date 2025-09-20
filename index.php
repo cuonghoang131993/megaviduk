@@ -5,9 +5,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Licet Studios provides an online marketplace and clears copyrights for the internet's most amazing, funniest, trending and viral videos and user-generated content. Submit your videos or start buying now.">
-    <meta name="keywords" content="licet studios, licet studios gmbh, video licensing, viral video licensing, viral video licensing companies, internet’s best videos, trending videos, viral videos, funny videos, sell video, sell youtube video, make money off video, video monetization, buy videos, video promotion, report stolen video, get content id">
-    <title>Licet Studios ® | Sell & buy the internet's best videos</title>
+    <meta name="description" content="Megavid provides an online marketplace and clears copyrights for the internet's most amazing, funniest, trending and viral videos and user-generated content. Submit your videos or start buying now.">
+    <meta name="keywords" content="megavid, megavid gmbh, video licensing, viral video licensing, viral video licensing companies, internet’s best videos, trending videos, viral videos, funny videos, sell video, sell youtube video, make money off video, video monetization, buy videos, video promotion, report stolen video, get content id">
+    <title>Megavid ® | Sell & buy the internet's best videos</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -132,7 +132,7 @@ ga('send', 'pageview');
   </thead>
   <tbody>
     <tr style="background-color:rgba(0,0,0,.05) !important;">
-      <th scope="row" style="color:#F05F40;text-align: center;vertical-align:middle;" align="center" ><h4 align="center">Partnership Conditions</h4></th>
+      <th scope="row" style="color:#DE0404;text-align: center;vertical-align:middle;" align="center" ><h4 align="center">Partnership Conditions</h4></th>
       <td align="center"></td>
       <td align="center"></td>
     </tr>
@@ -152,39 +152,39 @@ ga('send', 'pageview');
       <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-minus" style="color:#C0C0C0;"></i></td>
     </tr>
     <tr style="background-color:rgba(0,0,0,.05) !important;">
-      <th scope="row" style="color:#F05F40;text-align: center;vertical-align:middle;" align="center" ><h4 align="center">Partnership Benefits</h4></th>
+      <th scope="row" style="color:#DE0404;text-align: center;vertical-align:middle;" align="center" ><h4 align="center">Partnership Benefits</h4></th>
       <td></td>
       <td></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title='Track and analyze your video’s success, check helpful tools, choose preferred payment options, access important documents and more – your dashboard is tailored to suit your needs.'>
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-tachometer" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Powerful Dashboard</div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="We sell licenses for your video through our website and other marketing channels. While you lean back, we're working on your next paycheck.">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-usd" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Easy Sales</div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="We bring submitted videos to the attention of TV shows, social media sites, news programs, advertising agencies, brands, film production studios and others who'd love to use videos just like yours.">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-globe" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Distribution &amp; Promotion </div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="Best practices for increasing your video’s chances to go viral, stay popular and to get licensed more often can be found in our exclusive Video Optimization and Viral Video guides provided in your account for free.">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-file-video-o" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Optimization &amp; Virality Tips</div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="Under Premium Partnership efforts will be made to block or monetize unauthorized copies of your video, i.e. on YouTube by the help of Content ID and elsewhere by claiming retroactive license fees from those who are ripping off your video for their own financial benefit.">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-shield" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Video Protection</div></div></th>
       <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-minus" style="color:#C0C0C0;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="Also benefit from our Promoter Program (by earning 50% commission for encouraging other video owners to submit their videos), exclusive discounts, our community forums ... and more!">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-star" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Promoter Program and more</div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#F05F40;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
     </tr>
     <tr>
       <th scope="row" style="text-align: center;vertical-align:middle;"></th>
@@ -269,7 +269,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Video Owners' FAQ</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Video Owners' FAQ</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -311,7 +311,7 @@ ga('send', 'pageview');
             <div class="card-body" align="justify">
             Unless you have transferred the copyrights / exclusive rights to your video to someone else in the past you can submit your video. If you want to enter into Premium Partnership you need to inform us about everybody who is currently allowed to use your video once we’ve reviewed your submission.
             <br><br>
-            If you are unsure about which rights you have already granted in the past, please contact us <u><a data-toggle="modal" data-dismiss="modal" data-target=".contact-modal" style="cursor: pointer;">here</a></u> or at <a href="mailto:info@licetstudios.com">info@licetstudios.com</a> and ask for assistance before submitting your video.
+            If you are unsure about which rights you have already granted in the past, please contact us <u><a data-toggle="modal" data-dismiss="modal" data-target=".contact-modal" style="cursor: pointer;">here</a></u> or at <a href="mailto:info@megavid.uk">info@megavid.uk</a> and ask for assistance before submitting your video.
             </div>
             </div>
         </div>
@@ -357,7 +357,7 @@ ga('send', 'pageview');
             <div class="card-body" align="justify">
             Have a look into our Video Optimization and Viral Video guides accessible in your <u><a data-toggle="modal" data-target=".bd-example-modal-lg" data-dismiss="modal" style="cursor: pointer;">account</a></u>. Besides, we recommend to provide the following passage clearly visible whenever using your video (i.e. in your video’s description and/or in a highlighted comment):
             <br><br>
-            <em>© Your Name / Licet Studios </em>|<em> To license this video, visit <a href="https://licetstudios.com/videos">www.licetstudios.com/videos</a> or email <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a></em></div>
+            <em>© Your Name / Megavid </em>|<em> To license this video, visit <a href="https://megavid.uk/videos">www.megavid.uk/videos</a> or email <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a></em></div>
             </div>
         </div>
         <div class="card">
@@ -370,9 +370,9 @@ ga('send', 'pageview');
             </div>
             <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
             <div class="card-body" align="justify">
-            We recommend to forward such message to <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a> and to send the following passage as reply additionally: 
+            We recommend to forward such message to <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a> and to send the following passage as reply additionally: 
             <br><br>
-            <em>Thank you for your message. Please visit <a href="https://licetstudios.com/videos">www.licetstudios.com/videos</a> or email <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a> to license / use this video. Thank you!</em>
+            <em>Thank you for your message. Please visit <a href="https://megavid.uk/videos">www.megavid.uk/videos</a> or email <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a> to license / use this video. Thank you!</em>
             </div>
             </div>
         </div>
@@ -385,7 +385,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -446,7 +446,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg" style="max-height:98vh;">
     <div class="modal-content " >
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -456,7 +456,7 @@ ga('send', 'pageview');
     <form id="contactForm" class="text-left" action="" method="post">
             <div class="login-form-main-message"></div>
 			<div class="main-login-form">
-                        <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="mailto:info@licetstudios.com">info@licetstudios.com</a> or via phone at <a href="tel:4927237195301">+49 (0) 272 371 953 01</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
+                        <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="mailto:info@megavid.uk">info@megavid.uk</a> or via phone at <a href="tel:490780392311">+49 (0) 780 392 311</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
 						<label  >Name</label><br>
 						<input type="text" class="form-control" name="contactname" id="contactname" placeholder="Name"  ><br>
                         <label  >Company / Organization (optional)</label><br>
@@ -494,7 +494,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -502,7 +502,7 @@ ga('send', 'pageview');
 
       <div class="container" style="padding:2rem;padding-top:0;">
             
-			<p>Licet Studios GmbH</p>
+			<p>Megavid GmbH</p>
 			<p>Elisabeth-Anna-Stra&szlig;e 9</p>
 			<p>26486 Wangerooge</p>
 			<p>&nbsp;</p>
@@ -517,7 +517,7 @@ ga('send', 'pageview');
 			<p>DE307433469</p>
 			<p>&nbsp;</p>
 			<p>Email contact:</p>
-			<p>info@licetstudios.com</p>		
+			<p>info@megavid.uk</p>		
 		</div>
 		
 
@@ -528,7 +528,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>How To buy videos at Licet Studios</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -565,7 +565,7 @@ ga('send', 'pageview');
                 <p><b>Broadcast Media Packages</b> offer options to purchase rights for Broadcast Only, Broadcast + Digital Uses, and ALL MEDIA.</p>
                 <p><b>Digital Media Packages</b> offer options to purchase rights for online use only (i.e. Facebook, Instagram, YouTube, and other websites).</p>
                 <p>If you click on the 'question mark’ or ‘info’ icon next to each selection field, you will find further explanations if needed.</p>
-                <p>If you don’t find the right package or need help, please get in touch: <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a><p>
+                <p>If you don’t find the right package or need help, please get in touch: <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a><p>
             </div>
             </div>
         </div>
@@ -655,7 +655,7 @@ ga('send', 'pageview');
 
             <div id="htbuycollapseSix" class="collapse" role="tabpanel" data-parent="#accordionHowToBuy">
             <div class="card-body">
-            <p>Currently you need to download videos you purchased at Licet Studios from YouTube. You will find the respective videos’ YouTube-URL(s) in your order confirmation and in your order history.
+            <p>Currently you need to download videos you purchased at Megavid from YouTube. You will find the respective videos’ YouTube-URL(s) in your order confirmation and in your order history.
             If you need a download-program for YouTube videos, we recommend taking a look into (i.e.) the following reviews:</p>
             <a href="https://www.techradar.com/news/the-best-free-youtube-downloader" target="_blank">www.techradar.com/news/the-best-free-youtube-downloader</a><br>
             <a href="https://www.gihosoft.com/hot-topics/best-free-youtube-downloader.html" target="_blank">www.gihosoft.com/hot-topics/best-free-youtube-downloader.html</a><br>
@@ -681,7 +681,7 @@ ga('send', 'pageview');
 </div>
             <div class="text-center" style="padding:1em;">
                 Questions? Get in touch:<br>
-                <a href="mailto:licensing@licetstudios.com ">licensing@licetstudios.com </a><br>
+                <a href="mailto:licensing@megavid.uk ">licensing@megavid.uk </a><br>
                 <a class="btn btn-default btn-primary" data-dismiss="modal" data-toggle="modal" data-target=".contact-modal" >Contact us</a>
             </div>
   </div>
@@ -770,7 +770,7 @@ var manageTableColumns = function() {
     if(viewport.is('<md')) {
       $('#licensesTab tr > *:nth-child(3)').css("display", "none");
       $('#licensesTab tr > *:nth-child(2)').css("display", "");
-      $('#btnBasic').css("background-color", "#F05F40");
+      $('#btnBasic').css("background-color", "#DE0404");
       $('#btnPremium').css("background-color", "#868e96");
       $('#licensesTab').css("width", "100vw");
       $("#btnPremiumSignUp").html('SELECT');
@@ -800,7 +800,7 @@ $(window).resize(
       function hideColumnPremium() {
           $('#licensesTab tr > *:nth-child(3)').css("display", "none");
           $('#licensesTab tr > *:nth-child(2)').css("display", "");
-          $('#btnBasic').css("background-color", "#F05F40");
+          $('#btnBasic').css("background-color", "#DE0404");
           $('#btnPremium').css("background-color", "#868e96");
 
       }
@@ -810,7 +810,7 @@ $(window).resize(
           $('#licensesTab tr > *:nth-child(2)').css("display", "none");
           $('#licensesTab tr > *:nth-child(3)').css("display","");
           $('#btnBasic').css("background-color", "#868e96");
-          $('#btnPremium').css("background-color", "#F05F40");
+          $('#btnPremium').css("background-color", "#DE0404");
 
     }
 

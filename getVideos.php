@@ -11,7 +11,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark(\'' . $item->id .'\');" id="bookmarkSetter-' . $item->id .'" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark(\'' . $item->id .'\');" id="bookmarkSetter-' . $item->id .'" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-' . $item->id .'"  href="./footage.php?v=' . $item->id .'">
                 <div class="youtube" data-embed="' . $item->id .'"> 
@@ -19,7 +19,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-' . $item->id .'" class="videoInfoLink" href="./footage.php?v=' . $item->id .'">' . $item->title .'</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-' . $item->id .'" class="videoInfoLink" href="./footage.php?v=' . $item->id .'">' . $item->title .'</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -40,7 +40,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('RVwLHX6lgzQ');" id="bookmarkSetter-RVwLHX6lgzQ" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('RVwLHX6lgzQ');" id="bookmarkSetter-RVwLHX6lgzQ" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-RVwLHX6lgzQ"  href="./footage.php?v=RVwLHX6lgzQ">
                 <div class="youtube" data-embed="RVwLHX6lgzQ"> 
@@ -48,7 +48,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-RVwLHX6lgzQ" class="videoInfoLink" href="./footage.php?v=RVwLHX6lgzQ">INCREDIBLE COLLAPSE TRIGGERED BY GLACIER CALVING | South America, Chile</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-RVwLHX6lgzQ" class="videoInfoLink" href="./footage.php?v=RVwLHX6lgzQ">INCREDIBLE COLLAPSE TRIGGERED BY GLACIER CALVING | South America, Chile</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -67,7 +67,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('IFzXB2dKgcU');" id="bookmarkSetter-IFzXB2dKgcU" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('IFzXB2dKgcU');" id="bookmarkSetter-IFzXB2dKgcU" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-IFzXB2dKgcU"  href="./footage.php?v=IFzXB2dKgcU">
                 <div class="youtube" data-embed="IFzXB2dKgcU"> 
@@ -75,7 +75,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-IFzXB2dKgcU" class="videoInfoLink" href="./footage.php?v=IFzXB2dKgcU">GREENLAND TSUNAMI: Fishermen Run For Their Lives - Camera 3</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-IFzXB2dKgcU" class="videoInfoLink" href="./footage.php?v=IFzXB2dKgcU">GREENLAND TSUNAMI: Fishermen Run For Their Lives - Camera 3</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -94,7 +94,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('jtX3q3cY2rk');" id="bookmarkSetter-jtX3q3cY2rk" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('jtX3q3cY2rk');" id="bookmarkSetter-jtX3q3cY2rk" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-jtX3q3cY2rk"  href="./footage.php?v=jtX3q3cY2rk">
                 <div class="youtube" data-embed="jtX3q3cY2rk"> 
@@ -102,7 +102,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-jtX3q3cY2rk" class="videoInfoLink" href="./footage.php?v=jtX3q3cY2rk">CLOSE CALL: Huge Landslide Makes Spectators Run For Their Lives In Nepal</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-jtX3q3cY2rk" class="videoInfoLink" href="./footage.php?v=jtX3q3cY2rk">CLOSE CALL: Huge Landslide Makes Spectators Run For Their Lives In Nepal</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -121,7 +121,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('TYe2tkXgPqs');" id="bookmarkSetter-TYe2tkXgPqs" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('TYe2tkXgPqs');" id="bookmarkSetter-TYe2tkXgPqs" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-TYe2tkXgPqs"  href="./footage.php?v=TYe2tkXgPqs">
                 <div class="youtube" data-embed="TYe2tkXgPqs"> 
@@ -129,7 +129,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-TYe2tkXgPqs" class="videoInfoLink" href="./footage.php?v=TYe2tkXgPqs">Warship Smashed by +20M Monster Wave Near Antarctica</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-TYe2tkXgPqs" class="videoInfoLink" href="./footage.php?v=TYe2tkXgPqs">Warship Smashed by +20M Monster Wave Near Antarctica</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -148,7 +148,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('MgXEL2tpTqc');" id="bookmarkSetter-MgXEL2tpTqc" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('MgXEL2tpTqc');" id="bookmarkSetter-MgXEL2tpTqc" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-MgXEL2tpTqc"  href="./footage.php?v=MgXEL2tpTqc">
                 <div class="youtube" data-embed="MgXEL2tpTqc"> 
@@ -156,7 +156,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-MgXEL2tpTqc" class="videoInfoLink" href="./footage.php?v=MgXEL2tpTqc">Insane Navy Boat Exercise Nearly Gone Wrong (Storm Force 12)</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-MgXEL2tpTqc" class="videoInfoLink" href="./footage.php?v=MgXEL2tpTqc">Insane Navy Boat Exercise Nearly Gone Wrong (Storm Force 12)</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -175,7 +175,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('vFTD0rqL5Z0');" id="bookmarkSetter-vFTD0rqL5Z0" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('vFTD0rqL5Z0');" id="bookmarkSetter-vFTD0rqL5Z0" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-vFTD0rqL5Z0"  href="./footage.php?v=vFTD0rqL5Z0">
                 <div class="youtube" data-embed="vFTD0rqL5Z0"> 
@@ -183,7 +183,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-vFTD0rqL5Z0" class="videoInfoLink" href="./footage.php?v=vFTD0rqL5Z0">Uncut and Unseen: Greenland Tsunami (First Wave to Largest Wave in 6 mins.)</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-vFTD0rqL5Z0" class="videoInfoLink" href="./footage.php?v=vFTD0rqL5Z0">Uncut and Unseen: Greenland Tsunami (First Wave to Largest Wave in 6 mins.)</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -202,7 +202,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('pKd0PCI6Sx4');" id="bookmarkSetter-pKd0PCI6Sx4" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('pKd0PCI6Sx4');" id="bookmarkSetter-pKd0PCI6Sx4" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-pKd0PCI6Sx4"  href="./footage.php?v=pKd0PCI6Sx4">
                 <div class="youtube" data-embed="pKd0PCI6Sx4"> 
@@ -210,7 +210,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-pKd0PCI6Sx4" class="videoInfoLink" href="./footage.php?v=pKd0PCI6Sx4">'TSUNAMI-LIKE WAVES' Hit Village in Indonesia (Tidal Bore) | Kampar River (Sumatra)</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-pKd0PCI6Sx4" class="videoInfoLink" href="./footage.php?v=pKd0PCI6Sx4">'TSUNAMI-LIKE WAVES' Hit Village in Indonesia (Tidal Bore) | Kampar River (Sumatra)</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -229,7 +229,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('QEWENb7eNBw');" id="bookmarkSetter-QEWENb7eNBw" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('QEWENb7eNBw');" id="bookmarkSetter-QEWENb7eNBw" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-QEWENb7eNBw"  href="./footage.php?v=QEWENb7eNBw">
                 <div class="youtube" data-embed="QEWENb7eNBw"> 
@@ -237,7 +237,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-QEWENb7eNBw" class="videoInfoLink" href="./footage.php?v=QEWENb7eNBw">FLASH FLOOD: Drivers TRAPPED In Traffic Fear For Their Lives!</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-QEWENb7eNBw" class="videoInfoLink" href="./footage.php?v=QEWENb7eNBw">FLASH FLOOD: Drivers TRAPPED In Traffic Fear For Their Lives!</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -256,7 +256,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('TrTBjpXioEo');" id="bookmarkSetter-TrTBjpXioEo" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('TrTBjpXioEo');" id="bookmarkSetter-TrTBjpXioEo" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-TrTBjpXioEo"  href="./footage.php?v=TrTBjpXioEo">
                 <div class="youtube" data-embed="TrTBjpXioEo"> 
@@ -264,7 +264,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-TrTBjpXioEo" class="videoInfoLink" href="./footage.php?v=TrTBjpXioEo">Triple Sneak Pass Maneuver at Jones Beach Airshow Practice</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-TrTBjpXioEo" class="videoInfoLink" href="./footage.php?v=TrTBjpXioEo">Triple Sneak Pass Maneuver at Jones Beach Airshow Practice</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -283,7 +283,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('16bAhJSL2-o');" id="bookmarkSetter-16bAhJSL2-o" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('16bAhJSL2-o');" id="bookmarkSetter-16bAhJSL2-o" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-16bAhJSL2-o"  href="./footage.php?v=16bAhJSL2-o">
                 <div class="youtube" data-embed="16bAhJSL2-o"> 
@@ -291,7 +291,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-16bAhJSL2-o" class="videoInfoLink" href="./footage.php?v=16bAhJSL2-o">MEGA-TSUNAMI caused by LANDSLIDE devastates village - Camera 1 | Greenland, Nuugaatsiaq</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-16bAhJSL2-o" class="videoInfoLink" href="./footage.php?v=16bAhJSL2-o">MEGA-TSUNAMI caused by LANDSLIDE devastates village - Camera 1 | Greenland, Nuugaatsiaq</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -310,7 +310,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('MTFmuWHZVSo');" id="bookmarkSetter-MTFmuWHZVSo" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('MTFmuWHZVSo');" id="bookmarkSetter-MTFmuWHZVSo" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-MTFmuWHZVSo"  href="./footage.php?v=MTFmuWHZVSo">
                 <div class="youtube" data-embed="MTFmuWHZVSo"> 
@@ -318,7 +318,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-MTFmuWHZVSo" class="videoInfoLink" href="./footage.php?v=MTFmuWHZVSo">Deadliest European Tornado In 20 Years Devastates Village In Czechia</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-MTFmuWHZVSo" class="videoInfoLink" href="./footage.php?v=MTFmuWHZVSo">Deadliest European Tornado In 20 Years Devastates Village In Czechia</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -337,7 +337,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('M3NxW4hL-tM');" id="bookmarkSetter-M3NxW4hL-tM" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('M3NxW4hL-tM');" id="bookmarkSetter-M3NxW4hL-tM" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-M3NxW4hL-tM"  href="./footage.php?v=M3NxW4hL-tM">
                 <div class="youtube" data-embed="M3NxW4hL-tM"> 
@@ -345,7 +345,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-M3NxW4hL-tM" class="videoInfoLink" href="./footage.php?v=M3NxW4hL-tM">Ship in Storm | Multiple MONSTER WAVES Hit Rescue Vessel in the North Sea! [See Until End]</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-M3NxW4hL-tM" class="videoInfoLink" href="./footage.php?v=M3NxW4hL-tM">Ship in Storm | Multiple MONSTER WAVES Hit Rescue Vessel in the North Sea! [See Until End]</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -364,7 +364,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('T2MtSjsVHE8');" id="bookmarkSetter-T2MtSjsVHE8" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('T2MtSjsVHE8');" id="bookmarkSetter-T2MtSjsVHE8" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-T2MtSjsVHE8"  href="./footage.php?v=T2MtSjsVHE8">
                 <div class="youtube" data-embed="T2MtSjsVHE8"> 
@@ -372,7 +372,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-T2MtSjsVHE8" class="videoInfoLink" href="./footage.php?v=T2MtSjsVHE8">GIANT Iceberg 'Shooter' Triggered By Massive Glacier Calving [4K]</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-T2MtSjsVHE8" class="videoInfoLink" href="./footage.php?v=T2MtSjsVHE8">GIANT Iceberg 'Shooter' Triggered By Massive Glacier Calving [4K]</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -391,7 +391,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('DUbDwek6rAQ');" id="bookmarkSetter-DUbDwek6rAQ" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('DUbDwek6rAQ');" id="bookmarkSetter-DUbDwek6rAQ" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-DUbDwek6rAQ"  href="./footage.php?v=DUbDwek6rAQ">
                 <div class="youtube" data-embed="DUbDwek6rAQ"> 
@@ -399,7 +399,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-DUbDwek6rAQ" class="videoInfoLink" href="./footage.php?v=DUbDwek6rAQ">Ship in Storm | MONSTER WAVE DESTROYS Oil Tanker's Bridge in Baltic Sea!</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-DUbDwek6rAQ" class="videoInfoLink" href="./footage.php?v=DUbDwek6rAQ">Ship in Storm | MONSTER WAVE DESTROYS Oil Tanker's Bridge in Baltic Sea!</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -418,7 +418,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('c9fsH1zImLU');" id="bookmarkSetter-c9fsH1zImLU" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('c9fsH1zImLU');" id="bookmarkSetter-c9fsH1zImLU" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-c9fsH1zImLU"  href="./footage.php?v=c9fsH1zImLU">
                 <div class="youtube" data-embed="c9fsH1zImLU"> 
@@ -426,7 +426,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-c9fsH1zImLU" class="videoInfoLink" href="./footage.php?v=c9fsH1zImLU">World's Largest Plane Separates The Clouds While Landing (An-225)</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-c9fsH1zImLU" class="videoInfoLink" href="./footage.php?v=c9fsH1zImLU">World's Largest Plane Separates The Clouds While Landing (An-225)</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -445,7 +445,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('JsO-QDoGPY0');" id="bookmarkSetter-JsO-QDoGPY0" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('JsO-QDoGPY0');" id="bookmarkSetter-JsO-QDoGPY0" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-JsO-QDoGPY0"  href="./footage.php?v=JsO-QDoGPY0">
                 <div class="youtube" data-embed="JsO-QDoGPY0"> 
@@ -453,7 +453,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-JsO-QDoGPY0" class="videoInfoLink" href="./footage.php?v=JsO-QDoGPY0">Monster Waves Reaching Norwegian Oil Rig's Windows</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-JsO-QDoGPY0" class="videoInfoLink" href="./footage.php?v=JsO-QDoGPY0">Monster Waves Reaching Norwegian Oil Rig's Windows</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -472,7 +472,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('KBE9t1IrqXE');" id="bookmarkSetter-KBE9t1IrqXE" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('KBE9t1IrqXE');" id="bookmarkSetter-KBE9t1IrqXE" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-KBE9t1IrqXE"  href="./footage.php?v=KBE9t1IrqXE">
                 <div class="youtube" data-embed="KBE9t1IrqXE"> 
@@ -480,7 +480,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-KBE9t1IrqXE" class="videoInfoLink" href="./footage.php?v=KBE9t1IrqXE">Crowds of People Gather Together to Watch an Incredible Avalanche at Oeschinensee</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-KBE9t1IrqXE" class="videoInfoLink" href="./footage.php?v=KBE9t1IrqXE">Crowds of People Gather Together to Watch an Incredible Avalanche at Oeschinensee</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -499,7 +499,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('zjJCrM7kBZA');" id="bookmarkSetter-zjJCrM7kBZA" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('zjJCrM7kBZA');" id="bookmarkSetter-zjJCrM7kBZA" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-zjJCrM7kBZA"  href="./footage.php?v=zjJCrM7kBZA">
                 <div class="youtube" data-embed="zjJCrM7kBZA"> 
@@ -507,7 +507,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-zjJCrM7kBZA" class="videoInfoLink" href="./footage.php?v=zjJCrM7kBZA">EXPENSIVE FAIL: Ferrari Spins Out And Crashes When Accelerating!</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-zjJCrM7kBZA" class="videoInfoLink" href="./footage.php?v=zjJCrM7kBZA">EXPENSIVE FAIL: Ferrari Spins Out And Crashes When Accelerating!</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -526,7 +526,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('kCz6ma-0CXU');" id="bookmarkSetter-kCz6ma-0CXU" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('kCz6ma-0CXU');" id="bookmarkSetter-kCz6ma-0CXU" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-kCz6ma-0CXU"  href="./footage.php?v=kCz6ma-0CXU">
                 <div class="youtube" data-embed="kCz6ma-0CXU"> 
@@ -534,7 +534,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-kCz6ma-0CXU" class="videoInfoLink" href="./footage.php?v=kCz6ma-0CXU">'Tsunami-Like Waves' Overrun Small Harbor in Italy During Storm | Tyrrhenian Sea</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-kCz6ma-0CXU" class="videoInfoLink" href="./footage.php?v=kCz6ma-0CXU">'Tsunami-Like Waves' Overrun Small Harbor in Italy During Storm | Tyrrhenian Sea</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -553,7 +553,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('Jno2DawFSfg');" id="bookmarkSetter-Jno2DawFSfg" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('Jno2DawFSfg');" id="bookmarkSetter-Jno2DawFSfg" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-Jno2DawFSfg"  href="./footage.php?v=Jno2DawFSfg">
                 <div class="youtube" data-embed="Jno2DawFSfg"> 
@@ -561,7 +561,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-Jno2DawFSfg" class="videoInfoLink" href="./footage.php?v=Jno2DawFSfg">Fishing Trawler Tossed Around Like a Toy in Rough Seas and Massive Waves [4K]</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-Jno2DawFSfg" class="videoInfoLink" href="./footage.php?v=Jno2DawFSfg">Fishing Trawler Tossed Around Like a Toy in Rough Seas and Massive Waves [4K]</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -580,7 +580,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('vmTmGRV0RWQ');" id="bookmarkSetter-vmTmGRV0RWQ" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('vmTmGRV0RWQ');" id="bookmarkSetter-vmTmGRV0RWQ" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-vmTmGRV0RWQ"  href="./footage.php?v=vmTmGRV0RWQ">
                 <div class="youtube" data-embed="vmTmGRV0RWQ"> 
@@ -588,7 +588,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-vmTmGRV0RWQ" class="videoInfoLink" href="./footage.php?v=vmTmGRV0RWQ">Monstrous Tornado Wreaks Havoc on Locality</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-vmTmGRV0RWQ" class="videoInfoLink" href="./footage.php?v=vmTmGRV0RWQ">Monstrous Tornado Wreaks Havoc on Locality</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -607,7 +607,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('ND9PIn1zvYA');" id="bookmarkSetter-ND9PIn1zvYA" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('ND9PIn1zvYA');" id="bookmarkSetter-ND9PIn1zvYA" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-ND9PIn1zvYA"  href="./footage.php?v=ND9PIn1zvYA">
                 <div class="youtube" data-embed="ND9PIn1zvYA"> 
@@ -615,7 +615,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-ND9PIn1zvYA" class="videoInfoLink" href="./footage.php?v=ND9PIn1zvYA">EXTREME EVENT: Explosive Volcanic Eruption Recorded at Mount Shinmoedake</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-ND9PIn1zvYA" class="videoInfoLink" href="./footage.php?v=ND9PIn1zvYA">EXTREME EVENT: Explosive Volcanic Eruption Recorded at Mount Shinmoedake</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -634,7 +634,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('eEQouP7T9kU');" id="bookmarkSetter-eEQouP7T9kU" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('eEQouP7T9kU');" id="bookmarkSetter-eEQouP7T9kU" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-eEQouP7T9kU"  href="./footage.php?v=eEQouP7T9kU">
                 <div class="youtube" data-embed="eEQouP7T9kU"> 
@@ -642,7 +642,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-eEQouP7T9kU" class="videoInfoLink" href="./footage.php?v=eEQouP7T9kU">Merchant Navy Ship in a Storm Force 10 within the Bay of Biscay, Atlantic Ocean (France)</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-eEQouP7T9kU" class="videoInfoLink" href="./footage.php?v=eEQouP7T9kU">Merchant Navy Ship in a Storm Force 10 within the Bay of Biscay, Atlantic Ocean (France)</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -661,7 +661,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('w8Db7A3JQ6g');" id="bookmarkSetter-w8Db7A3JQ6g" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('w8Db7A3JQ6g');" id="bookmarkSetter-w8Db7A3JQ6g" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-w8Db7A3JQ6g"  href="./footage.php?v=w8Db7A3JQ6g">
                 <div class="youtube" data-embed="w8Db7A3JQ6g"> 
@@ -669,7 +669,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-w8Db7A3JQ6g" class="videoInfoLink" href="./footage.php?v=w8Db7A3JQ6g">Helicopter Knocks Down Lamp Posts During Emergency Landing On Romanian Highway</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-w8Db7A3JQ6g" class="videoInfoLink" href="./footage.php?v=w8Db7A3JQ6g">Helicopter Knocks Down Lamp Posts During Emergency Landing On Romanian Highway</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -688,7 +688,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('DisUyaUketk');" id="bookmarkSetter-DisUyaUketk" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('DisUyaUketk');" id="bookmarkSetter-DisUyaUketk" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-DisUyaUketk"  href="./footage.php?v=DisUyaUketk">
                 <div class="youtube" data-embed="DisUyaUketk"> 
@@ -696,7 +696,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-DisUyaUketk" class="videoInfoLink" href="./footage.php?v=DisUyaUketk">Giant Rolling Iceberg Creates a Tsunami-like Wave</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-DisUyaUketk" class="videoInfoLink" href="./footage.php?v=DisUyaUketk">Giant Rolling Iceberg Creates a Tsunami-like Wave</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -715,7 +715,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('WaUPTUItMI8');" id="bookmarkSetter-WaUPTUItMI8" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('WaUPTUItMI8');" id="bookmarkSetter-WaUPTUItMI8" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-WaUPTUItMI8"  href="./footage.php?v=WaUPTUItMI8">
                 <div class="youtube" data-embed="WaUPTUItMI8"> 
@@ -723,7 +723,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-WaUPTUItMI8" class="videoInfoLink" href="./footage.php?v=WaUPTUItMI8">Chemical Tanker In Hurricane</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-WaUPTUItMI8" class="videoInfoLink" href="./footage.php?v=WaUPTUItMI8">Chemical Tanker In Hurricane</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -742,7 +742,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('R68Gj9jT_Gg');" id="bookmarkSetter-R68Gj9jT_Gg" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('R68Gj9jT_Gg');" id="bookmarkSetter-R68Gj9jT_Gg" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-R68Gj9jT_Gg"  href="./footage.php?v=R68Gj9jT_Gg">
                 <div class="youtube" data-embed="R68Gj9jT_Gg"> 
@@ -750,7 +750,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-R68Gj9jT_Gg" class="videoInfoLink" href="./footage.php?v=R68Gj9jT_Gg">'Tsunami-Like Waves' Overrun Hotel Complex in Russia During Storm | Black Sea</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-R68Gj9jT_Gg" class="videoInfoLink" href="./footage.php?v=R68Gj9jT_Gg">'Tsunami-Like Waves' Overrun Hotel Complex in Russia During Storm | Black Sea</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -769,7 +769,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('n-f4ru5eyqg');" id="bookmarkSetter-n-f4ru5eyqg" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('n-f4ru5eyqg');" id="bookmarkSetter-n-f4ru5eyqg" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-n-f4ru5eyqg"  href="./footage.php?v=n-f4ru5eyqg">
                 <div class="youtube" data-embed="n-f4ru5eyqg"> 
@@ -777,7 +777,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-n-f4ru5eyqg" class="videoInfoLink" href="./footage.php?v=n-f4ru5eyqg">CLOSE CALL: Luckiest Guy Survives An Unexpected Rockfall By Inches</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-n-f4ru5eyqg" class="videoInfoLink" href="./footage.php?v=n-f4ru5eyqg">CLOSE CALL: Luckiest Guy Survives An Unexpected Rockfall By Inches</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -796,7 +796,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('0S4HhifEKyo');" id="bookmarkSetter-0S4HhifEKyo" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('0S4HhifEKyo');" id="bookmarkSetter-0S4HhifEKyo" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-0S4HhifEKyo"  href="./footage.php?v=0S4HhifEKyo">
                 <div class="youtube" data-embed="0S4HhifEKyo"> 
@@ -804,7 +804,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-0S4HhifEKyo" class="videoInfoLink" href="./footage.php?v=0S4HhifEKyo">EXTREME EVENT: Enormous Eruption of The Shinmoedake Volcano Caught on Camera</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-0S4HhifEKyo" class="videoInfoLink" href="./footage.php?v=0S4HhifEKyo">EXTREME EVENT: Enormous Eruption of The Shinmoedake Volcano Caught on Camera</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -823,7 +823,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('yBJEoISE00w');" id="bookmarkSetter-yBJEoISE00w" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('yBJEoISE00w');" id="bookmarkSetter-yBJEoISE00w" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-yBJEoISE00w"  href="./footage.php?v=yBJEoISE00w">
                 <div class="youtube" data-embed="yBJEoISE00w"> 
@@ -831,7 +831,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-yBJEoISE00w" class="videoInfoLink" href="./footage.php?v=yBJEoISE00w">NATURAL DISASTER: Gigantic Tornado Moves Through Switzerland Town</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-yBJEoISE00w" class="videoInfoLink" href="./footage.php?v=yBJEoISE00w">NATURAL DISASTER: Gigantic Tornado Moves Through Switzerland Town</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -850,7 +850,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('IEJzj5of7W0');" id="bookmarkSetter-IEJzj5of7W0" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('IEJzj5of7W0');" id="bookmarkSetter-IEJzj5of7W0" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-IEJzj5of7W0"  href="./footage.php?v=IEJzj5of7W0">
                 <div class="youtube" data-embed="IEJzj5of7W0"> 
@@ -858,7 +858,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-IEJzj5of7W0" class="videoInfoLink" href="./footage.php?v=IEJzj5of7W0">Ganges River Erosion: Spectators Celebrate When Local's Home Collapses And Lands In the River</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-IEJzj5of7W0" class="videoInfoLink" href="./footage.php?v=IEJzj5of7W0">Ganges River Erosion: Spectators Celebrate When Local's Home Collapses And Lands In the River</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -877,7 +877,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('Ytwg87IFldc');" id="bookmarkSetter-Ytwg87IFldc" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('Ytwg87IFldc');" id="bookmarkSetter-Ytwg87IFldc" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-Ytwg87IFldc"  href="./footage.php?v=Ytwg87IFldc">
                 <div class="youtube" data-embed="Ytwg87IFldc"> 
@@ -885,7 +885,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-Ytwg87IFldc" class="videoInfoLink" href="./footage.php?v=Ytwg87IFldc">CLOSE CALL: Military Helicopter Hits Massive Object Midair And Almost Crashes</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-Ytwg87IFldc" class="videoInfoLink" href="./footage.php?v=Ytwg87IFldc">CLOSE CALL: Military Helicopter Hits Massive Object Midair And Almost Crashes</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -904,7 +904,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('IICa799zTPw');" id="bookmarkSetter-IICa799zTPw" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('IICa799zTPw');" id="bookmarkSetter-IICa799zTPw" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-IICa799zTPw"  href="./footage.php?v=IICa799zTPw">
                 <div class="youtube" data-embed="IICa799zTPw"> 
@@ -912,7 +912,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-IICa799zTPw" class="videoInfoLink" href="./footage.php?v=IICa799zTPw">Helicopter Crashes After Flying Into Steel Cables</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-IICa799zTPw" class="videoInfoLink" href="./footage.php?v=IICa799zTPw">Helicopter Crashes After Flying Into Steel Cables</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -931,7 +931,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('tZ2674_UZtA');" id="bookmarkSetter-tZ2674_UZtA" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('tZ2674_UZtA');" id="bookmarkSetter-tZ2674_UZtA" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-tZ2674_UZtA"  href="./footage.php?v=tZ2674_UZtA">
                 <div class="youtube" data-embed="tZ2674_UZtA"> 
@@ -939,7 +939,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-tZ2674_UZtA" class="videoInfoLink" href="./footage.php?v=tZ2674_UZtA">Huge Crane Slides Off Trailer and Crashes Downhill</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-tZ2674_UZtA" class="videoInfoLink" href="./footage.php?v=tZ2674_UZtA">Huge Crane Slides Off Trailer and Crashes Downhill</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -958,7 +958,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('MEnAFaGZssE');" id="bookmarkSetter-MEnAFaGZssE" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('MEnAFaGZssE');" id="bookmarkSetter-MEnAFaGZssE" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-MEnAFaGZssE"  href="./footage.php?v=MEnAFaGZssE">
                 <div class="youtube" data-embed="MEnAFaGZssE"> 
@@ -966,7 +966,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-MEnAFaGZssE" class="videoInfoLink" href="./footage.php?v=MEnAFaGZssE">Seaplane Smashes Into Floating Debris And Spirals Out Of Control</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-MEnAFaGZssE" class="videoInfoLink" href="./footage.php?v=MEnAFaGZssE">Seaplane Smashes Into Floating Debris And Spirals Out Of Control</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -985,7 +985,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('AsGosWTHyOA');" id="bookmarkSetter-AsGosWTHyOA" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('AsGosWTHyOA');" id="bookmarkSetter-AsGosWTHyOA" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-AsGosWTHyOA"  href="./footage.php?v=AsGosWTHyOA">
                 <div class="youtube" data-embed="AsGosWTHyOA"> 
@@ -993,7 +993,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-AsGosWTHyOA" class="videoInfoLink" href="./footage.php?v=AsGosWTHyOA">CLOSE CALL: Jet Shoots Over Airshow Fans</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-AsGosWTHyOA" class="videoInfoLink" href="./footage.php?v=AsGosWTHyOA">CLOSE CALL: Jet Shoots Over Airshow Fans</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -1012,7 +1012,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('9sYG8ixnS6c');" id="bookmarkSetter-9sYG8ixnS6c" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('9sYG8ixnS6c');" id="bookmarkSetter-9sYG8ixnS6c" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-9sYG8ixnS6c"  href="./footage.php?v=9sYG8ixnS6c">
                 <div class="youtube" data-embed="9sYG8ixnS6c"> 
@@ -1020,7 +1020,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-9sYG8ixnS6c" class="videoInfoLink" href="./footage.php?v=9sYG8ixnS6c">Controlled Demolition of 60 meters high Business Center (Multiple Cameras)</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-9sYG8ixnS6c" class="videoInfoLink" href="./footage.php?v=9sYG8ixnS6c">Controlled Demolition of 60 meters high Business Center (Multiple Cameras)</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -1039,7 +1039,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('-ewdgRtWtGA');" id="bookmarkSetter--ewdgRtWtGA" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('-ewdgRtWtGA');" id="bookmarkSetter--ewdgRtWtGA" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink--ewdgRtWtGA"  href="./footage.php?v=-ewdgRtWtGA">
                 <div class="youtube" data-embed="-ewdgRtWtGA"> 
@@ -1047,7 +1047,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink--ewdgRtWtGA" class="videoInfoLink" href="./footage.php?v=-ewdgRtWtGA">HUGE LANDSLIDE Destroys Mountain Road in India!</a>
+                    <a style="color:#DE0404 !important;" id="titleLink--ewdgRtWtGA" class="videoInfoLink" href="./footage.php?v=-ewdgRtWtGA">HUGE LANDSLIDE Destroys Mountain Road in India!</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -1066,7 +1066,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('i97qxKkbCXM');" id="bookmarkSetter-i97qxKkbCXM" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('i97qxKkbCXM');" id="bookmarkSetter-i97qxKkbCXM" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-i97qxKkbCXM"  href="./footage.php?v=i97qxKkbCXM">
                 <div class="youtube" data-embed="i97qxKkbCXM"> 
@@ -1074,7 +1074,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-i97qxKkbCXM" class="videoInfoLink" href="./footage.php?v=i97qxKkbCXM">CLOSE CALL: Metal Roof Flies off Truck and Smashes into Oncoming Vehicle</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-i97qxKkbCXM" class="videoInfoLink" href="./footage.php?v=i97qxKkbCXM">CLOSE CALL: Metal Roof Flies off Truck and Smashes into Oncoming Vehicle</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">
@@ -1093,7 +1093,7 @@ include_once('models/video.php');
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark('znb_AIQT0UA');" id="bookmarkSetter-znb_AIQT0UA" style="cursor:pointer;"><i style="font-size:24px;color:#F05F40;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark('znb_AIQT0UA');" id="bookmarkSetter-znb_AIQT0UA" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-znb_AIQT0UA"  href="./footage.php?v=znb_AIQT0UA">
                 <div class="youtube" data-embed="znb_AIQT0UA"> 
@@ -1101,7 +1101,7 @@ include_once('models/video.php');
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#F05F40 !important;" id="titleLink-znb_AIQT0UA" class="videoInfoLink" href="./footage.php?v=znb_AIQT0UA">CLOSE CALL: Hippo Unexpectedly Attacks Vehicle While on a Safari</a>
+                    <a style="color:#DE0404 !important;" id="titleLink-znb_AIQT0UA" class="videoInfoLink" href="./footage.php?v=znb_AIQT0UA">CLOSE CALL: Hippo Unexpectedly Attacks Vehicle While on a Safari</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">

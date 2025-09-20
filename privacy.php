@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Licet Studios - Privacy Policy</title>
+    <title>Megavid - Privacy Policy</title>
 
     <!-- Bootstrap core CSS -->
 
@@ -70,14 +70,14 @@
     <div class="container-fluid" style="padding-top:90px; text-align: justify;font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;">
         <h4>Privacy Policy</h4>
 
-        <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the Licet Studios GmbH. The use of the Internet pages of the Licet Studios GmbH is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
+        <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the Megavid. The use of the Internet pages of the Megavid is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
 
-        <p>The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to the Licet Studios GmbH. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.</p>
+        <p>The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to the Megavid. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.</p>
 
-        <p>As the controller, the Licet Studios GmbH has implemented numerous technical and organizational measures to ensure the most complete protection of personal data processed through this website. However, Internet-based data transmissions may in principle have security gaps, so absolute protection may not be guaranteed. For this reason, every data subject is free to transfer personal data to us via alternative means, e.g. by telephone. </p>
+        <p>As the controller, the Megavid has implemented numerous technical and organizational measures to ensure the most complete protection of personal data processed through this website. However, Internet-based data transmissions may in principle have security gaps, so absolute protection may not be guaranteed. For this reason, every data subject is free to transfer personal data to us via alternative means, e.g. by telephone. </p>
 
         <h4>1. Definitions</h4>
-        <p>The data protection declaration of the Licet Studios GmbH is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR). Our data protection declaration should be legible and understandable for the general public, as well as our customers and business partners. To ensure this, we would like to first explain the terminology used.</p>
+        <p>The data protection declaration of the Megavid is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR). Our data protection declaration should be legible and understandable for the general public, as well as our customers and business partners. To ensure this, we would like to first explain the terminology used.</p>
 
         <p>In this data protection declaration, we use, inter alia, the following terms:</p>
 
@@ -134,28 +134,28 @@
 
         </p>
 
-        <p>Licet Studios GmbH</p>
-        <p>Elisabeth-Anna-Straße 9</p>
-        <p>26486 Wangerooge</p>
-        <p>Germany</p>
-        <p>Email: info@licetstudios.com</p>
-        <p>Website: www.licetstudios.com</p>
+        <p>Megavid</p>
+        <p>5 Salisbury Villas, Station Rd</p>
+        <p>Cambridge CB1 2JF</p>
+        <p>England</p>
+        <p>Email: info@megavid.uk</p>
+        <p>Website: megavid.uk</p>
 
         <h4>3. Cookies</h4>
-        <p>The Internet pages of the Licet Studios GmbH use cookies. Cookies are text files that are stored in a computer system via an Internet browser.</p>
+        <p>The Internet pages of the Megavid use cookies. Cookies are text files that are stored in a computer system via an Internet browser.</p>
 
         <p>Many Internet sites and servers use cookies. Many cookies contain a so-called cookie ID. A cookie ID is a unique identifier of the cookie. It consists of a character string through which Internet pages and servers can be assigned to the specific Internet browser in which the cookie was stored. This allows visited Internet sites and servers to differentiate the individual browser of the dats subject from other Internet browsers that contain other cookies. A specific Internet browser can be recognized and identified using the unique cookie ID.</p>
 
-        <p>Through the use of cookies, the Licet Studios GmbH can provide the users of this website with more user-friendly services that would not be possible without the cookie setting.</p>
+        <p>Through the use of cookies, the Megavid can provide the users of this website with more user-friendly services that would not be possible without the cookie setting.</p>
 
         <p>By means of a cookie, the information and offers on our website can be optimized with the user in mind. Cookies allow us, as previously mentioned, to recognize our website users. The purpose of this recognition is to make it easier for users to utilize our website. The website user that uses cookies, e.g. does not have to enter access data each time the website is accessed, because this is taken over by the website, and the cookie is thus stored on the user's computer system. Another example is the cookie of a shopping cart in an online shop. The online store remembers the articles that a customer has placed in the virtual shopping cart via a cookie.</p>
 
         <p>The data subject may, at any time, prevent the setting of cookies through our website by means of a corresponding setting of the Internet browser used, and may thus permanently deny the setting of cookies. Furthermore, already set cookies may be deleted at any time via an Internet browser or other software programs. This is possible in all popular Internet browsers. If the data subject deactivates the setting of cookies in the Internet browser used, not all functions of our website may be entirely usable.</p>
 
         <h4>4. Collection of general data and information</h4>
-        <p>The website of the Licet Studios GmbH collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.</p>
+        <p>The website of the Megavid collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.</p>
 
-        <p>When using these general data and information, the Licet Studios GmbH does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, the Licet Studios GmbH analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.</p>
+        <p>When using these general data and information, the Megavid does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, the Megavid analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.</p>
 
         <h4>5. Registration on our website</h4>
         <p>The data subject has the possibility to register on the website of the controller with the indication of personal data. Which personal data are transmitted to the controller is determined by the respective input mask used for the registration. The personal data entered by the data subject are collected and stored exclusively for internal use by the controller, and for his own purposes. The controller may request transfer to one or more processors (e.g. a parcel service) that also uses personal data for an internal purpose which is attributable to the controller.</p>
@@ -170,10 +170,10 @@
         <p>The data controller shall, at any time, provide information upon request to each data subject as to what personal data are stored about the data subject. In addition, the data controller shall correct or erase personal data at the request or indication of the data subject, insofar as there are no statutory storage obligations. The entirety of the controller’s employees are available to the data subject in this respect as contact persons.</p>
 
         <h4>6. Subscription to our newsletters</h4>
-        <p>On the website of the Licet Studios GmbH, users are given the opportunity to subscribe to our enterprise's newsletter. The input mask used for this purpose determines what personal data are transmitted, as well as when the newsletter is ordered from the controller.</p>
+        <p>On the website of the Megavid, users are given the opportunity to subscribe to our enterprise's newsletter. The input mask used for this purpose determines what personal data are transmitted, as well as when the newsletter is ordered from the controller.</p>
 
         <p>
-            The Licet Studios GmbH informs its customers and business partners regularly by means of a newsletter about enterprise offers. The enterprise's newsletter may only be received by the data subject if (1) the data subject has a valid e-mail address and (2) the data subject registers for the newsletter shipping. A confirmation e-mail will be sent to the e-mail address registered by a data subject for the first time for newsletter shipping, for legal reasons, in the double opt-in procedure. This confirmation e-mail is used to prove whether the owner of the e-mail address as the data subject is authorized to receive the newsletter.
+            The Megavid informs its customers and business partners regularly by means of a newsletter about enterprise offers. The enterprise's newsletter may only be received by the data subject if (1) the data subject has a valid e-mail address and (2) the data subject registers for the newsletter shipping. A confirmation e-mail will be sent to the e-mail address registered by a data subject for the first time for newsletter shipping, for legal reasons, in the double opt-in procedure. This confirmation e-mail is used to prove whether the owner of the e-mail address as the data subject is authorized to receive the newsletter.
 
         </p>
 
@@ -182,21 +182,21 @@
         <p>The personal data collected as part of a registration for the newsletter will only be used to send our newsletter. In addition, subscribers to the newsletter may be informed by e-mail, as long as this is necessary for the operation of the newsletter service or a registration in question, as this could be the case in the event of modifications to the newsletter offer, or in the event of a change in technical circumstances. There will be no transfer of personal data collected by the newsletter service to third parties. The subscription to our newsletter may be terminated by the data subject at any time. The consent to the storage of personal data, which the data subject has given for shipping the newsletter, may be revoked at any time. For the purpose of revocation of consent, a corresponding link is found in each newsletter. It is also possible to unsubscribe from the newsletter at any time directly on the website of the controller, or to communicate this to the controller in a different way.</p>
 
         <h4>7. Newsletter-Tracking</h4>
-        <p>The newsletter of the Licet Studios GmbH contains so-called tracking pixels. A tracking pixel is a miniature graphic embedded in such e-mails, which are sent in HTML format to enable log file recording and analysis. This allows a statistical analysis of the success or failure of online marketing campaigns. Based on the embedded tracking pixel, the Licet Studios GmbH may see if and when an e-mail was opened by a data subject, and which links in the e-mail were called up by data subjects.</p>
+        <p>The newsletter of the Megavid contains so-called tracking pixels. A tracking pixel is a miniature graphic embedded in such e-mails, which are sent in HTML format to enable log file recording and analysis. This allows a statistical analysis of the success or failure of online marketing campaigns. Based on the embedded tracking pixel, the Megavid may see if and when an e-mail was opened by a data subject, and which links in the e-mail were called up by data subjects.</p>
 
-        <p>Such personal data collected in the tracking pixels contained in the newsletters are stored and analyzed by the controller in order to optimize the shipping of the newsletter, as well as to adapt the content of future newsletters even better to the interests of the data subject. These personal data will not be passed on to third parties. Data subjects are at any time entitled to revoke the respective separate declaration of consent issued by means of the double-opt-in procedure. After a revocation, these personal data will be deleted by the controller. The Licet Studios GmbH automatically regards a withdrawal from the receipt of the newsletter as a revocation.</p>
+        <p>Such personal data collected in the tracking pixels contained in the newsletters are stored and analyzed by the controller in order to optimize the shipping of the newsletter, as well as to adapt the content of future newsletters even better to the interests of the data subject. These personal data will not be passed on to third parties. Data subjects are at any time entitled to revoke the respective separate declaration of consent issued by means of the double-opt-in procedure. After a revocation, these personal data will be deleted by the controller. The Megavid automatically regards a withdrawal from the receipt of the newsletter as a revocation.</p>
 
         <h4>8. Contact possibility via the website </h4>
-        <p>The website of the Licet Studios GmbH contains information that enables a quick electronic contact to our enterprise, as well as direct communication with us, which also includes a general address of the so-called electronic mail (e-mail address). If a data subject contacts the controller by e-mail or via a contact form, the personal data transmitted by the data subject are automatically stored. Such personal data transmitted on a voluntary basis by a data subject to the data controller are stored for the purpose of processing or contacting the data subject. There is no transfer of this personal data to third parties.</p>
+        <p>The website of the Megavid contains information that enables a quick electronic contact to our enterprise, as well as direct communication with us, which also includes a general address of the so-called electronic mail (e-mail address). If a data subject contacts the controller by e-mail or via a contact form, the personal data transmitted by the data subject are automatically stored. Such personal data transmitted on a voluntary basis by a data subject to the data controller are stored for the purpose of processing or contacting the data subject. There is no transfer of this personal data to third parties.</p>
 
         <h4>9. Comments function in the blog on the website</h4>
-        <p>The Licet Studios GmbH offers users the possibility to leave individual comments on individual blog contributions on a blog, which is on the website of the controller. A blog is a web-based, publicly-accessible portal, through which one or more people called bloggers or web-bloggers may post articles or write down thoughts in so-called blogposts. Blogposts may usually be commented by third parties.</p>
+        <p>The Megavid offers users the possibility to leave individual comments on individual blog contributions on a blog, which is on the website of the controller. A blog is a web-based, publicly-accessible portal, through which one or more people called bloggers or web-bloggers may post articles or write down thoughts in so-called blogposts. Blogposts may usually be commented by third parties.</p>
 
         <p>If a data subject leaves a comment on the blog published on this website, the comments made by the data subject are also stored and published, as well as information on the date of the commentary and on the user's (pseudonym) chosen by the data subject. In addition, the IP address assigned by the Internet service provider (ISP) to the data subject is also logged. This storage of the IP address takes place for security reasons, and in case the data subject violates the rights of third parties, or posts illegal content through a given comment. The storage of these personal data is, therefore, in the own interest of the data controller, so that he can exculpate in the event of an infringement. This collected personal data will not be passed to third parties, unless such a transfer is required by law or serves the aim of the defense of the data controller.</p>
 
         <h4>10. Subscription to comments in the blog on the website</h4>
         <p>
-            The comments made in the blog of the Licet Studios GmbH may be subscribed to by third parties. In particular, there is the possibility that a commenter subscribes to the comments following his comments on a particular blog post.
+            The comments made in the blog of the Megavid may be subscribed to by third parties. In particular, there is the possibility that a commenter subscribes to the comments following his comments on a particular blog post.
         </p>
 
         <p>If a data subject decides to subscribe to the option, the controller will send an automatic confirmation e-mail to check the double opt-in procedure as to whether the owner of the specified e-mail address decided in favor of this option. The option to subscribe to comments may be terminated at any time.</p>
@@ -250,9 +250,9 @@
                     <li>The personal data have been collected in relation to the offer of information society services referred to in Article 8(1) of the GDPR.</li>
 
                 </ul>
-                <p>If one of the aforementioned reasons applies, and a data subject wishes to request the erasure of personal data stored by the Licet Studios GmbH, he or she may, at any time, contact any employee of the controller. An employee of Licet Studios GmbH shall promptly ensure that the erasure request is complied with immediately.</p>
+                <p>If one of the aforementioned reasons applies, and a data subject wishes to request the erasure of personal data stored by the Megavid, he or she may, at any time, contact any employee of the controller. An employee of Megavid shall promptly ensure that the erasure request is complied with immediately.</p>
 
-                <p>Where the controller has made personal data public and is obliged pursuant to Article 17(1) to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform other controllers processing the personal data that the data subject has requested erasure by such controllers of any links to, or copy or replication of, those personal data, as far as processing is not required. An employees of the Licet Studios GmbH will arrange the necessary measures in individual cases.</p>
+                <p>Where the controller has made personal data public and is obliged pursuant to Article 17(1) to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform other controllers processing the personal data that the data subject has requested erasure by such controllers of any links to, or copy or replication of, those personal data, as far as processing is not required. An employees of the Megavid will arrange the necessary measures in individual cases.</p>
             </li>
             <li>
                 <h4>e) Right of restriction of processing</h4>
@@ -265,7 +265,7 @@
                     <li>The data subject has objected to processing pursuant to Article 21(1) of the GDPR pending the verification whether the legitimate grounds of the controller override those of the data subject.</li>
 
                 </ul>
-                <p>If one of the aforementioned conditions is met, and a data subject wishes to request the restriction of the processing of personal data stored by the Licet Studios GmbH, he or she may at any time contact any employee of the controller. The employee of the Licet Studios GmbH will arrange the restriction of the processing. </p>
+                <p>If one of the aforementioned conditions is met, and a data subject wishes to request the restriction of the processing of personal data stored by the Megavid, he or she may at any time contact any employee of the controller. The employee of the Megavid will arrange the restriction of the processing. </p>
             </li>
             <li>
                 <h4>f) Right to data portability</h4>
@@ -273,35 +273,35 @@
 
                 <p>Furthermore, in exercising his or her right to data portability pursuant to Article 20(1) of the GDPR, the data subject shall have the right to have personal data transmitted directly from one controller to another, where technically feasible and when doing so does not adversely affect the rights and freedoms of others.</p>
 
-                <p>In order to assert the right to data portability, the data subject may at any time contact any employee of the Licet Studios GmbH.</p>
+                <p>In order to assert the right to data portability, the data subject may at any time contact any employee of the Megavid.</p>
 
             </li>
             <li>
                 <h4>g) Right to object</h4>
                 <p>Each data subject shall have the right granted by the European legislator to object, on grounds relating to his or her particular situation, at any time, to processing of personal data concerning him or her, which is based on point (e) or (f) of Article 6(1) of the GDPR. This also applies to profiling based on these provisions.</p>
 
-                <p>The Licet Studios GmbH shall no longer process the personal data in the event of the objection, unless we can demonstrate compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject, or for the establishment, exercise or defence of legal claims.</p>
+                <p>The Megavid shall no longer process the personal data in the event of the objection, unless we can demonstrate compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject, or for the establishment, exercise or defence of legal claims.</p>
 
-                <p>If the Licet Studios GmbH processes personal data for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing. This applies to profiling to the extent that it is related to such direct marketing. If the data subject objects to the Licet Studios GmbH to the processing for direct marketing purposes, the Licet Studios GmbH will no longer process the personal data for these purposes.</p>
+                <p>If the Megavid processes personal data for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing. This applies to profiling to the extent that it is related to such direct marketing. If the data subject objects to the Megavid to the processing for direct marketing purposes, the Megavid will no longer process the personal data for these purposes.</p>
 
-                <p>In addition, the data subject has the right, on grounds relating to his or her particular situation, to object to processing of personal data concerning him or her by the Licet Studios GmbH for scientific or historical research purposes, or for statistical purposes pursuant to Article 89(1) of the GDPR, unless the processing is necessary for the performance of a task carried out for reasons of public interest.</p>
+                <p>In addition, the data subject has the right, on grounds relating to his or her particular situation, to object to processing of personal data concerning him or her by the Megavid for scientific or historical research purposes, or for statistical purposes pursuant to Article 89(1) of the GDPR, unless the processing is necessary for the performance of a task carried out for reasons of public interest.</p>
 
-                <p>In order to exercise the right to object, the data subject may contact any employee of the Licet Studios GmbH. In addition, the data subject is free in the context of the use of information society services, and notwithstanding Directive 2002/58/EC, to use his or her right to object by automated means using technical specifications.</p>
+                <p>In order to exercise the right to object, the data subject may contact any employee of the Megavid. In addition, the data subject is free in the context of the use of information society services, and notwithstanding Directive 2002/58/EC, to use his or her right to object by automated means using technical specifications.</p>
             </li>
             <li>
                 <h4>h) Automated individual decision-making, including profiling</h4>
                 <p>Each data subject shall have the right granted by the European legislator not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her, or similarly significantly affects him or her, as long as the decision (1) is not is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) is not authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, or (3) is not based on the data subject's explicit consent.</p>
 
-                <p>If the decision (1) is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) it is based on the data subject's explicit consent, the Licet Studios GmbH shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and contest the decision.</p>
+                <p>If the decision (1) is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) it is based on the data subject's explicit consent, the Megavid shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and contest the decision.</p>
 
-                <p>If the data subject wishes to exercise the rights concerning automated individual decision-making, he or she may, at any time, contact any employee of the Licet Studios GmbH.</p>
+                <p>If the data subject wishes to exercise the rights concerning automated individual decision-making, he or she may, at any time, contact any employee of the Megavid.</p>
 
             </li>
             <li>
                 <h4>i) Right to withdraw data protection consent </h4>
                 <p>Each data subject shall have the right granted by the European legislator to withdraw his or her consent to processing of his or her personal data at any time. </p>
 
-                <p>f the data subject wishes to exercise the right to withdraw the consent, he or she may, at any time, contact any employee of the Licet Studios GmbH.</p>
+                <p>f the data subject wishes to exercise the right to withdraw the consent, he or she may, at any time, contact any employee of the Megavid.</p>
 
             </li>
         </ul>
@@ -469,11 +469,11 @@
         <h4>24. Payment Method: Data protection provisions about the use of Sofortüberweisung as a payment processor</h4>
         <p>On this website, the controller has integrated components of Sofortüberweisung. Sofortüberweisung is a payment service that allows cashless payment of products and services on the Internet. Sofortüberweisung is a technical procedure by which the online dealer immediately receives a payment confirmation. This enables a trader to deliver goods, services or downloads to the customer immediately after ordering.</p>
 
-        <p>The operating company of Sofortüberweisung is SOFORT GmbH, Fußbergstraße 1, 82131 Gauting, Germany.</p>
+        <p>The operating company of Sofortüberweisung is SOFORT, Fußbergstraße 1, 82131 Gauting, Germany.</p>
 
         <p>If the data subject chooses "immediate transfer" as the payment option in our online shop during the ordering process, the data of the data subject will be transmitted to Sofortüberweisung. By selecting this payment option, the data subject agrees to the transmission of personal data required for payment processing.</p>
 
-        <p>In the case of purchase processing via direct transfer, the buyer sends the PIN and the TAN to Sofort GmbH. Sofortüberweisung then carries out a transfer to the online merchant after technical verification of the account status and retrieval of additional data to check the account assignment. The online trader is then automatically informed of the execution of the financial transaction.</p>
+        <p>In the case of purchase processing via direct transfer, the buyer sends the PIN and the TAN to Sofort. Sofortüberweisung then carries out a transfer to the online merchant after technical verification of the account status and retrieval of additional data to check the account assignment. The online trader is then automatically informed of the execution of the financial transaction.</p>
 
         <p>The personal data exchanged with Sofortüberweisung is the first name, last name, address, email address, IP address, telephone number, mobile phone number, or other data necessary for payment processing. The transmission of the data is aimed at payment processing and fraud prevention. The controller shall immediately transfer other personal data, even if a legitimate interest in the transmission exists. The personal data exchanged between Sofortüberweisung and the controller shall be transmitted by Sofortüberweisung to economic credit agencies. This transmission is intended for identity and creditworthiness checks.</p>
 
@@ -509,7 +509,7 @@
         <p>As a responsible company, we do not use automatic decision-making or profiling.</p>
 
         <p>
-            This Privacy Policy has been generated by the Privacy Policy Generator of the <a href="./https://dg-datenschutz.de/services/external-data-protection-officer/?lang=en">External Data Protection Officers</a> that was developed in cooperation with RC GmbH, which sells <a href="./http://remarketing.company/">used notebooks</a> and the <a href="./https://www.wbs-law.de/eng/practice-areas/media-law/">Media Law Lawyers</a> from WBS-LAW.
+            This Privacy Policy has been generated by the Privacy Policy Generator of the <a href="./https://dg-datenschutz.de/services/external-data-protection-officer/?lang=en">External Data Protection Officers</a> that was developed in cooperation with RC, which sells <a href="./http://remarketing.company/">used notebooks</a> and the <a href="./https://www.wbs-law.de/eng/practice-areas/media-law/">Media Law Lawyers</a> from WBS-LAW.
         </p>
 
 
@@ -519,7 +519,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
+                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -580,7 +580,7 @@
         <div class="modal-dialog modal-lg" style="max-height:98vh;">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -590,7 +590,7 @@
                     <form id="contactForm" class="text-left" action="" method="post">
                         <div class="login-form-main-message"></div>
                         <div class="main-login-form">
-                            <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="./mailto:info@licetstudios.com">info@licetstudios.com</a> or via phone at <a href="./tel:4927237195301">+49 (0) 272 371 953 01</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
+                            <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="./mailto:info@megavid.uk">info@megavid.uk</a> or via phone at <a href="./tel:490780392311">+49 (0) 780 392 311</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
                             <label>Name</label><br>
                             <input type="text" class="form-control" name="contactname" id="contactname" placeholder="Name"><br>
                             <label>Company / Organization (optional)</label><br>
@@ -628,7 +628,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -636,7 +636,7 @@
 
                 <div class="container" style="padding:2rem;padding-top:0;">
 
-                    <p>Licet Studios GmbH</p>
+                    <p>Megavid</p>
                     <p>Elisabeth-Anna-Stra&szlig;e 9</p>
                     <p>26486 Wangerooge</p>
                     <p>&nbsp;</p>
@@ -651,7 +651,7 @@
                     <p>DE307433469</p>
                     <p>&nbsp;</p>
                     <p>Email contact:</p>
-                    <p>info@licetstudios.com</p>
+                    <p>info@megavid.uk</p>
                 </div>
 
 
@@ -662,7 +662,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>How To buy videos at Licet Studios</span></h3>
+                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -699,7 +699,7 @@
                                 <p><b>Broadcast Media Packages</b> offer options to purchase rights for Broadcast Only, Broadcast + Digital Uses, and ALL MEDIA.</p>
                                 <p><b>Digital Media Packages</b> offer options to purchase rights for online use only (i.e. Facebook, Instagram, YouTube, and other websites).</p>
                                 <p>If you click on the 'question mark’ or ‘info’ icon next to each selection field, you will find further explanations if needed.</p>
-                                <p>If you don’t find the right package or need help, please get in touch: <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a><p>
+                                <p>If you don’t find the right package or need help, please get in touch: <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a><p>
                             </div>
                         </div>
                     </div>
@@ -790,7 +790,7 @@
                         <div id="htbuycollapseSix" class="collapse" role="tabpanel" data-parent="#accordionHowToBuy">
                             <div class="card-body">
                                 <p>
-                                    Currently you need to download videos you purchased at Licet Studios from YouTube. You will find the respective videos’ YouTube-URL(s) in your order confirmation and in your order history.
+                                    Currently you need to download videos you purchased at Megavid from YouTube. You will find the respective videos’ YouTube-URL(s) in your order confirmation and in your order history.
                                     If you need a download-program for YouTube videos, we recommend taking a look into (i.e.) the following reviews:
                                 </p>
                                 <a href="https://www.techradar.com/news/the-best-free-youtube-downloader" target="_blank">www.techradar.com/news/the-best-free-youtube-downloader</a><br>
@@ -817,7 +817,7 @@
                 </div>
                 <div class="text-center" style="padding:1em;">
                     Questions? Get in touch:<br>
-                    <a href="mailto:licensing@licetstudios.com ">licensing@licetstudios.com </a><br>
+                    <a href="mailto:licensing@megavid.uk ">licensing@megavid.uk </a><br>
                     <a class="btn btn-default btn-primary" data-dismiss="modal" data-toggle="modal" data-target=".contact-modal">Contact us</a>
                 </div>
             </div>
@@ -838,7 +838,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
+                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;"
                             data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>

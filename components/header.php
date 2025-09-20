@@ -23,7 +23,7 @@
     <tr>
       <td style="width:41%">
         <div class="row" style="margin-left:0; margin-right:0;">
-        <a class="navbar-brand js-scroll-trigger d-none d-md-block" href="./index.php" style="margin:auto auto auto 0"><img src="img/Licet Studios - Viral Video Licensing.svg" alt="Licet Studios" height="55"></a>
+        <a class="navbar-brand js-scroll-trigger d-none d-md-block" href="./index.php" style="margin:auto auto auto 0"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="55"></a>
         
         <div class="dropdown show nav-link" id="videolibdiv" style="margin:auto auto auto 0">
         <a href="./videos.php" role="button" id="dropdownVideos"  aria-haspopup="true" aria-expanded="false" align="center">
@@ -105,7 +105,7 @@ if ($userLoggedIn) {
       </a>
       <div class="dropdown-menu blackdropdown" id="accountDropdown" aria-labelledby="dropdownMenuAccount" style="top: 77px;">
         <span class="dropdown-item" ><a class="btn btn-primary" style="width:100%;cursor:pointer;" data-toggle="modal" data-target=".bd-example-modal-lg" style="cursor: pointer;">SIGN IN</a></span>
-        <span class="dropdown-item" >Don’t have an account?<br><a  data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:#F05F40;">Sign up here.</a></span>
+        <span class="dropdown-item" >Don’t have an account?<br><a  data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:#DE0404;">Sign up here.</a></span>
         <!--<div class="dropdown-divider"></div>
         <div class="card">
           <div class="card-header">
@@ -203,7 +203,7 @@ if ($userLoggedIn) {
         </div>
         </td>
         <td style="width:18%">
-          <a class="navbar-brand js-scroll-trigger" href="./index"><img src="img/Licet Studios - Viral Video Licensing.svg" style="margin-right:0;" alt="Licet Studios" height="45"></a>
+          <a class="navbar-brand js-scroll-trigger" href="./index"><img src="img/blue-black-minimalist-play-media-logo-design.png" style="margin-right:0;" alt="Megavid" height="45"></a>
       
         </td>
         <td style="width:41%">
@@ -214,12 +214,12 @@ if ($userLoggedIn) {
       </a>
       <div class="dropdown-menu blackdropdown" id="accountDropdownSmall" aria-labelledby="dropdownMenuAccount">
         <span class="dropdown-item" ><a class="btn btn-primary" style="width:100%;cursor:pointer;" data-toggle="modal" data-target=".bd-example-modal-lg" style="cursor: pointer;">SIGN IN</a></span>
-        <span class="dropdown-item" >Don’t have an account?<br><a  data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:#F05F40;">Sign up here.</a></span>
+        <span class="dropdown-item" >Don’t have an account?<br><a  data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:#DE0404;">Sign up here.</a></span>
       </div>
     </div>
     <div class="dropdown show nav-link" id="bookmarkdivSmall" style="margin:auto 0 auto auto">
       <a href="#" role="button" id="dropdownMenuLinkSmall" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" align="center">
-      <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPill" class="badge badge-pill" style="background-color:#F05F40;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+      <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPill" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
       </a>
       <div class="dropdown-menu blackdropdown" id="bookmarksDropdownSmall" aria-labelledby="dropdownMenuLinkSmall" style="overflow: auto;max-height: 80vh; left: -80px;">
       </div>
@@ -228,7 +228,7 @@ if ($userLoggedIn) {
 
     <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
       <a href="cart" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
-      <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPill" class="badge badge-pill" style="background-color:#F05F40;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+      <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPill" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
       </a>
     </div>
     </div>
@@ -255,7 +255,7 @@ if ($userLoggedIn) {
     <table style="width:100%"> 
     <tr>
         <td>
-          <a class="navbar-brand js-scroll-trigger" href="./index.php" style="margin-right:0;"><img src="img/Licet Studios - Viral Video Licensing.svg" alt="Licet Studios" height="35"></a>
+          <a class="navbar-brand js-scroll-trigger" href="./index.php" style="margin-right:0;"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="35"></a>
         </td>
         <td >
         <div class="row" style="margin-left:0;">
@@ -265,12 +265,12 @@ if ($userLoggedIn) {
       </a>
       <div class="dropdown-menu blackdropdown" id="accountDropdownXtraSmall" aria-labelledby="dropdownMenuAccount" style="top:50px;left:-90px;">
         <span class="dropdown-item" ><a class="btn btn-primary" style="width:100%;cursor:pointer;" data-toggle="modal" data-target=".bd-example-modal-lg" style="cursor: pointer;">SIGN IN</a></span>
-        <span class="dropdown-item" >Don’t have an account?<br><a  data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:#F05F40;">Sign up here.</a></span>
+        <span class="dropdown-item" >Don’t have an account?<br><a  data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:#DE0404;">Sign up here.</a></span>
       </div>
     </div>
     <div class="dropdown show nav-link" id="bookmarkdivXtraSmall" style="margin:auto 0 auto auto">
       <a href="#" role="button" id="dropdownMenuLinkXtraSmall" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" align="center">
-      <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPillSmall" class="badge badge-pill" style="background-color:#F05F40;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+      <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPillSmall" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
       </a>
       <div class="dropdown-menu blackdropdown" id="bookmarksDropdownXtraSmall" aria-labelledby="dropdownMenuLinkXtraSmall" style="overflow: auto;max-height: 80vh;top:50px;left:-120px;">
       </div>
@@ -279,7 +279,7 @@ if ($userLoggedIn) {
 
     <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
       <a href="cart" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
-      <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPillSmall" class="badge badge-pill" style="background-color:#F05F40;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+      <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPillSmall" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
       </a>
     </div>
     </div>
@@ -347,7 +347,7 @@ if ($userLoggedIn) {
     <div class="modal-dialog modal-lg">
         <div class="modal-content ">
             <div class="modal-header card-header" style="margin-bottom:1rem;">
-                <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
+                <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
                 <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;"
                     data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>

@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Browse and filter our video library to find funny, amazing and trending internet videos your audience will love! Select license details, add videos to your cart and proceed to checkout. Copyrights cleared for all media.">
-    <meta name="keywords" content="find viral videos, buy viral videos, license viral videos, videos your audience will love, viral videos, internet videos, popular videos, trending videos, funny videos, cute videos, cat videos, fails, viral, viral video licensing, viral video licensing company, licet studios">
+    <meta name="keywords" content="find viral videos, buy viral videos, license viral videos, videos your audience will love, viral videos, internet videos, popular videos, trending videos, funny videos, cute videos, cat videos, fails, viral, viral video licensing, viral video licensing company, megavid">
     <meta name="author" content="">
 
-    <title>Video Library - License viral videos within minutes | Licet Studios</title>
+    <title>Video Library - License viral videos within minutes | Megavid</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -166,7 +166,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -227,7 +227,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg" style="max-height:98vh;">
     <div class="modal-content " >
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -237,7 +237,7 @@ ga('send', 'pageview');
     <form id="contactForm" class="text-left" action="./videos.php?cat=9" method="post">
             <div class="login-form-main-message"></div>
 			<div class="main-login-form">
-                        <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="mailto:info@licetstudios.com">info@licetstudios.com</a> or via phone at <a href="tel:4927237195301">+49 (0) 272 371 953 01</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
+                        <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="mailto:info@megavid.uk">info@megavid.uk</a> or via phone at <a href="tel:490780392311">+49 (0) 780 392 311</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
 						<label  >Name</label><br>
 						<input type="text" class="form-control" name="contactname" id="contactname" placeholder="Name"  ><br>
                         <label  >Company / Organization (optional)</label><br>
@@ -275,7 +275,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -283,7 +283,7 @@ ga('send', 'pageview');
 
       <div class="container" style="padding:2rem;padding-top:0;">
             
-			<p>Licet Studios GmbH</p>
+			<p>Megavid GmbH</p>
 			<p>Elisabeth-Anna-Stra&szlig;e 9</p>
 			<p>26486 Wangerooge</p>
 			<p>&nbsp;</p>
@@ -298,7 +298,7 @@ ga('send', 'pageview');
 			<p>DE307433469</p>
 			<p>&nbsp;</p>
 			<p>Email contact:</p>
-			<p>info@licetstudios.com</p>		
+			<p>info@megavid.uk</p>		
 		</div>
 		
 
@@ -309,7 +309,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>How To buy videos at Licet Studios</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -346,7 +346,7 @@ ga('send', 'pageview');
                 <p><b>Broadcast Media Packages</b> offer options to purchase rights for Broadcast Only, Broadcast + Digital Uses, and ALL MEDIA.</p>
                 <p><b>Digital Media Packages</b> offer options to purchase rights for online use only (i.e. Facebook, Instagram, YouTube, and other websites).</p>
                 <p>If you click on the 'question mark’ or ‘info’ icon next to each selection field, you will find further explanations if needed.</p>
-                <p>If you don’t find the right package or need help, please get in touch: <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a><p>
+                <p>If you don’t find the right package or need help, please get in touch: <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a><p>
             </div>
             </div>
         </div>
@@ -391,7 +391,7 @@ ga('send', 'pageview');
 
             <div id="htbuycollapseFour" class="collapse" role="tabpanel" data-parent="#accordionHowToBuy">
             <div class="card-body">
-                <p>Fill in contact and billing address of the company / organization which shall be entitled to use the videos you have on your cart and enter into the <a href="https://licetstudios.com/buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a>; private consumers are not admitted.</p>
+                <p>Fill in contact and billing address of the company / organization which shall be entitled to use the videos you have on your cart and enter into the <a href="https://megavid.uk/buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a>; private consumers are not admitted.</p>
             </div>
             </div>
         </div>
@@ -436,7 +436,7 @@ ga('send', 'pageview');
 
             <div id="htbuycollapseSix" class="collapse" role="tabpanel" data-parent="#accordionHowToBuy">
             <div class="card-body">
-            <p>Currently you need to download videos you purchased at Licet Studios from YouTube. You will find the respective videos’ YouTube-URL(s) in your order confirmation and in your order history.
+            <p>Currently you need to download videos you purchased at Megavid from YouTube. You will find the respective videos’ YouTube-URL(s) in your order confirmation and in your order history.
             If you need a download-program for YouTube videos, we recommend taking a look into (i.e.) the following reviews:</p>
             <a href="https://www.techradar.com/news/the-best-free-youtube-downloader" target="_blank">www.techradar.com/news/the-best-free-youtube-downloader</a><br>
             <a href="https://www.gihosoft.com/hot-topics/best-free-youtube-downloader" target="_blank">www.gihosoft.com/hot-topics/best-free-youtube-downloader.html</a><br>
@@ -462,7 +462,7 @@ ga('send', 'pageview');
 </div>
             <div class="text-center" style="padding:1em;">
                 Questions? Get in touch:<br>
-                <a href="mailto:licensing@licetstudios.com ">licensing@licetstudios.com </a><br>
+                <a href="mailto:licensing@megavid.uk ">licensing@megavid.uk </a><br>
                 <a class="btn btn-default btn-primary" data-dismiss="modal" data-toggle="modal" data-target=".contact-modal" >Contact us</a>
             </div>
   </div>
@@ -567,7 +567,7 @@ $( document ).ready(function() {
         });
       
     $('#bookmarkSetter-'+existingBookmarks[i]).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-    $('#bookmarkSetter-'+existingBookmarks[i]).css('color', '#F05F40');
+    $('#bookmarkSetter-'+existingBookmarks[i]).css('color', '#DE0404');
       }
     $('#dropdownMenuLink').html('<center ><i class="fa fa-2x fa-bookmark" ></i><br><span class="d-none d-llg-block">BOOKMARKS ('+existingBookmarks.length+')</span></center>');
     $('#bookmarkNumPill').html(existingBookmarks.length);
@@ -575,7 +575,7 @@ $( document ).ready(function() {
     var videoID = '';
     if($.inArray(videoID, existingBookmarks) !=-1){
       $('#bookmarkSetter-'+videoID).html('<i class="fa fa-2x fa-bookmark" ></i>');
-      $('#bookmarkSetter-'+videoID).css('color', '#F05F40');
+      $('#bookmarkSetter-'+videoID).css('color', '#DE0404');
     }
 
   }            
@@ -626,7 +626,7 @@ function addBookmark(videoID){
       $('#bookmarkNumPill').html(existingBookmarks.length);
       $('#bookmarkNumPillSmall').html(existingBookmarks.length);
       $('#bookmarkSetter-'+videoID).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-      $('#bookmarkSetter-'+videoID).css('color', '#F05F40');
+      $('#bookmarkSetter-'+videoID).css('color', '#DE0404');
     }
     else{
       var index = existingBookmarks.indexOf(videoID);
@@ -643,7 +643,7 @@ function addBookmark(videoID){
       }
 
       $('#bookmarkSetter-'+videoID).html('<i style="font-size:24px;" class="fa fa-bookmark-o" ></i>');
-      $('#bookmarkSetter-'+videoID).css('color', '#F05F40');
+      $('#bookmarkSetter-'+videoID).css('color', '#DE0404');
     }
 
   }
@@ -772,7 +772,7 @@ $( document ).ready(function() {
                                     var existingBookmarks = JSON.parse(Cookies.get('videoBookmarks'));                    
                                   for (var i=0; i<existingBookmarks.length; i++){
                                             $('#bookmarkSetter-'+existingBookmarks[i]).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-                                            $('#bookmarkSetter-'+existingBookmarks[i]).css('color', '#F05F40');
+                                            $('#bookmarkSetter-'+existingBookmarks[i]).css('color', '#DE0404');
                                         }
                                     }
                               getYTPlayer();

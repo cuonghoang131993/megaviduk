@@ -104,12 +104,12 @@
 .qtip-default{
 	border: 1px solid #F1D031;
 
-	background-color: #F05F40;
+	background-color: #DE0404;
 	color: #FFFFA3;;
 }
 
 	.qtip-default .qtip-titlebar{
-		background-color: #F05F40;
+		background-color: #DE0404;
 	}
 
 	.qtip-default .qtip-icon{
@@ -128,7 +128,7 @@
 .qtip-light{
 	background-color: white;
 	border-color: #E2E2E2;
-	color: #white;
+	color: white;
 }
 
 	.qtip-light .qtip-titlebar{
@@ -140,7 +140,7 @@
 .qtip-dark{
 	background-color: #505050;
 	border-color: #303030;
-	color: #white;
+	color: white;
 }
 
 	.qtip-dark .qtip-titlebar{

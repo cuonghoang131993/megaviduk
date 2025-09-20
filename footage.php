@@ -15,10 +15,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="License this video from €50.00 at Licet Studios. Copyrights cleared by and licensable from Licet Studios for all media. Exact prices and value-added taxes depend on your location.">
-    <meta name="keywords" content="toprange, TR, content ID, CID, Extreme Moments Caught On Camera, Close Calls, licet studios, video licensing, license videos, viral video licensing, buy videos, sell videos, trending videos, viral videos, clear copyright">
+    <meta name="description" content="License this video from €50.00 at Megavid. Copyrights cleared by and licensable from Megavid for all media. Exact prices and value-added taxes depend on your location.">
+    <meta name="keywords" content="toprange, TR, content ID, CID, Extreme Moments Caught On Camera, Close Calls, megavid, video licensing, license videos, viral video licensing, buy videos, sell videos, trending videos, viral videos, clear copyright">
 
-    <title>CLOSE CALL: Huge Landslide Makes Spectators Run For Their Lives In Nepal | Licet Studios</title>
+    <title>CLOSE CALL: Huge Landslide Makes Spectators Run For Their Lives In Nepal | Megavid</title>
 
 
     <!-- Google Analytics -->
@@ -214,7 +214,7 @@ flex-wrap: wrap;
                 </div>
                 <div class="modal-body">
                   <div class="input-group">
-                    <input class="form-control" type="text" value="licetstudios.com/footage?v=jtX3q3cY2rk" id="shareLink" readonly>
+                    <input class="form-control" type="text" value="megavid.uk/footage?v=jtX3q3cY2rk" id="shareLink" readonly>
                     <button class="btn btn-outline-secondary" type="button" onclick="copyShareLink();">Copy</button>
                   </div>
                 </div>
@@ -227,17 +227,17 @@ flex-wrap: wrap;
 
           <div class="dropleft">
             <a title="Share this site" style="cursor:pointer;" data-toggle="dropdown">
-              <i style="color:#F05F40;" class="fa fa-2x fa-share-alt"></i>
+              <i style="color:#DE0404;" class="fa fa-2x fa-share-alt"></i>
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Flicetstudios.com%2Ffootage%3Fv%jtX3q3cY2rk" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
-              <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//licetstudios.com/footage?v=jtX3q3cY2rk&amp;hashtags=viral,videos&amp;rel=LicetStudios" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a> 
-              <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on LicetStudios&amp;body=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//licetstudios.com/footage?v=jtX3q3cY2rk"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
-              <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//licetstudios.com/footage?vjtX3q3cY2rk"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
-              <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://licetstudios.com/footage?v=jtX3q3cY2rk}&title={Video%20Recommendation%20on%20Licet%20Studios}&description={I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
+              <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Fmegavid.uk%2Ffootage%3Fv%jtX3q3cY2rk" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
+              <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?v=jtX3q3cY2rk&amp;hashtags=viral,videos&amp;rel=megaviduk" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a> 
+              <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?v=jtX3q3cY2rk"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
+              <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?vjtX3q3cY2rk"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
+              <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage?v=jtX3q3cY2rk}&title={Video%20Recommendation%20on%20Licet%20Studios}&description={I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
 
               <a title="Share this site" data-toggle="modal" data-target="#shareModal" style="cursor:pointer;">
-                <i style="color:#F05F40;" class="fa fa-2x fa-share-alt"></i>
+                <i style="color:#DE0404;" class="fa fa-2x fa-share-alt"></i>
               </a>
             </div>
           </div>
@@ -246,14 +246,14 @@ flex-wrap: wrap;
 
     <div class="col-5 d-none d-md-block d-shareBetween-none" style="padding:0;">
       <div style="float: right;">
-        <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Flicetstudios.com%2Ffootage%3Fv%jtX3q3cY2rk" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
-        <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//licetstudios.com/footage?v=jtX3q3cY2rk&amp;hashtags=viral,videos&amp;rel=LicetStudios" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a> 
-        <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on LicetStudios&amp;body=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//licetstudios.com/footage?v=jtX3q3cY2rk"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
-        <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//licetstudios.com/footage?vjtX3q3cY2rk"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
-        <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://licetstudios.com/footage?v=jtX3q3cY2rk}&title={Video%20Recommendation%20on%20Licet%20Studios}&description={I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
+        <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Fmegavid.uk%2Ffootage%3Fv%jtX3q3cY2rk" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
+        <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?v=jtX3q3cY2rk&amp;hashtags=viral,videos&amp;rel=megaviduk" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a> 
+        <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?v=jtX3q3cY2rk"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
+        <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?vjtX3q3cY2rk"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
+        <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage?v=jtX3q3cY2rk}&title={Video%20Recommendation%20on%20Licet%20Studios}&description={I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
 
           <a title="Share this site" data-toggle="modal" data-target="#shareModal" style="cursor:pointer;">
-          <i style="color:#F05F40;" class="fa fa-2x fa-share-alt"></i>
+          <i style="color:#DE0404;" class="fa fa-2x fa-share-alt"></i>
           </a>
       </div>
     </div>
@@ -314,7 +314,7 @@ flex-wrap: wrap;
                     </div>
                     <div class="col-sm-4 col-6" style="padding-top:0.5em;">
                     <b>Views</b>
-                    <p class="card-text">8.541.983 <i class="fa fa-info-circle" data-toggle="tooltip" data-trigger="click" title="Statistics based on all versions of the video connected to www.LicetStudios.com"></i></p>
+                    <p class="card-text">8.541.983 <i class="fa fa-info-circle" data-toggle="tooltip" data-trigger="click" title="Statistics based on all versions of the video connected to www.megavid.uk"></i></p>
                     </div>
                     <div class="col-sm-4 col-6" style="padding-top:0.5em;">
                     <b>Rating</b>
@@ -328,7 +328,7 @@ flex-wrap: wrap;
                   </div>
                   <div class="col-sm-4 col-6" style="padding-top:0.5em;">
                   <b>Copyrights</b>
-                  <p class="card-text">Cleared by Licet Studios <i class="fa fa-info-circle" data-toggle="tooltip" data-trigger="click" data-html ="true" title='Copyrights cleared by and licensable from Licet Studios for all media. Potentially depicted trademarks, protected symbols, privileged / confidential information, personally identifiable information and embodied music tracks are not covered by the <a href="buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a> and may require to get blurred / removed unless usage is permitted by law. – Questions? Get in touch: <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a>.'></i></p>
+                  <p class="card-text">Cleared by Megavid <i class="fa fa-info-circle" data-toggle="tooltip" data-trigger="click" data-html ="true" title='Copyrights cleared by and licensable from Megavid for all media. Potentially depicted trademarks, protected symbols, privileged / confidential information, personally identifiable information and embodied music tracks are not covered by the <a href="buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a> and may require to get blurred / removed unless usage is permitted by law. – Questions? Get in touch: <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a>.'></i></p>
                   </div>
                 </div>
               </div>
@@ -366,7 +366,7 @@ flex-wrap: wrap;
                   </td>
                   <td style="padding-top:1rem;">
                     <b>Views</b>
-                    <p class="card-text">8.541.983 <i class="fa fa-info-circle" data-toggle="tooltip" data-trigger="click" title="Statistics based on all versions of the video connected to www.LicetStudios.com"></i></p>
+                    <p class="card-text">8.541.983 <i class="fa fa-info-circle" data-toggle="tooltip" data-trigger="click" title="Statistics based on all versions of the video connected to www.megavid.uk"></i></p>
                   </td>
                   <td style="padding-top:1rem;">
                     <b>Rating</b>
@@ -380,7 +380,7 @@ flex-wrap: wrap;
                   </td>
                   <td style="padding-top:1rem;">
                   <b>Copyrights</b>
-                  <p class="card-text">Cleared by Licet Studios <i class="fa fa-info-circle" data-toggle="tooltip" data-trigger="click" data-html ="true" title='Copyrights cleared by and licensable from Licet Studios for all media. Potentially depicted trademarks, protected symbols, privileged / confidential information, personally identifiable information and embodied music tracks are not covered by the <a href="buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a> and may require to get blurred / removed unless usage is permitted by law. – Questions? Get in touch: <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a>.'></i></p>
+                  <p class="card-text">Cleared by Megavid <i class="fa fa-info-circle" data-toggle="tooltip" data-trigger="click" data-html ="true" title='Copyrights cleared by and licensable from Megavid for all media. Potentially depicted trademarks, protected symbols, privileged / confidential information, personally identifiable information and embodied music tracks are not covered by the <a href="buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a> and may require to get blurred / removed unless usage is permitted by law. – Questions? Get in touch: <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a>.'></i></p>
                   </td>
                 </tr>
                 </table>
@@ -404,7 +404,7 @@ flex-wrap: wrap;
     
 
 
-<div class="row" style="margin-left:-32px; margin-right:-32px;margin-top:2rem;padding-bottom:88px;background-color:#F05F40;">
+<div class="row" style="margin-left:-32px; margin-right:-32px;margin-top:2rem;padding-bottom:88px;background-color:#DE0404;">
 <div class="col" style="padding-left:32px;padding-right:32px;">
 
         <h5 style="margin:2em auto 2em 21px; width:80%;"><b>Similar Videos</b></h5>
@@ -451,7 +451,7 @@ flex-wrap: wrap;
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -512,7 +512,7 @@ flex-wrap: wrap;
 <div class="modal-dialog modal-lg" style="max-height:98vh;">
     <div class="modal-content " >
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -522,7 +522,7 @@ flex-wrap: wrap;
     <form id="contactForm" class="text-left" action="" method="post">
             <div class="login-form-main-message"></div>
 			<div class="main-login-form">
-                        <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="mailto:info@licetstudios.com">info@licetstudios.com</a> or via phone at <a href="tel:4927237195301">+49 (0) 272 371 953 01</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
+                        <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="mailto:info@megavid.uk">info@megavid.uk</a> or via phone at <a href="tel:490780392311">+49 (0) 780 392 311</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
 						<label  >Name</label><br>
 						<input type="text" class="form-control" name="contactname" id="contactname" placeholder="Name"  ><br>
                         <label  >Company / Organization (optional)</label><br>
@@ -558,7 +558,7 @@ flex-wrap: wrap;
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -566,7 +566,7 @@ flex-wrap: wrap;
 
       <div class="container" style="padding:2rem;padding-top:0;">
             
-			<p>Licet Studios GmbH</p>
+			<p>Megavid GmbH</p>
 			<p>Elisabeth-Anna-Stra&szlig;e 9</p>
 			<p>26486 Wangerooge</p>
 			<p>&nbsp;</p>
@@ -581,7 +581,7 @@ flex-wrap: wrap;
 			<p>DE307433469</p>
 			<p>&nbsp;</p>
 			<p>Email contact:</p>
-			<p>info@licetstudios.com</p>		
+			<p>info@megavid.uk</p>		
 		</div>
 		
 
@@ -592,7 +592,7 @@ flex-wrap: wrap;
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>How To buy videos at Licet Studios</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -629,7 +629,7 @@ flex-wrap: wrap;
                 <p><b>Broadcast Media Packages</b> offer options to purchase rights for Broadcast Only, Broadcast + Digital Uses, and ALL MEDIA.</p>
                 <p><b>Digital Media Packages</b> offer options to purchase rights for online use only (i.e. Facebook, Instagram, YouTube, and other websites).</p>
                 <p>If you click on the 'question mark’ or ‘info’ icon next to each selection field, you will find further explanations if needed.</p>
-                <p>If you don’t find the right package or need help, please get in touch: <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a><p>
+                <p>If you don’t find the right package or need help, please get in touch: <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a><p>
             </div>
             </div>
         </div>
@@ -719,7 +719,7 @@ flex-wrap: wrap;
 
             <div id="htbuycollapseSix" class="collapse" role="tabpanel" data-parent="#accordionHowToBuy">
             <div class="card-body">
-            <p>Currently you need to download videos you purchased at Licet Studios from YouTube. You will find the respective videos’ YouTube-URL(s) in your order confirmation and in your order history.
+            <p>Currently you need to download videos you purchased at Megavid from YouTube. You will find the respective videos’ YouTube-URL(s) in your order confirmation and in your order history.
             If you need a download-program for YouTube videos, we recommend taking a look into (i.e.) the following reviews:</p>
             <a href="https://www.techradar.com/news/the-best-free-youtube-downloader" target="_blank">www.techradar.com/news/the-best-free-youtube-downloader</a><br>
             <a href="https://www.gihosoft.com/hot-topics/best-free-youtube-downloader.html" target="_blank">www.gihosoft.com/hot-topics/best-free-youtube-downloader.html</a><br>
@@ -745,7 +745,7 @@ flex-wrap: wrap;
 </div>
             <div class="text-center" style="padding:1em;">
                 Questions? Get in touch:<br>
-                <a href="mailto:licensing@licetstudios.com ">licensing@licetstudios.com </a><br>
+                <a href="mailto:licensing@megavid.uk ">licensing@megavid.uk </a><br>
                 <a class="btn btn-default btn-primary" data-dismiss="modal" data-toggle="modal" data-target=".contact-modal" >Contact us</a>
             </div>
   </div>
@@ -818,7 +818,7 @@ function setBookmark(){
       $('#bookmarkNumPill').html(existingBookmarks.length);
       $('#bookmarkNumPillSmall').html(existingBookmarks.length);
       $('#bookmarkSetter').html('<i class="fa fa-2x fa-bookmark" ></i> ');
-      $('#bookmarkSetter').css('color', '#F05F40');
+      $('#bookmarkSetter').css('color', '#DE0404');
     }
     else{
       var index = existingBookmarks.indexOf(videoID);
@@ -834,7 +834,7 @@ function setBookmark(){
       $('#bookmarkNumPill').html(existingBookmarks.length);
       $('#bookmarkNumPillSmall').html(existingBookmarks.length);
       $('#bookmarkSetter').html('<i class="fa fa-2x fa-bookmark-o" ></i>');
-      $('#bookmarkSetter').css('color', '#F05F40');
+      $('#bookmarkSetter').css('color', '#DE0404');
     }
 
   }
@@ -876,7 +876,7 @@ $( document ).ready(function() {
         });
       
     $('#bookmarkSetter-'+existingBookmarks[i]).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-    $('#bookmarkSetter-'+existingBookmarks[i]).css('color', '#F05F40');
+    $('#bookmarkSetter-'+existingBookmarks[i]).css('color', '#DE0404');
       }
     $('#dropdownMenuLink').html('<center ><i class="fa fa-2x fa-bookmark" ></i><br><span class="d-none d-llg-block">BOOKMARKS ('+existingBookmarks.length+')</span></center>');
     $('#bookmarkNumPill').html(existingBookmarks.length);
@@ -884,11 +884,11 @@ $( document ).ready(function() {
     var videoID = 'jtX3q3cY2rk';
     if($.inArray(videoID, existingBookmarks) !=-1){
       $('#bookmarkSetter').html('<i class="fa fa-2x fa-bookmark" ></i>');
-      $('#bookmarkSetter').css('color', '#F05F40');
+      $('#bookmarkSetter').css('color', '#DE0404');
     }
     else{
       $('#bookmarkSetter').html('<i class="fa fa-2x fa-bookmark-o" ></i>');
-      $('#bookmarkSetter').css('color', '#F05F40');
+      $('#bookmarkSetter').css('color', '#DE0404');
     }
   } 
 });
@@ -937,7 +937,7 @@ function addBookmark(videoID){
       $('#bookmarkNumPill').html(existingBookmarks.length);
       $('#bookmarkNumPillSmall').html(existingBookmarks.length);
       $('#bookmarkSetter-'+videoID).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-      $('#bookmarkSetter-'+videoID).css('color', '#F05F40');
+      $('#bookmarkSetter-'+videoID).css('color', '#DE0404');
     }
     else{
       var index = existingBookmarks.indexOf(videoID);
@@ -953,7 +953,7 @@ function addBookmark(videoID){
       $('#bookmarkNumPill').html(existingBookmarks.length);
       $('#bookmarkNumPillSmall').html(existingBookmarks.length);
       $('#bookmarkSetter-'+videoID).html('<i style="font-size:24px;" class="fa fa-bookmark-o" ></i>');
-      $('#bookmarkSetter-'+videoID).css('color', '#F05F40');
+      $('#bookmarkSetter-'+videoID).css('color', '#DE0404');
     }
 
   }

@@ -7,9 +7,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Licet Studios offers viral video licensing under fair and transparent conditions to assist owners of funny, amazing and popular internet videos increasing distribution, exposure, sales and protection!">
-    <meta name="keywords" content="licet studios, licet studios gmbh, viral video licensing, make more money off your videos, viral videos, video licensing, viral video licensing company, internet video licensing, youtube video licensing, viral video protection, viral video distribution, video promotion, sell viral video, sell youtube video, license video for TV, licet studios sign in">
-    <title>Licet Studios - Viral Video Licensing: Easy, Fair &amp; Transparent</title>
+    <meta name="description" content="Megavid offers viral video licensing under fair and transparent conditions to assist owners of funny, amazing and popular internet videos increasing distribution, exposure, sales and protection!">
+    <meta name="keywords" content="megavid, viral video licensing, make more money off your videos, viral videos, video licensing, viral video licensing company, internet video licensing, youtube video licensing, viral video protection, viral video distribution, video promotion, sell viral video, sell youtube video, license video for TV, megavid sign in">
+    <title>Megavid - Viral Video Licensing: Easy, Fair &amp; Transparent</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -116,7 +116,7 @@ ga('send', 'pageview');
     <tr>
       <td style="width:41%">
         <div class="row" style="margin-left:0; margin-right:0;">
-        <a class="navbar-brand js-scroll-trigger d-none d-md-block" href="./index.php" style="margin:auto auto auto 0"><img src="img/Licet Studios - Viral Video Licensing.svg" alt="Licet Studios" height="55"></a>
+        <a class="navbar-brand js-scroll-trigger d-none d-md-block" href="./index.php" style="margin:auto auto auto 0"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="55"></a>
         
         <div class="dropdown show nav-link" id="videolibdiv" style="margin:auto auto auto 0">
         <a href="videos" role="button" id="dropdownVideos"  aria-haspopup="true" aria-expanded="false" align="center">
@@ -256,7 +256,7 @@ ga('send', 'pageview');
         </div>
         </td>
         <td style="width:18%">
-          <a class="navbar-brand js-scroll-trigger" href="./index.php"><img src="img/Licet Studios - Viral Video Licensing.svg" style="margin-right:0;" alt="Licet Studios" height="45"></a>
+          <a class="navbar-brand js-scroll-trigger" href="./index.php"><img src="img/blue-black-minimalist-play-media-logo-design.png" style="margin-right:0;" alt="Megavid" height="45"></a>
       
         </td>
         <td style="width:41%">
@@ -276,7 +276,7 @@ ga('send', 'pageview');
     </div>
     <div class="dropdown show nav-link" id="bookmarkdivSmall" style="margin:auto 0 auto auto">
       <a href="#" role="button" id="dropdownMenuLinkSmall" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" align="center">
-      <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPill" class="badge badge-pill" style="background-color:#F05F40;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+      <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPill" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
       </a>
       <div class="dropdown-menu blackdropdown" id="bookmarksDropdownSmall" aria-labelledby="dropdownMenuLinkSmall" style="overflow: auto;max-height: 80vh; left: -80px;">
       </div>
@@ -285,7 +285,7 @@ ga('send', 'pageview');
 
     <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
       <a href="cart.php" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
-      <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPill" class="badge badge-pill" style="background-color:#F05F40;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">2</span></center>
+      <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPill" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">2</span></center>
       </a>
     </div>
     </div>
@@ -312,7 +312,7 @@ ga('send', 'pageview');
     <table style="width:100%"> 
     <tr>
         <td>
-          <a class="navbar-brand js-scroll-trigger" href="./index.php" style="margin-right:0;"><img src="img/Licet Studios - Viral Video Licensing.svg" alt="Licet Studios" height="35"></a>
+          <a class="navbar-brand js-scroll-trigger" href="./index.php" style="margin-right:0;"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="35"></a>
         </td>
         <td >
         <div class="row" style="margin-left:0;">
@@ -331,7 +331,7 @@ ga('send', 'pageview');
     </div>
     <div class="dropdown show nav-link" id="bookmarkdivXtraSmall" style="margin:auto 0 auto auto">
       <a href="#" role="button" id="dropdownMenuLinkXtraSmall" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" align="center">
-      <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPillSmall" class="badge badge-pill" style="background-color:#F05F40;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+      <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPillSmall" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
       </a>
       <div class="dropdown-menu blackdropdown" id="bookmarksDropdownXtraSmall" aria-labelledby="dropdownMenuLinkXtraSmall" style="overflow: auto;max-height: 80vh;top:50px;left:-120px;">
       </div>
@@ -340,7 +340,7 @@ ga('send', 'pageview');
 
     <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
       <a href="cart.php" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
-      <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPillSmall" class="badge badge-pill" style="background-color:#F05F40;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">2</span></center>
+      <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPillSmall" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">2</span></center>
       </a>
     </div>
     </div>
@@ -408,7 +408,7 @@ ga('send', 'pageview');
     <div class="modal-dialog modal-lg">
         <div class="modal-content ">
             <div class="modal-header card-header" style="margin-bottom:1rem;">
-                <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
+                <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
                 <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;"
                     data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
@@ -599,7 +599,7 @@ ga('send', 'pageview');
     <div class="col">
         <h1>Coming Soon</h1>
         We are currently working on this new feature.<br>
-        If you have any questions, write an email to <a href="mailto:info@licetstudios.com">info@licetstudios.com</a> or use our <a href="javascript:void();" data-toggle="modal" data-target=".contact-modal">contact form</a>.<br>
+        If you have any questions, write an email to <a href="mailto:info@megavid.uk">info@megavid.uk</a> or use our <a href="javascript:void();" data-toggle="modal" data-target=".contact-modal">contact form</a>.<br>
     </div>
 </div>
     <div class="row btnrow">
@@ -649,7 +649,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg" style="max-height:98vh;">
     <div class="modal-content " >
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -659,7 +659,7 @@ ga('send', 'pageview');
     <form id="contactForm" class="text-left" action="" method="post">
             <div class="login-form-main-message"></div>
 			<div class="main-login-form">
-                        <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="mailto:info@licetstudios.com">info@licetstudios.com</a> or via phone at <a href="tel:4927237195301">+49 (0) 272 371 953 01</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
+                        <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="mailto:info@megavid.uk">info@megavid.uk</a> or via phone at <a href="tel:490780392311">+49 (0) 780 392 311</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
 						<label  >Name</label><br>
 						<input type="text" class="form-control" name="contactname" id="contactname" placeholder="Name"  ><br>
                         <label  >Company / Organization (optional)</label><br>
@@ -696,7 +696,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Video Owners' FAQ</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Video Owners' FAQ</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -738,7 +738,7 @@ ga('send', 'pageview');
             <div class="card-body" align="justify">
             Unless you have transferred the copyrights / exclusive rights to your video to someone else in the past you can submit your video. If you want to enter into Premium Partnership you need to inform us about everybody who is currently allowed to use your video once we’ve reviewed your submission.
             <br><br>
-            If you are unsure about which rights you have already granted in the past, please contact us <u><a data-toggle="modal" data-dismiss="modal" data-target=".contact-modal" style="cursor: pointer;">here</a></u> or at <a href="mailto:info@licetstudios.com">info@licetstudios.com</a> and ask for assistance before submitting your video.
+            If you are unsure about which rights you have already granted in the past, please contact us <u><a data-toggle="modal" data-dismiss="modal" data-target=".contact-modal" style="cursor: pointer;">here</a></u> or at <a href="mailto:info@megavid.uk">info@megavid.uk</a> and ask for assistance before submitting your video.
             </div>
             </div>
         </div>
@@ -784,7 +784,7 @@ ga('send', 'pageview');
             <div class="card-body" align="justify">
             Have a look into our Video Optimization and Viral Video guides accessible in your <u><a data-toggle="modal" data-target=".bd-example-modal-lg" data-dismiss="modal" style="cursor: pointer;">account</a></u>. Besides, we recommend to provide the following passage clearly visible whenever using your video (i.e. in your video’s description and/or in a highlighted comment):
             <br><br>
-            <em>© Your Name / Licet Studios </em>|<em> To license this video, visit <a href="https://licetstudios.com/videos">www.licetstudios.com/videos</a> or email <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a></em></div>
+            <em>© Your Name / Megavid </em>|<em> To license this video, visit <a href="https://megavid.uk/videos">www.megavid.uk/videos</a> or email <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a></em></div>
             </div>
         </div>
         <div class="card">
@@ -797,9 +797,9 @@ ga('send', 'pageview');
             </div>
             <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
             <div class="card-body" align="justify">
-            We recommend to forward such message to <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a> and to send the following passage as reply additionally: 
+            We recommend to forward such message to <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a> and to send the following passage as reply additionally: 
             <br><br>
-            <em>Thank you for your message. Please visit <a href="https://licetstudios.com/videos">www.licetstudios.com/videos</a> or email <a href="mailto:licensing@licetstudios.com">licensing@licetstudios.com</a> to license / use this video. Thank you!</em>
+            <em>Thank you for your message. Please visit <a href="https://megavid.uk/videos">www.megavid.uk/videos</a> or email <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a> to license / use this video. Thank you!</em>
             </div>
             </div>
         </div>
@@ -812,7 +812,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -849,7 +849,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -857,7 +857,7 @@ ga('send', 'pageview');
 
       <div class="container" style="padding:2rem;padding-top:0;">
             
-			<p>Licet Studios GmbH</p>
+			<p>Megavid GmbH</p>
 			<p>Elisabeth-Anna-Stra&szlig;e 9</p>
 			<p>26486 Wangerooge</p>
 			<p>&nbsp;</p>
@@ -872,7 +872,7 @@ ga('send', 'pageview');
 			<p>DE307433469</p>
 			<p>&nbsp;</p>
 			<p>Email contact:</p>
-			<p>info@licetstudios.com</p>		
+			<p>info@megavid.uk</p>		
 		</div>
 		
 
@@ -892,7 +892,7 @@ ga('send', 'pageview');
 		<div class="container-fluid d-none d-footer-xxl-block">
 			<div class="row text-left" style="padding-bottom:3rem;width:80%;margin:auto;color:#EAE9E9;">
 				<div style="margin:auto auto auto 0px">
-					<h5 style="color:white;">LICET STUDIOS</h5>
+					<h5 style="color:white;">Megavid</h5>
 					<ul class="list-unstyled quick-links">
 						<li><a class="footerLink" data-toggle="modal" data-target=".contact-modal" >Contact us</a></li>
                 <!--<li><a class="footerLink" href="#">About Us</a></li>-->
@@ -934,7 +934,7 @@ ga('send', 'pageview');
 			<div class="container d-none d-footer-l-block text-center" style="padding-bottom:80px;">
 			  	<div class="row" style="width:100%;">
             <div class="col-6" style="width:100%;">
-              <h5 style="color:white;">LICET STUDIOS</h5>
+              <h5 style="color:white;">Megavid</h5>
               <ul class="list-unstyled quick-links">
                 <li><a class="footerLink" data-toggle="modal" data-target=".contact-modal" >Contact us</a></li>
                 <!--<li><a class="footerLink" href="#">About Us</a></li>-->
@@ -974,7 +974,7 @@ ga('send', 'pageview');
       <div class="container d-none d-footer-xs-block text-center" style="padding-bottom:80px;">
 			  	<div class="row" style="width:100vw;">
             <div class="col">
-              <h5 style="color:white;">LICET STUDIOS</h5>
+              <h5 style="color:white;">Megavid</h5>
               <ul class="list-unstyled quick-links">
                 <li><a class="footerLink" data-toggle="modal" data-target=".contact-modal" >Contact us</a></li>
                 <!--<li><a class="footerLink" href="#">About Us</a></li>-->
@@ -1013,38 +1013,38 @@ ga('send', 'pageview');
             <div >
             <div class="row" style="width:80%; margin:auto;">
                 <div class="col-xs-12 col-sm-12 col-md-8 d-none d-md-block" style="padding:0px;color:#A1A1A1;">
-                © Licet Studios GmbH 2025  |  Purchase offers for video items exclusively refer to business / commercial customers.  |  Prices and order totals are in EUR and are exclusive of value-added taxes unless expressively indicated otherwise. Information is based on your current location which we approximate from your IP address by matching it to a geographic region or from the location entered during your previous visit to Licet Studios.                 </div>
+                © Megavid GmbH 2025  |  Purchase offers for video items exclusively refer to business / commercial customers.  |  Prices and order totals are in EUR and are exclusive of value-added taxes unless expressively indicated otherwise. Information is based on your current location which we approximate from your IP address by matching it to a geographic region or from the location entered during your previous visit to Megavid.                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 d-block d-md-none text-center" style="padding:0px;color:#A1A1A1;">
-                © Licet Studios GmbH 2025  |  Purchase offers for video items exclusively refer to business / commercial customers.  |  Prices and order totals are in EUR and are exclusive of value-added taxes unless expressively indicated otherwise. Information is based on your current location which we approximate from your IP address by matching it to a geographic region or from the location entered during your previous visit to Licet Studios.                </div>
+                © Megavid GmbH 2025  |  Purchase offers for video items exclusively refer to business / commercial customers.  |  Prices and order totals are in EUR and are exclusive of value-added taxes unless expressively indicated otherwise. Information is based on your current location which we approximate from your IP address by matching it to a geographic region or from the location entered during your previous visit to Megavid.                </div>
                 <div class="col-xs-12 col-sm-12 col-md-4" style="padding:0px;margin-top: auto;margin-bottom: auto;">
                     <div style="float:right;" class="d-none d-md-block">
-                        <a href="https://facebook.com/LicetStudios" target="_blank" title="Licet Studios on Facebook" style="margin:1rem;color:#EAE9E9;">
+                        <a href="https://facebook.com/megaviduk" target="_blank" title="Megavid on Facebook" style="margin:1rem;color:#EAE9E9;">
                                 <i style="font-size:24px;" class="fa fa-facebook" ></i>
                         </a>
-                        <a href="https://instagram.com/licetstudios" target="_blank" title="Licet Studios on Instagram" style="margin:1rem;color:#EAE9E9;">
+                        <a href="https://instagram.com/megaviduk" target="_blank" title="Megavid on Instagram" style="margin:1rem;color:#EAE9E9;">
                                 <i style="font-size:24px;" class="fa fa-instagram" ></i>
                         </a>
-                        <a href="https://twitter.com/licetstudios" target="_blank" title="Licet Studios on Twitter" style="margin:1rem;color:#EAE9E9;">
+                        <a href="https://twitter.com/megaviduk" target="_blank" title="Megavid on Twitter" style="margin:1rem;color:#EAE9E9;">
                                 <i style="font-size:24px;" class="fa fa-twitter" ></i>
                         </a>
                         </a>
-                        <a href="https://www.youtube.com/channel/UCoc16w6cfFa8UKMwaMx1GWQ" target="_blank" title="Licet Studios on Youtube" style="color:#EAE9E9;margin:1rem;margin-right:0;">
+                        <a href="https://www.youtube.com/channel/UCoc16w6cfFa8UKMwaMx1GWQ" target="_blank" title="Megavid on Youtube" style="color:#EAE9E9;margin:1rem;margin-right:0;">
                                 <i style="font-size:24px;" class="fa fa-youtube-play" ></i>
                         </a>
                     </div>
 
                     <div class="text-center d-block d-md-none">
-                        <a href="https://facebook.com/LicetStudios" target="_blank" title="Licet Studios on Facebook" style="margin:1rem;color:#EAE9E9;">
+                        <a href="https://facebook.com/megaviduk" target="_blank" title="Megavid on Facebook" style="margin:1rem;color:#EAE9E9;">
                                 <i style="font-size:24px;" class="fa fa-facebook" ></i>
                         </a>
-                        <a href="https://instagram.com/licetstudios" target="_blank" title="Licet Studios on Instagram" style="margin:1rem;color:#EAE9E9;">
+                        <a href="https://instagram.com/megaviduk" target="_blank" title="Megavid on Instagram" style="margin:1rem;color:#EAE9E9;">
                                 <i style="font-size:24px;" class="fa fa-instagram" ></i>
                         </a>
-                        <a href="https://twitter.com/licetstudios" target="_blank" title="Licet Studios on Twitter" style="margin:1rem;color:#EAE9E9;">
+                        <a href="https://twitter.com/megaviduk" target="_blank" title="Megavid on Twitter" style="margin:1rem;color:#EAE9E9;">
                                 <i style="font-size:24px;" class="fa fa-twitter" ></i>
                         </a>
                         </a>
-                        <a href="https://www.youtube.com/channel/UCoc16w6cfFa8UKMwaMx1GWQ" target="_blank" title="Licet Studios on Youtube" style="margin:1rem;color:#EAE9E9;">
+                        <a href="https://www.youtube.com/channel/UCoc16w6cfFa8UKMwaMx1GWQ" target="_blank" title="Megavid on Youtube" style="margin:1rem;color:#EAE9E9;">
                                 <i style="font-size:24px;" class="fa fa-youtube-play" ></i>
                         </a>
                     </div>

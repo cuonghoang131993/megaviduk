@@ -6,10 +6,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Licet Studios offers viral video licensing under fair and transparent conditions to assist owners of funny, amazing and popular internet videos increasing distribution, exposure, sales and protection!">
-    <meta name="keywords" content="licet studios, licet studios gmbh, viral video licensing, make more money off your videos, viral videos, video licensing, viral video licensing company, internet video licensing, youtube video licensing, viral video protection, viral video distribution, video promotion, sell viral video, sell youtube video, license video for TV, licet studios sign in">
+    <meta name="description" content="Megavid offers viral video licensing under fair and transparent conditions to assist owners of funny, amazing and popular internet videos increasing distribution, exposure, sales and protection!">
+    <meta name="keywords" content="megavid, megavid gmbh, viral video licensing, make more money off your videos, viral videos, video licensing, viral video licensing company, internet video licensing, youtube video licensing, viral video protection, viral video distribution, video promotion, sell viral video, sell youtube video, license video for TV, megavid sign in">
     <meta name="author" content="">
-    <title>Your Cart - Secure Checkout | Licet Studios</title>
+    <title>Your Cart - Secure Checkout | Megavid</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -845,7 +845,7 @@ ga('send', 'pageview');
     <div class="modal-dialog modal-lg">
         <div class="modal-content ">
             <div class="modal-header card-header" style="margin-bottom:1rem;">
-                <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
+                <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
                 <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;"
                     data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
