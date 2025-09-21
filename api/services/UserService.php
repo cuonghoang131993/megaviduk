@@ -1,5 +1,5 @@
 <?php
-// app/services/UserService.php
+// api/services/UserService.php
 
 class UserService {
     private $userRepository;
