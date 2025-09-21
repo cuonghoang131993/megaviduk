@@ -836,12 +836,18 @@
             url: 'getVideosCount.php',
             type: 'post',
             data: {
-                cat: "9",
+                <?php
+                if (isset($_GET['cat'])) {
+                    echo 'cat:"' . $_GET['cat'] . '"';
+                } else if (isset($_GET['sort'])) {
+                    echo 'sort:"' . $_GET['sort'] . '"';
+                } else {
+                    echo 'cat:"9"';
+                } ?>,
             },
             beforeSend: function() {},
             success: function(response) {
                 amountVideos = parseInt(response);
-                console.log(response);
                 maxPage = Math.ceil(amountVideos / videosPerPage);
                 $('#maxPageLink').html(maxPage);
                 $("#pageNum").attr({
