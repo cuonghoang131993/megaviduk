@@ -30,16 +30,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $minIndex = $_POST['minIndex'];
   $maxIndex = $_POST['maxIndex'];
 
-  $res = $videoController->findByParams($cat, $sort, $minIndex, $maxIndex);
+  try {
+    $res = $videoController->findByParams($cat, $sort, $minIndex, $maxIndex);
 
-  if ($res !== null) {
-    foreach ($res as $item) {
-      $response[] = new Video(
-        $item->id,
-        $item->title,
-        $item->description
-      );
+    if ($res !== null) {
+      foreach ($res as $item) {
+        $response[] = new Video(
+          $item->id,
+          $item->title,
+          $item->description
+        );
+      }
     }
+  } catch (Exception $e) {
+    echo $e->getMessage();
   }
 }
 ?>
@@ -50,7 +54,7 @@ foreach ($response as $item) {
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
-                <a onclick="addBookmark(\'' . $item->id . '\');" id="bookmarkSetter-' . $item->id . '" style="cursor:pointer;"><i style="font-size:24px;color:#DE0404;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
+                <a onclick="addBookmark(\'' . $item->id . '\');" id="bookmarkSetter-' . $item->id . '" style="cursor:pointer;"><i style="font-size:24px;color:rgb(0, 87, 255);" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
                 <a id="videoElementLink-' . $item->id . '"  href="./footage.php?v=' . $item->id . '">
                 <div class="youtube" data-embed="' . $item->id . '"> 
@@ -58,7 +62,7 @@ foreach ($response as $item) {
                 </div>
                 </a>
                   <h4 class="card-title videoElementTitle">
-                    <a style="color:#DE0404 !important;" id="titleLink-' . $item->id . '" class="videoInfoLink" href="./footage.php?v=' . $item->id . '">' . $item->title . '</a>
+                    <a style="color:rgb(0, 87, 255) !important;" id="titleLink-' . $item->id . '" class="videoInfoLink" href="./footage.php?v=' . $item->id . '">' . $item->title . '</a>
                   </h4>
                   <p class="card-text">
                       <div style="height:3em;overflow:hidden;text-overflow: ellipsis;">

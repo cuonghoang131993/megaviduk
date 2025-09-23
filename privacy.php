@@ -522,7 +522,7 @@ session_start();
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -583,7 +583,7 @@ session_start();
         <div class="modal-dialog modal-lg" style="max-height:98vh;">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Contact us</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -631,7 +631,7 @@ session_start();
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Imprint</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -665,7 +665,7 @@ session_start();
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -841,7 +841,7 @@ session_start();
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;"
                             data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>

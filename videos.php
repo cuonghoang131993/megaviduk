@@ -1,5 +1,26 @@
 ﻿<?php
+ini_set("session.cookie_httponly", True);
 session_start();
+
+require_once('api/DI/Container.php');
+require_once('api/controllers/CartController.php');
+require_once('api/controllers/UserController.php');
+require_once('api/services/UserService.php');
+require_once('api/repositories/UserRepository.php');
+require_once('api/infrastructures/db/Database.php');
+require_once('api/utils/PriceUtils.php');
+
+$container = new Container();
+// Register a simple service (class name)
+$container->register('DatabaseConnection', function () {
+    $c = include 'api/infrastructures/config/database.php';
+    return new DatabaseConnection("mysql:host=" . $c['host'] . ";dbname=" . $c['database'] . ";charset=" . $c['charset']);
+});
+// Register a service with a dependency
+$container->register('UserRepository', UserRepository::class);
+$container->register('UserService', UserService::class);
+$container->register('UserController', UserController::class);
+$container->register('CartController', CartController::class);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -205,7 +226,7 @@ session_start();
             <div class="modal-dialog modal-lg">
                 <div class="modal-content ">
                     <div class="modal-header card-header" style="margin-bottom:1rem;">
-                        <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
+                        <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
                         <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">×</span>
                         </button>
@@ -266,7 +287,7 @@ session_start();
         <div class="modal-dialog modal-lg" style="max-height:98vh;">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Contact us</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -314,7 +335,7 @@ session_start();
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Imprint</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -348,7 +369,7 @@ session_start();
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -607,7 +628,7 @@ session_start();
                         });
 
                     $('#bookmarkSetter-' + existingBookmarks[i]).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-                    $('#bookmarkSetter-' + existingBookmarks[i]).css('color', '#DE0404');
+                    $('#bookmarkSetter-' + existingBookmarks[i]).css('color', 'rgb(0, 87, 255)');
                 }
                 $('#dropdownMenuLink').html('<center ><i class="fa fa-2x fa-bookmark" ></i><br><span class="d-none d-llg-block">BOOKMARKS (' + existingBookmarks.length + ')</span></center>');
                 $('#bookmarkNumPill').html(existingBookmarks.length);
@@ -615,7 +636,7 @@ session_start();
                 var videoID = '';
                 if ($.inArray(videoID, existingBookmarks) != -1) {
                     $('#bookmarkSetter-' + videoID).html('<i class="fa fa-2x fa-bookmark" ></i>');
-                    $('#bookmarkSetter-' + videoID).css('color', '#DE0404');
+                    $('#bookmarkSetter-' + videoID).css('color', 'rgb(0, 87, 255)');
                 }
 
             }
@@ -667,7 +688,7 @@ session_start();
                     $('#bookmarkNumPill').html(existingBookmarks.length);
                     $('#bookmarkNumPillSmall').html(existingBookmarks.length);
                     $('#bookmarkSetter-' + videoID).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-                    $('#bookmarkSetter-' + videoID).css('color', '#DE0404');
+                    $('#bookmarkSetter-' + videoID).css('color', 'rgb(0, 87, 255)');
                 } else {
                     var index = existingBookmarks.indexOf(videoID);
                     if (index !== -1) existingBookmarks.splice(index, 1);
@@ -685,7 +706,7 @@ session_start();
                     }
 
                     $('#bookmarkSetter-' + videoID).html('<i style="font-size:24px;" class="fa fa-bookmark-o" ></i>');
-                    $('#bookmarkSetter-' + videoID).css('color', '#DE0404');
+                    $('#bookmarkSetter-' + videoID).css('color', 'rgb(0, 87, 255)');
                 }
 
             }
@@ -825,7 +846,7 @@ session_start();
                     var existingBookmarks = JSON.parse(Cookies.get('videoBookmarks'));
                     for (var i = 0; i < existingBookmarks.length; i++) {
                         $('#bookmarkSetter-' + existingBookmarks[i]).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-                        $('#bookmarkSetter-' + existingBookmarks[i]).css('color', '#DE0404');
+                        $('#bookmarkSetter-' + existingBookmarks[i]).css('color', 'rgb(0, 87, 255)');
                     }
                 }
                 getYTPlayer();

@@ -1,5 +1,26 @@
 ﻿<?php
+ini_set("session.cookie_httponly", True);
 session_start();
+
+require_once('api/DI/Container.php');
+require_once('api/controllers/CartController.php');
+require_once('api/controllers/UserController.php');
+require_once('api/services/UserService.php');
+require_once('api/repositories/UserRepository.php');
+require_once('api/infrastructures/db/Database.php');
+require_once('api/utils/PriceUtils.php');
+
+$container = new Container();
+// Register a simple service (class name)
+$container->register('DatabaseConnection', function () {
+    $c = include 'api/infrastructures/config/database.php';
+    return new DatabaseConnection("mysql:host=" . $c['host'] . ";dbname=" . $c['database'] . ";charset=" . $c['charset']);
+});
+// Register a service with a dependency
+$container->register('UserRepository', UserRepository::class);
+$container->register('UserService', UserService::class);
+$container->register('UserController', UserController::class);
+$container->register('CartController', CartController::class);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -222,7 +243,7 @@ flex-wrap: wrap;
 
           <div class="dropleft">
             <a title="Share this site" style="cursor:pointer;" data-toggle="dropdown">
-              <i style="color:#DE0404;" class="fa fa-2x fa-share-alt"></i>
+              <i style="color:rgb(0, 87, 255);" class="fa fa-2x fa-share-alt"></i>
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Fmegavid.uk%2Ffootage%3Fv%<?php if (isset($_GET['v'])) {
@@ -242,7 +263,7 @@ flex-wrap: wrap;
                 } ?>}&title={Video%20Recommendation%20on%20MegaVidUK}&description={I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
 
               <a title="Share this site" data-toggle="modal" data-target="#shareModal" style="cursor:pointer;">
-                <i style="color:#DE0404;" class="fa fa-2x fa-share-alt"></i>
+                <i style="color:rgb(0, 87, 255);" class="fa fa-2x fa-share-alt"></i>
               </a>
             </div>
           </div>
@@ -268,7 +289,7 @@ flex-wrap: wrap;
                 } ?>}&title={Video%20Recommendation%20on%20MegaVidUK}&description={I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
 
           <a title="Share this site" data-toggle="modal" data-target="#shareModal" style="cursor:pointer;">
-          <i style="color:#DE0404;" class="fa fa-2x fa-share-alt"></i>
+          <i style="color:rgb(0, 87, 255);" class="fa fa-2x fa-share-alt"></i>
           </a>
       </div>
     </div>
@@ -427,7 +448,7 @@ flex-wrap: wrap;
     
 
 
-<div class="row" style="margin-left:-32px; margin-right:-32px;margin-top:2rem;padding-bottom:88px;background-color:#DE0404;">
+<div class="row" style="margin-left:-32px; margin-right:-32px;margin-top:2rem;padding-bottom:88px;background-color:rgb(0, 87, 255);">
 <div class="col" style="padding-left:32px;padding-right:32px;">
 
         <h5 style="margin:2em auto 2em 21px; width:80%;"><b>Similar Videos</b></h5>
@@ -474,7 +495,7 @@ flex-wrap: wrap;
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
+              <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -535,7 +556,7 @@ flex-wrap: wrap;
 <div class="modal-dialog modal-lg" style="max-height:98vh;">
     <div class="modal-content " >
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+              <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Contact us</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -581,7 +602,7 @@ flex-wrap: wrap;
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+              <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Imprint</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -615,7 +636,7 @@ flex-wrap: wrap;
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
+              <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -843,7 +864,7 @@ function setBookmark(){
       $('#bookmarkNumPill').html(existingBookmarks.length);
       $('#bookmarkNumPillSmall').html(existingBookmarks.length);
       $('#bookmarkSetter').html('<i class="fa fa-2x fa-bookmark" ></i> ');
-      $('#bookmarkSetter').css('color', '#DE0404');
+      $('#bookmarkSetter').css('color', 'rgb(0, 87, 255)');
     }
     else{
       var index = existingBookmarks.indexOf(videoID);
@@ -859,7 +880,7 @@ function setBookmark(){
       $('#bookmarkNumPill').html(existingBookmarks.length);
       $('#bookmarkNumPillSmall').html(existingBookmarks.length);
       $('#bookmarkSetter').html('<i class="fa fa-2x fa-bookmark-o" ></i>');
-      $('#bookmarkSetter').css('color', '#DE0404');
+      $('#bookmarkSetter').css('color', 'rgb(0, 87, 255)');
     }
 
   }
@@ -901,7 +922,7 @@ $( document ).ready(function() {
         });
       
     $('#bookmarkSetter-'+existingBookmarks[i]).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-    $('#bookmarkSetter-'+existingBookmarks[i]).css('color', '#DE0404');
+    $('#bookmarkSetter-'+existingBookmarks[i]).css('color', 'rgb(0, 87, 255)');
       }
     $('#dropdownMenuLink').html('<center ><i class="fa fa-2x fa-bookmark" ></i><br><span class="d-none d-llg-block">BOOKMARKS ('+existingBookmarks.length+')</span></center>');
     $('#bookmarkNumPill').html(existingBookmarks.length);
@@ -911,11 +932,11 @@ $( document ).ready(function() {
                 } ?>';
     if($.inArray(videoID, existingBookmarks) !=-1){
       $('#bookmarkSetter').html('<i class="fa fa-2x fa-bookmark" ></i>');
-      $('#bookmarkSetter').css('color', '#DE0404');
+      $('#bookmarkSetter').css('color', 'rgb(0, 87, 255)');
     }
     else{
       $('#bookmarkSetter').html('<i class="fa fa-2x fa-bookmark-o" ></i>');
-      $('#bookmarkSetter').css('color', '#DE0404');
+      $('#bookmarkSetter').css('color', 'rgb(0, 87, 255)');
     }
   } 
 });
@@ -964,7 +985,7 @@ function addBookmark(videoID){
       $('#bookmarkNumPill').html(existingBookmarks.length);
       $('#bookmarkNumPillSmall').html(existingBookmarks.length);
       $('#bookmarkSetter-'+videoID).html('<i style="font-size:24px;" class="fa fa-bookmark" ></i>');
-      $('#bookmarkSetter-'+videoID).css('color', '#DE0404');
+      $('#bookmarkSetter-'+videoID).css('color', 'rgb(0, 87, 255)');
     }
     else{
       var index = existingBookmarks.indexOf(videoID);
@@ -980,7 +1001,7 @@ function addBookmark(videoID){
       $('#bookmarkNumPill').html(existingBookmarks.length);
       $('#bookmarkNumPillSmall').html(existingBookmarks.length);
       $('#bookmarkSetter-'+videoID).html('<i style="font-size:24px;" class="fa fa-bookmark-o" ></i>');
-      $('#bookmarkSetter-'+videoID).css('color', '#DE0404');
+      $('#bookmarkSetter-'+videoID).css('color', 'rgb(0, 87, 255)');
     }
 
   }

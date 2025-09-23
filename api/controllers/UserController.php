@@ -11,23 +11,17 @@ class UserController
     }
 
     public function getUserByEmail(string $email) {
-        try {
-            return $this->userService->getUserByEmail($email);
-        } catch (Exception $e) {
-            http_response_code(500);
-            echo json_encode(['status' => 'error', 'message' => $e->getMessage()]);
-        }
+        return $this->userService->getUserByEmail($email);
     }
 
     // Add other API methods like createUser, updateUser, deleteUser
     public function login($email, $password)
     {
-        try {
-            return $this->userService->login($email, $password);
-        } catch (Exception $e) {
-            http_response_code(500);
-            echo json_encode(['status' => 'error', 'message' => $e->getMessage()]);
-        }
+        return $this->userService->login($email, $password);
+    }
+
+    public function isLoggedIn() {
+        return isset($_SESSION['user_id']);
     }
 }
 

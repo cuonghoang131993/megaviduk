@@ -1,5 +1,26 @@
 <?php
+ini_set("session.cookie_httponly", True);
 session_start();
+
+require_once('api/DI/Container.php');
+require_once('api/controllers/CartController.php');
+require_once('api/controllers/UserController.php');
+require_once('api/services/UserService.php');
+require_once('api/repositories/UserRepository.php');
+require_once('api/infrastructures/db/Database.php');
+require_once('api/utils/PriceUtils.php');
+
+$container = new Container();
+// Register a simple service (class name)
+$container->register('DatabaseConnection', function () {
+    $c = include 'api/infrastructures/config/database.php';
+    return new DatabaseConnection("mysql:host=" . $c['host'] . ";dbname=" . $c['database'] . ";charset=" . $c['charset']);
+});
+// Register a service with a dependency
+$container->register('UserRepository', UserRepository::class);
+$container->register('UserService', UserService::class);
+$container->register('UserController', UserController::class);
+$container->register('CartController', CartController::class);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -847,7 +868,7 @@ ga('send', 'pageview');
     <div class="modal-dialog modal-lg">
         <div class="modal-content ">
             <div class="modal-header card-header" style="margin-bottom:1rem;">
-                <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
+                <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
                 <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;"
                     data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>

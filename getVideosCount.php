@@ -27,6 +27,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $cat = $_POST['cat'] ?? '';
   $sort = $_POST['sort'] ?? '';
 
-  echo $videoController->countByParams($cat, $sort);
+  try {
+    echo $videoController->countByParams($cat, $sort);
+  } catch (Exception $e) {
+    echo $e->getMessage();
+  }
 }
+
 ?>

@@ -1,5 +1,26 @@
 ﻿<?php
+ini_set("session.cookie_httponly", True);
 session_start();
+
+require_once('api/DI/Container.php');
+require_once('api/controllers/CartController.php');
+require_once('api/controllers/UserController.php');
+require_once('api/services/UserService.php');
+require_once('api/repositories/UserRepository.php');
+require_once('api/infrastructures/db/Database.php');
+require_once('api/utils/PriceUtils.php');
+
+$container = new Container();
+// Register a simple service (class name)
+$container->register('DatabaseConnection', function () {
+    $c = include 'api/infrastructures/config/database.php';
+    return new DatabaseConnection("mysql:host=" . $c['host'] . ";dbname=" . $c['database'] . ";charset=" . $c['charset']);
+});
+// Register a service with a dependency
+$container->register('UserRepository', UserRepository::class);
+$container->register('UserService', UserService::class);
+$container->register('UserController', UserController::class);
+$container->register('CartController', CartController::class);
 ?>
 
 <!DOCTYPE html>
@@ -136,7 +157,7 @@ ga('send', 'pageview');
   </thead>
   <tbody>
     <tr style="background-color:rgba(0,0,0,.05) !important;">
-      <th scope="row" style="color:#DE0404;text-align: center;vertical-align:middle;" align="center" ><h4 align="center">Partnership Conditions</h4></th>
+      <th scope="row" style="color:rgb(0, 87, 255);text-align: center;vertical-align:middle;" align="center" ><h4 align="center">Partnership Conditions</h4></th>
       <td align="center"></td>
       <td align="center"></td>
     </tr>
@@ -156,39 +177,39 @@ ga('send', 'pageview');
       <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-minus" style="color:#C0C0C0;"></i></td>
     </tr>
     <tr style="background-color:rgba(0,0,0,.05) !important;">
-      <th scope="row" style="color:#DE0404;text-align: center;vertical-align:middle;" align="center" ><h4 align="center">Partnership Benefits</h4></th>
+      <th scope="row" style="color:rgb(0, 87, 255);text-align: center;vertical-align:middle;" align="center" ><h4 align="center">Partnership Benefits</h4></th>
       <td></td>
       <td></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title='Track and analyze your video’s success, check helpful tools, choose preferred payment options, access important documents and more – your dashboard is tailored to suit your needs.'>
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-tachometer" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Powerful Dashboard</div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="We sell licenses for your video through our website and other marketing channels. While you lean back, we're working on your next paycheck.">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-usd" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Easy Sales</div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="We bring submitted videos to the attention of TV shows, social media sites, news programs, advertising agencies, brands, film production studios and others who'd love to use videos just like yours.">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-globe" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Distribution &amp; Promotion </div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="Best practices for increasing your video’s chances to go viral, stay popular and to get licensed more often can be found in our exclusive Video Optimization and Viral Video guides provided in your account for free.">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-file-video-o" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Optimization &amp; Virality Tips</div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="Under Premium Partnership efforts will be made to block or monetize unauthorized copies of your video, i.e. on YouTube by the help of Content ID and elsewhere by claiming retroactive license fees from those who are ripping off your video for their own financial benefit.">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-shield" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Video Protection</div></div></th>
       <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-minus" style="color:#C0C0C0;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
     </tr>
     <tr data-toggle="tooltip" data-html="true" title="Also benefit from our Promoter Program (by earning 50% commission for encouraging other video owners to submit their videos), exclusive discounts, our community forums ... and more!">
       <th scope="row" style="text-align: center;vertical-align:middle;"><div class="row"><div class="col-xs-12 col-sm-2 col-lg-2" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;"><i class="fa fa-2x fa-star" align="center"></i></div><div class="col-xs-12 col-sm-10 col-lg-10" align="center" style="text-align: center;vertical-align: middle;line-height: 40.8px;">Promoter Program and more</div></div></th>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
-      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:#DE0404;"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
+      <td align="center" style="text-align: center;vertical-align:middle;"><i class="fa fa-2x fa-check" style="color:rgb(0, 87, 255);"></td>
     </tr>
     <tr>
       <th scope="row" style="text-align: center;vertical-align:middle;"></th>
@@ -208,7 +229,7 @@ ga('send', 'pageview');
       <div class="container text-center">
         <h2>Any questions left open?</h2>
         Get them resolved here! <br><br>
-        <a class="btn btn-default btn-xl sr-button" data-toggle="modal" data-target=".FAQ-modal" style="color:black; cursor:pointer;">Video Owners' FAQ</a>
+        <a class="btn btn-default btn-xl sr-button" data-toggle="modal" data-target=".FAQ-modal" style="cursor:pointer;">Video Owners' FAQ</a>
       </div>
     </div>
 
@@ -273,7 +294,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Video Owners' FAQ</span></h3>
+              <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Video Owners' FAQ</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -389,7 +410,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
+              <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Newsletter</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -450,7 +471,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg" style="max-height:98vh;">
     <div class="modal-content " >
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+              <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Contact us</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -498,7 +519,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+              <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Imprint</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -532,7 +553,7 @@ ga('send', 'pageview');
 <div class="modal-dialog modal-lg">
     <div class="modal-content ">
     <div class="modal-header card-header" style="margin-bottom:1rem;">
-              <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
+              <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>How To buy videos at Megavid</span></h3>
               <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
               </button>
@@ -774,7 +795,7 @@ var manageTableColumns = function() {
     if(viewport.is('<md')) {
       $('#licensesTab tr > *:nth-child(3)').css("display", "none");
       $('#licensesTab tr > *:nth-child(2)').css("display", "");
-      $('#btnBasic').css("background-color", "#DE0404");
+      $('#btnBasic').css("background-color", "rgb(0, 87, 255)");
       $('#btnPremium').css("background-color", "#868e96");
       $('#licensesTab').css("width", "100vw");
       $("#btnPremiumSignUp").html('SELECT');
@@ -804,7 +825,7 @@ $(window).resize(
       function hideColumnPremium() {
           $('#licensesTab tr > *:nth-child(3)').css("display", "none");
           $('#licensesTab tr > *:nth-child(2)').css("display", "");
-          $('#btnBasic').css("background-color", "#DE0404");
+          $('#btnBasic').css("background-color", "rgb(0, 87, 255)");
           $('#btnPremium').css("background-color", "#868e96");
 
       }
@@ -814,7 +835,7 @@ $(window).resize(
           $('#licensesTab tr > *:nth-child(2)').css("display", "none");
           $('#licensesTab tr > *:nth-child(3)').css("display","");
           $('#btnBasic').css("background-color", "#868e96");
-          $('#btnPremium').css("background-color", "#DE0404");
+          $('#btnPremium').css("background-color", "rgb(0, 87, 255)");
 
     }
 

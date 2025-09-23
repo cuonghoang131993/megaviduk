@@ -35,16 +35,22 @@ if (is_array($data)) {
     $email = $data['login']['mail'];
     $password = $data['login']['password'];
 
-    $isAuthenticated = $userController->login($email, $password);
-    if ($isAuthenticated) {
-        $user = $userController->getUserByEmail($email);
+    try {
+        $isAuthenticated = $userController->login($email, $password);
+        if ($isAuthenticated) {
+            $user = $userController->getUserByEmail($email);
 
-        $_SESSION['loggedin'] = true;
-        $_SESSION['user_id'] = $user['id'];
-        $_SESSION['email'] = $user['email'];
+            $_SESSION['loggedin'] = true;
+            $_SESSION['user_id'] = $user['id'];
+            $_SESSION['email'] = $user['email'];
 
-        echo json_encode(['status' => 'customer']);
-    } else {
-        echo json_encode(['status' => 'error', 'message' => 'User not found']);
+            echo json_encode(['status' => 'customer']);
+        } else {
+            echo json_encode(['status' => 'error', 'message' => 'User not found']);
+        }
+    }
+    catch (Exception $e) {
+        http_response_code(500);
+        echo json_encode(['status' => 'error', 'message' => $e->getMessage()]);
     }
 }

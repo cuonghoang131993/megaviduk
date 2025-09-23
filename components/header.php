@@ -1,35 +1,10 @@
   <?php
+  // Resolve and use the service
+  $userController = $container->get('UserController');
+  $cartController = $container->get('CartController');
 
-  $userLoggedIn = false;
-
-  if (isset($_SESSION['user_id'])) {
-    // User is logged in, access $_SESSION['user_id'] or $_SESSION['username']
-    // echo json_encode(['loggedIn' => true, 'username' => $_SESSION['username']]);
-    $userLoggedIn = true;
-  } else {
-    // echo json_encode(['loggedIn' => false, 'message' => 'Not logged in']);
-  }
-
-  ?>
-
-  <?php
-
-  // Initialize the cart if it doesn't exist in the session
-  if (!isset($_SESSION['cart'])) {
-      $_SESSION['cart'] = [
-        'cart' => [
-            'bulkDiscount' => 0,
-            'bulkDiscountStr' => "",
-            'itemCount' => 0,
-            'price' => 0,
-            'priceWithDiscounts' => 0,
-            'promoActivated' => false,
-            'promoDiscount' => 0,
-            'vat' => 0
-        ],
-        'items' => [],
-      ];
-  }
+  $userLoggedIn = $userController->isLoggedIn();
+  $cart = $cartController->getCartSummary();
 
   ?>
 
@@ -83,7 +58,7 @@
               <form class="input-group" method="get" action="./videos">
                 <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control" placeholder="Search videos by Keyword or URL" value="">
                 <span class="input-group-btn">
-                  <button class="btn btn-secondary orange" type="submit"> <i class="fa fa-1x fa-search "></i></button>
+                  <button class="btn btn-default orange" type="submit"> <i class="fa fa-1x fa-search "></i></button>
                 </span>
               </form>
             </div>
@@ -91,7 +66,7 @@
               <form class="input-group" method="get" action="./videos">
                 <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control" placeholder="Search videos" value="">
                 <span class="input-group-btn">
-                  <button class="btn btn-secondary orange" type="submit"> <i class="fa fa-1x fa-search "></i></button>
+                  <button class="btn btn-default orange" type="submit"> <i class="fa fa-1x fa-search "></i></button>
                 </span>
               </form>
             </div>
@@ -121,7 +96,7 @@
       </a>
       <div class="dropdown-menu blackdropdown" id="accountDropdown" aria-labelledby="dropdownMenuAccount" style="top: 77px;">
         <span class="dropdown-item" ><a class="btn btn-primary" style="width:100%;cursor:pointer;" data-toggle="modal" data-target=".bd-example-modal-lg" style="cursor: pointer;">SIGN IN</a></span>
-        <span class="dropdown-item" >Don’t have an account?<br><a  data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:#DE0404;">Sign up here.</a></span>
+        <span class="dropdown-item" >Don’t have an account?<br><a  data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:rgb(0, 87, 255);">Sign up here.</a></span>
         <!--<div class="dropdown-divider"></div>
         <div class="card">
           <div class="card-header">
@@ -162,7 +137,7 @@
 
             <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
               <a href="cart" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
-                <center><i class="fa fa-2x fa-shopping-cart"></i><br>CART (<?php echo($_SESSION['cart']['cart']['itemCount'] ?? 0); ?>)</center>
+                <center><i class="fa fa-2x fa-shopping-cart"></i><br>CART (<?php echo $cart['itemCount']; ?>)</center>
               </a>
             </div>
     </div>
@@ -230,12 +205,12 @@
                 </a>
                 <div class="dropdown-menu blackdropdown" id="accountDropdownSmall" aria-labelledby="dropdownMenuAccount">
                   <span class="dropdown-item"><a class="btn btn-primary" style="width:100%;cursor:pointer;" data-toggle="modal" data-target=".bd-example-modal-lg" style="cursor: pointer;">SIGN IN</a></span>
-                  <span class="dropdown-item">Don’t have an account?<br><a data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:#DE0404;">Sign up here.</a></span>
+                  <span class="dropdown-item">Don’t have an account?<br><a data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:rgb(0, 87, 255);">Sign up here.</a></span>
                 </div>
               </div>
               <div class="dropdown show nav-link" id="bookmarkdivSmall" style="margin:auto 0 auto auto">
                 <a href="#" role="button" id="dropdownMenuLinkSmall" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" align="center">
-                  <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPill" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+                  <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPill" class="badge badge-pill" style="background-color:rgb(0, 87, 255);position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
                 </a>
                 <div class="dropdown-menu blackdropdown" id="bookmarksDropdownSmall" aria-labelledby="dropdownMenuLinkSmall" style="overflow: auto;max-height: 80vh; left: -80px;">
                 </div>
@@ -244,7 +219,7 @@
 
               <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
                 <a href="cart" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
-                  <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPill" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+                  <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPill" class="badge badge-pill" style="background-color:rgb(0, 87, 255);position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
                 </a>
               </div>
             </div>
@@ -256,7 +231,7 @@
             <form class="input-group" method="get" action="./videos.php">
               <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control" placeholder="Search videos by Keyword or URL" value="">
               <span class="input-group-btn">
-                <button class="btn btn-secondary orange" type="submit"> <i class="fa fa-1x fa-search "></i></button>
+                <button class="btn btn-default orange" type="submit"> <i class="fa fa-1x fa-search "></i></button>
               </span>
             </form>
           </td>
@@ -281,12 +256,12 @@
                 </a>
                 <div class="dropdown-menu blackdropdown" id="accountDropdownXtraSmall" aria-labelledby="dropdownMenuAccount" style="top:50px;left:-90px;">
                   <span class="dropdown-item"><a class="btn btn-primary" style="width:100%;cursor:pointer;" data-toggle="modal" data-target=".bd-example-modal-lg" style="cursor: pointer;">SIGN IN</a></span>
-                  <span class="dropdown-item">Don’t have an account?<br><a data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:#DE0404;">Sign up here.</a></span>
+                  <span class="dropdown-item">Don’t have an account?<br><a data-toggle="modal" data-target=".signupmodal" style="cursor: pointer;color:rgb(0, 87, 255);">Sign up here.</a></span>
                 </div>
               </div>
               <div class="dropdown show nav-link" id="bookmarkdivXtraSmall" style="margin:auto 0 auto auto">
                 <a href="#" role="button" id="dropdownMenuLinkXtraSmall" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" align="center">
-                  <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPillSmall" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+                  <center><i class="fa fa-2x fa-bookmark"></i><span id="bookmarkNumPillSmall" class="badge badge-pill" style="background-color:rgb(0, 87, 255);position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
                 </a>
                 <div class="dropdown-menu blackdropdown" id="bookmarksDropdownXtraSmall" aria-labelledby="dropdownMenuLinkXtraSmall" style="overflow: auto;max-height: 80vh;top:50px;left:-120px;">
                 </div>
@@ -295,7 +270,7 @@
 
               <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
                 <a href="cart" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
-                  <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPillSmall" class="badge badge-pill" style="background-color:#DE0404;position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
+                  <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPillSmall" class="badge badge-pill" style="background-color:rgb(0, 87, 255);position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">0</span></center>
                 </a>
               </div>
             </div>
@@ -308,7 +283,7 @@
               <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control mobile-log-xs" placeholder="Search videos by Keyword or URL" value="">
               <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control mobile-log-xss" placeholder="Search videos" value="">
               <span class="input-group-btn">
-                <button class="btn btn-secondary orange" type="submit"> <i class="fa fa-1x fa-search "></i></button>
+                <button class="btn btn-default orange" type="submit"> <i class="fa fa-1x fa-search "></i></button>
               </span>
             </form>
           </td>
@@ -363,7 +338,7 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content ">
         <div class="modal-header card-header" style="margin-bottom:1rem;">
-          <h3 class="modal-title" style="color:#DE0404;font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
+          <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>SIGN IN</span></h3>
           <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;"
             data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>

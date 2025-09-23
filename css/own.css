@@ -283,7 +283,7 @@
   position: relative;
   min-height: 320px;
   width: 100%;
-  background-color: #DE0404;
+  background-color: rgb(0, 87, 255);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -328,7 +328,7 @@ span.secondview{
 
 
 .howto{
-border-color: #DE0404;
+border-color: rgb(0, 87, 255);
 border-width: 5px;
 border-style: solid;
 font-size: 150%;
@@ -338,7 +338,7 @@ font-size: 150%;
 .backimg{
 background-image: url(../img/bg6.jpg.html);
 background-size: cover;
-background-color: #DE0404;
+background-color: rgb(0, 87, 255);
 width:100%;
 height:20%;
 }
@@ -396,7 +396,7 @@ display:block;
 }
 
 .orange{
-background-color: #DE0404;
+/* background-color: rgb(0, 87, 255); */
 }
 .lightgray{
 background-color: gray;
@@ -442,7 +442,7 @@ margin:auto;
     width: 100%;
     height: 100%;
     
-    background-color: #DE0404;
+    background-color: rgb(0, 87, 255);
     background-image: url("https://storage.googleapis.com/megaviduk_public/megaviduk_video_licensing.jpg");
     background-size:cover;
     position: relative;
@@ -562,7 +562,7 @@ left: 0;
 }
 
 .circle-with-text {
-  background: #DE0404;
+  background: rgb(0, 87, 255);
   justify-content: center;
   align-items: center;
   border-radius: 100%;
@@ -826,7 +826,7 @@ color:#fff;
 
 /* When the checkbox is checked, add a blue background */
 .checkCont input:checked ~ .checkmark {
-  background-color: #DE0404;
+  background-color: rgb(0, 87, 255);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -967,14 +967,14 @@ color:#fff;
 
 /** Active button **/
 .btn-breadcrumb .btn.btn-orange {
-  background-color: #DE0404;
+  background-color: rgb(0, 87, 255);
   color: white;
 }
 .btn-breadcrumb .btn.btn-orange:not(:last-child):after {
-  border-left: 10px solid #DE0404;
+  border-left: 10px solid rgb(0, 87, 255);
 }
 .btn-breadcrumb .btn.btn-orange:not(:last-child):before {
-  border-left: 10px solid #DE0404;
+  border-left: 10px solid rgb(0, 87, 255);
 }
 
 
@@ -1313,13 +1313,13 @@ body {
 
 .btn-primary {
   color: #fff;
-  background-color: #DE0404;
-  border-color: #DE0404;
+  background-color: rgb(0, 87, 255);
+  border-color: rgb(0, 87, 255);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  background-color: #DE0404;
-  border-color: #DE0404;
+  background-color: rgb(0, 87, 255);
+  border-color: rgb(0, 87, 255);
 }
 
 .form-signin {
