@@ -23,6 +23,14 @@ class UserController
     public function isLoggedIn() {
         return isset($_SESSION['user_id']);
     }
+
+    public function saveUserSession(string $email) {
+        $user = $this->getUserByEmail($email);
+
+        $_SESSION['loggedin'] = true;
+        $_SESSION['user_id'] = $user['id'];
+        $_SESSION['email'] = $user['email'];
+    }
 }
 
 ?>

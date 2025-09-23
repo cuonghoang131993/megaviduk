@@ -7,16 +7,7 @@ class CartController
     { }
 
     public function addToCart(VideoDAO $video, array $data) {
-        $cart = [
-            'bulkDiscount' => 0,
-            'bulkDiscountStr' => "",
-            'itemCount' => $_SESSION['cart']['cart']['itemCount'] ?? 0,
-            'price' => $_SESSION['cart']['cart']['price'] ?? 0,
-            'priceWithDiscounts' => $_SESSION['cart']['cart']['priceWithDiscounts'] ?? 0,
-            'promoActivated' => false,
-            'promoDiscount' => 0,
-            'vat' => 0
-        ];
+        $cart = $this->getCartSummary();
 
         $uniqueVidId = uniqid("video_");
         $saveItem = [
@@ -79,8 +70,8 @@ class CartController
     }
 
     public function removeFromCart(array $data) {
-        $cart = $_SESSION['cart']['cart'];
-        $listItems = $_SESSION['cart']['items'];
+        $cart = $this->getCartSummary();
+        $listItems = $this->getAllCartItems();
 
         foreach ($listItems as $index => $item) {
             if ($item['itemId'] === $data['cartItemId']) {
@@ -94,7 +85,7 @@ class CartController
 
                 $cart['priceWithDiscounts'] = $cart['price'] - $cart['bulkDiscount'] - $cart['promoDiscount'];
 
-                unset($listItems[$index]);
+                array_splice($listItems, $index, 1);
             }
         }
 
@@ -112,7 +103,7 @@ class CartController
             'promoActivated' => false,
             'promoDiscount' => 0,
             'vat' => 0
-        ];;
+        ];
     }
 
     public function getAllCartItems() {

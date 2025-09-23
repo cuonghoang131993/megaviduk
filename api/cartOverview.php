@@ -14,7 +14,7 @@ $container->register('CartController', CartController::class);
 // Resolve and use the service
 $cartController = $container->get('CartController');
 
-if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_SESSION['cart'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     if (isset($_GET['cartSummary'])) {
         $cart = $cartController->getCartSummary();
         echo json_encode($cart);
@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_SESSION['cart'])) {
     }
 }
 
-if ($_SERVER['REQUEST_METHOD'] === 'DELETE' && isset($_SESSION['cart'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
     $requestBody = file_get_contents('php://input');
     $data = json_decode($requestBody, true);
 

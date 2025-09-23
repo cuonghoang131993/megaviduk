@@ -38,11 +38,7 @@ if (is_array($data)) {
     try {
         $isAuthenticated = $userController->login($email, $password);
         if ($isAuthenticated) {
-            $user = $userController->getUserByEmail($email);
-
-            $_SESSION['loggedin'] = true;
-            $_SESSION['user_id'] = $user['id'];
-            $_SESSION['email'] = $user['email'];
+            $userController->saveUserSession($email);
 
             echo json_encode(['status' => 'customer']);
         } else {
