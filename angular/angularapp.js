@@ -51740,7 +51740,7 @@
         }()
           , cp = function() {
             function e() {}
-            return e.API_ENDPOINT = "localhost" === location.hostname || "127.0.0.1" === location.hostname ? "http://jr-dev.bplaced.net" : window.location.protocol + "//" + window.location.hostname,
+            return e.API_ENDPOINT = "localhost" === location.hostname || "127.0.0.1" === location.hostname ? "." : window.location.protocol + "//" + window.location.hostname,
             e
         }()
           , dp = function() {

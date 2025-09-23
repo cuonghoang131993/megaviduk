@@ -59,20 +59,20 @@ section {
 
 ::-moz-selection {
   color: white;
-  background: #ffffff;
+  background: #DE0404;
   text-shadow: none; }
 
 ::selection {
   color: white;
-  background: #ffffff;
+  background: #DE0404;
   text-shadow: none; }
 
 img::selection {
-  color: white;
+  color: #DE0404;
   background: transparent; }
 
 img::-moz-selection {
-  color: white;
+  color: #DE0404;
   background: transparent; }
 
 body {

@@ -29,4 +29,11 @@ class VideoController
             echo json_encode(['status' => 'error', 'message' => $e->getMessage()]);
         }
     }
+
+    public function findById(string $id)
+    {
+        return $this->videoService->findById($id);
+    }
 }
+
+?>

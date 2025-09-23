@@ -4,6 +4,7 @@ require_once('api/controllers/VideoController.php');
 require_once('api/services/VideoService.php');
 require_once('api/repositories/VideoRepository.php');
 require_once('api/infrastructures/db/Database.php');
+require_once('api/entities/VideoDAO.php');
 require_once('models/video.php');
 
 $container = new Container();

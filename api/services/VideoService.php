@@ -16,5 +16,11 @@ class VideoService {
     public function countByParams(string $cat, string $sort) {
         return $this->videoRepository->countByParams($cat, $sort);
     }
+
+    public function findById(string $id)
+    {
+        return $this->videoRepository->findById($id);
+    }
 }
+
 ?>

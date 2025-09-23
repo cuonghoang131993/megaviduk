@@ -1,13 +1,6 @@
-﻿@page 
-
-@model FootageModel
-@{
-    // ViewData["Title"] = "Home page";
-}
-
-
-
-
+﻿<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -214,7 +207,9 @@ flex-wrap: wrap;
                 </div>
                 <div class="modal-body">
                   <div class="input-group">
-                    <input class="form-control" type="text" value="megavid.uk/footage?v=jtX3q3cY2rk" id="shareLink" readonly>
+                    <input class="form-control" type="text" value="megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>" id="shareLink" readonly>
                     <button class="btn btn-outline-secondary" type="button" onclick="copyShareLink();">Copy</button>
                   </div>
                 </div>
@@ -230,11 +225,21 @@ flex-wrap: wrap;
               <i style="color:#DE0404;" class="fa fa-2x fa-share-alt"></i>
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Fmegavid.uk%2Ffootage%3Fv%jtX3q3cY2rk" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
-              <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?v=jtX3q3cY2rk&amp;hashtags=viral,videos&amp;rel=megaviduk" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a> 
-              <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?v=jtX3q3cY2rk"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
-              <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?vjtX3q3cY2rk"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
-              <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage?v=jtX3q3cY2rk}&title={Video%20Recommendation%20on%20Licet%20Studios}&description={I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
+              <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Fmegavid.uk%2Ffootage%3Fv%<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
+              <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>&amp;hashtags=viral,videos&amp;rel=megaviduk" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a> 
+              <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
+              <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
+              <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>}&title={Video%20Recommendation%20on%20MegaVidUK}&description={I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
 
               <a title="Share this site" data-toggle="modal" data-target="#shareModal" style="cursor:pointer;">
                 <i style="color:#DE0404;" class="fa fa-2x fa-share-alt"></i>
@@ -246,11 +251,21 @@ flex-wrap: wrap;
 
     <div class="col-5 d-none d-md-block d-shareBetween-none" style="padding:0;">
       <div style="float: right;">
-        <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Fmegavid.uk%2Ffootage%3Fv%jtX3q3cY2rk" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
-        <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?v=jtX3q3cY2rk&amp;hashtags=viral,videos&amp;rel=megaviduk" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a> 
-        <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?v=jtX3q3cY2rk"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
-        <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios%20https%3A//megavid.uk/footage?vjtX3q3cY2rk"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
-        <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage?v=jtX3q3cY2rk}&title={Video%20Recommendation%20on%20Licet%20Studios}&description={I%20want%20to%20recommend%20this%20video%20at%20Licet%20Studios}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
+        <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Fmegavid.uk%2Ffootage%3Fv%<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
+        <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>&amp;hashtags=viral,videos&amp;rel=megaviduk" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a> 
+        <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
+        <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
+        <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>}&title={Video%20Recommendation%20on%20MegaVidUK}&description={I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
 
           <a title="Share this site" data-toggle="modal" data-target="#shareModal" style="cursor:pointer;">
           <i style="color:#DE0404;" class="fa fa-2x fa-share-alt"></i>
@@ -267,7 +282,9 @@ flex-wrap: wrap;
         <div id="videoContainer" style="position:relative;width:100%;padding-bottom:56%;">
         <div id="videoElement" style="  position:absolute;width:100%;height:100%;">
         <iframe  style="margin:auto;width:100%;height:100%"
-          src="https://www.youtube.com/embed/jtX3q3cY2rk?rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;autoplay=1" allowfullscreen>
+          src="https://www.youtube.com/embed/<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>?rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;autoplay=1" allowfullscreen>
         </iframe>
         </div>
         </div>
@@ -310,7 +327,9 @@ flex-wrap: wrap;
 
                     <div class="col-sm-4 col-6" style="padding-top:0.5em;">
                     <b>Item ID</b>
-                    <p class="card-text">jtX3q3cY2rk</p>
+                    <p class="card-text"><?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?></p>
                     </div>
                     <div class="col-sm-4 col-6" style="padding-top:0.5em;">
                     <b>Views</b>
@@ -362,7 +381,9 @@ flex-wrap: wrap;
                 <tr>
                   <td style="padding-top:1rem;">
                     <b>Item ID</b>
-                    <p class="card-text">jtX3q3cY2rk</p>
+                    <p class="card-text"><?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?></p>
                   </td>
                   <td style="padding-top:1rem;">
                     <b>Views</b>
@@ -396,7 +417,9 @@ flex-wrap: wrap;
     <div class="col-lg-5">
 
     <div class="row videoDetailLicenseRow">
-              <app-license-details class="w-100" german-user="false" buyable="1" user-logged-in="false" author-name="Mukti K." video-id="jtX3q3cY2rk" video-name="CLOSE CALL: Huge Landslide Makes Spectators Run For Their Lives In Nepal"></app-license-details>
+              <app-license-details class="w-100" german-user="false" buyable="1" user-logged-in="false" author-name="Mukti K." video-id="<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>" video-name="CLOSE CALL: Huge Landslide Makes Spectators Run For Their Lives In Nepal"></app-license-details>
         </div>
 
     </div>
@@ -785,7 +808,9 @@ flex-wrap: wrap;
 
 function setBookmark(){
   // Create a cookie
-  var videoID = 'jtX3q3cY2rk';
+  var videoID = '<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>';
   if (typeof(Cookies.get('videoBookmarks')) === 'undefined'){
     Cookies.set('videoBookmarks', JSON.stringify([videoID]),  {expires: 20 });
     $('#bookmarksDropdown').html('<a class="dropdown-item" href="#">'+videoID+'</a>');
@@ -881,7 +906,9 @@ $( document ).ready(function() {
     $('#dropdownMenuLink').html('<center ><i class="fa fa-2x fa-bookmark" ></i><br><span class="d-none d-llg-block">BOOKMARKS ('+existingBookmarks.length+')</span></center>');
     $('#bookmarkNumPill').html(existingBookmarks.length);
     $('#bookmarkNumPillSmall').html(existingBookmarks.length);
-    var videoID = 'jtX3q3cY2rk';
+    var videoID = '<?php if (isset($_GET['v'])) {
+                    echo $_GET['v'];
+                } ?>';
     if($.inArray(videoID, existingBookmarks) !=-1){
       $('#bookmarkSetter').html('<i class="fa fa-2x fa-bookmark" ></i>');
       $('#bookmarkSetter').css('color', '#DE0404');
