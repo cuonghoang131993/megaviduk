@@ -63,11 +63,9 @@ $container->register('CartController', CartController::class);
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="./css/creative.css">
-    <link rel="stylesheet" href="./css/own.css">
+    <link rel="stylesheet" href="css/creative.css">
+    <link rel="stylesheet" href="css/own.css">
     <link type="text/css" rel="stylesheet" href="./css/jquery.qtip.min.css">
-
-
 
     <style>
         .qtip-youtube .qtip-content {
@@ -379,7 +377,7 @@ $container->register('CartController', CartController::class);
                     <div class="card">
                         <div class="card-header" role="tab" id="headingHTbuy0">
                             <h5 class="mb-0">
-                                <a data-toggle="collapse" href="./videos.php?cat=9#htbuycollapse0" aria-expanded="true" aria-controls="collapse0">
+                                <a data-toggle="collapse" href="#htbuycollapse0" aria-expanded="true" aria-controls="collapse0">
                                     1. FIND VIDEOS & OPEN DETAIL PAGES
                                 </a>
                             </h5>
@@ -395,7 +393,7 @@ $container->register('CartController', CartController::class);
                     <div class="card">
                         <div class="card-header" role="tab" id="headingHTbuyOne">
                             <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="./videos.php?cat=9#htbuycollapseOne">
+                                <a class="collapsed" data-toggle="collapse" href="#htbuycollapseOne">
                                     2. SELECT LICENSE DETAILS
                                 </a>
                             </h5>
@@ -415,7 +413,7 @@ $container->register('CartController', CartController::class);
                     <div class="card">
                         <div class="card-header" role="tab" id="headingHTbuyTwo">
                             <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="./videos.php?cat=9#htbuycollapseTwo">
+                                <a class="collapsed" data-toggle="collapse" href="#htbuycollapseTwo">
                                     3. ADD VIDEO TO CART
                                 </a>
                             </h5>
@@ -430,7 +428,7 @@ $container->register('CartController', CartController::class);
                     <div class="card">
                         <div class="card-header" role="tab" id="headingHTbuyThree">
                             <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="./videos.php?cat=9#htbuycollapseThree">
+                                <a class="collapsed" data-toggle="collapse" href="#htbuycollapseThree">
                                     4. GO TO CHECKOUT & SIGN IN / UP
                                 </a>
                             </h5>
@@ -445,7 +443,7 @@ $container->register('CartController', CartController::class);
                     <div class="card">
                         <div class="card-header" role="tab" id="headingHTbuyFour">
                             <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="./videos.php?cat=9#htbuycollapseFour">
+                                <a class="collapsed" data-toggle="collapse" href="#htbuycollapseFour">
                                     5. ENTER LICENSEE INFO
                                 </a>
                             </h5>
@@ -460,7 +458,7 @@ $container->register('CartController', CartController::class);
                     <div class="card">
                         <div class="card-header" role="tab" id="headingHTbuyFive">
                             <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="./videos.php?cat=9#htbuycollapseFive">
+                                <a class="collapsed" data-toggle="collapse" href="#htbuycollapseFive">
                                     6. SELECT PAYMENT METHOD
                                 </a>
                             </h5>
@@ -475,7 +473,7 @@ $container->register('CartController', CartController::class);
                     <div class="card">
                         <div class="card-header" role="tab" id="headingHTbuyFive2">
                             <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="./videos.php?cat=9#htbuycollapseFive2">
+                                <a class="collapsed" data-toggle="collapse" href="#htbuycollapseFive2">
                                     7. PLACE ORDER
                                 </a>
                             </h5>
@@ -490,7 +488,7 @@ $container->register('CartController', CartController::class);
                     <div class="card">
                         <div class="card-header" role="tab" id="headingHTbuySix">
                             <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="./videos.php?cat=9#htbuycollapseSix">
+                                <a class="collapsed" data-toggle="collapse" href="#htbuycollapseSix">
                                     8. DOWNLOAD VIDEOS
                                 </a>
                             </h5>
@@ -509,7 +507,7 @@ $container->register('CartController', CartController::class);
                     <div class="card">
                         <div class="card-header" role="tab" id="headingHTbuySeven">
                             <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" href="./videos.php?cat=9#htbuycollapseSeven">
+                                <a class="collapsed" data-toggle="collapse" href="#htbuycollapseSeven">
                                     9. ACTIVATE LICENSE
                                 </a>
                             </h5>
@@ -525,7 +523,7 @@ $container->register('CartController', CartController::class);
                 <div class="text-center" style="padding:1em;">
                     Questions? Get in touch:<br>
                     <a href="mailto:licensing@megavid.uk ">licensing@megavid.uk </a><br>
-                    <a class="btn btn-default btn-primary" data-dismiss="modal" data-toggle="modal" data-target=".contact-modal">Contact us</a>
+                    <a class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target=".contact-modal">Contact us</a>
                 </div>
             </div>
         </div>
@@ -653,7 +651,7 @@ $container->register('CartController', CartController::class);
                 $('#bookmarksDropdownSmall').html('');
                 $('#bookmarksDropdownXtraSmall').html('');
 
-                $.post("getVideoTitleByID", {
+                $.post("getVideoTitleByID.php", {
                         ytid: videoID,
                     },
                     function(data, status) {

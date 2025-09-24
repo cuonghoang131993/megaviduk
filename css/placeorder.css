@@ -1,0 +1,308 @@
+.tooltip-inner{
+      max-width: 300px;
+    }
+    .btn-breadcrumb .btn:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid rgb(0, 87, 255);
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: 100%;
+  z-index: 3;
+}
+.btn-breadcrumb .btn:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid rgb(173, 173, 173);
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+
+/** The Spacing **/
+.btn-breadcrumb .btn {
+  padding:6px 12px 6px 24px;
+}
+.btn-breadcrumb .btn:first-child {
+  padding:6px 6px 6px 10px;
+}
+.btn-breadcrumb .btn:last-child {
+  padding:6px 18px 6px 24px;
+}
+
+/** Default button **/
+.btn-breadcrumb .btn.btn-def {
+  background-color: DarkGray ;
+  color: white;
+}
+.btn-breadcrumb .btn.btn-def:not(:last-child):after {
+  border-left: 10px solid DarkGray ;
+}
+.btn-breadcrumb .btn.btn-def:not(:last-child):before {
+  border-left: 10px solid DarkGray ;
+}
+
+
+/** Active button **/
+.btn-breadcrumb .btn.btn-orange {
+  background-color: #F05F40;
+  color: black;
+}
+.btn-breadcrumb .btn.btn-orange:not(:last-child):after {
+  border-left: 10px solid #F05F40;
+}
+.btn-breadcrumb .btn.btn-orange:not(:last-child):before {
+  border-left: 10px solid #F05F40;
+}
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(25%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+  
+}
+
+.licensee-info{
+    padding: 0px;
+    margin: 0px;  
+}
+.form-signin {
+
+  padding: 15px;
+  margin: 0 auto;
+
+
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input{
+  margin-bottom: 16px;
+}
+
+
+/* The checkCont */
+.checkCont {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkCont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+}
+
+/* On mouse-over, add a grey background color */
+.checkCont:hover input ~ .checkmark {
+    background-color: #eee;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkCont input:checked ~ .checkmark {
+    background-color: #F05F40;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkCont input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkCont .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.btn-primary.disabled, .btn-primary:disabled{
+    background-color: #F05F40;
+    border-color: #F05F40;
+}
+
+.tooltip-wrapper {
+  display: block; /* display: block works as well */
+}
+
+.tooltip-wrapper .btn[disabled] {
+  /* don't let button block mouse events from reaching wrapper */
+  pointer-events: none;
+}
+
+.tooltip-wrapper.disabled {
+  /* OPTIONAL pointer-events setting above blocks cursor setting, so set it here */
+  cursor: not-allowed;
+}
+
+.placeOrderPayPalLogo{
+    margin:auto;
+    height:95px;
+}
+@media(min-width:1340px){
+    .d-placeorder-xl-none{
+        display:none !important;
+    }
+}
+@media(max-width:1610px){
+    .placeOrderPayPalLogo{
+        height:80px;
+    }
+}
+@media(max-width:1420px){
+    .placeOrderPayPalLogo{
+        height:70px;
+    }
+}
+@media(max-width:1280px){
+    .placeOrderPayPalLogo{
+        height:65px;
+    }
+}
+
+
+@media(max-width:350px)
+{
+    .placeOrderSmall{
+        font-size:small;
+    }
+}
+
+@media(max-width:330px)
+{
+    .placeOrderSmall{
+        font-size:x-small;
+    }
+}
+
+div.stickBtnCheckout{
+    padding:1em;
+    background-color:white;
+}
+
+@media(min-width:1200px)
+{
+    .placeOrderNavBar{
+        margin-left:-14px;
+    }
+}
+.btnTopContainer{
+    min-height: 117px;
+}
+
+/* [FULL SCREEN SPINNER] */
+#spinner-back, #spinner-front {
+  position: fixed;
+  width: 100vw;
+  transition: all 1s;
+  visibility: hidden;
+  opacity: 0;
+}
+#spinner-back {
+  z-index: 998;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+#spinner-front {
+  z-index: 999;
+  color: #fff;
+  text-align: center;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+#spinner-back.show, #spinner-front.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip-inner {
+  font-size: 16px;
+  }
+  .tooltip-inner li{
+      padding-bottom:0.5em;
+  }
+
+  .tooltip-inner li ul{
+    position: relative;
+    list-style: none;
+  }
+
+  .tooltip-inner li ul li:before{
+      content: '>';
+      position: absolute;
+      left: 0;
+    }
+
+  .tooltip-inner ul{
+      padding-bottom:0.5em;
+  }
+
+  .tooltip-inner {
+    max-width: 400px;
+  }
+  

@@ -1,10 +1,12 @@
 <?php
+
 require_once('api/DI/Container.php');
 require_once('api/controllers/VideoController.php');
 require_once('api/services/VideoService.php');
 require_once('api/repositories/VideoRepository.php');
 require_once('api/infrastructures/db/Database.php');
 require_once('api/entities/VideoDAO.php');
+require_once('models/video.php');
 
 $container = new Container();
 // Register a simple service (class name)
@@ -20,18 +22,23 @@ $container->register('VideoController', VideoController::class);
 // Resolve and use the service
 $videoController = $container->get('VideoController');
 
-$response = [];
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  // Access the data
-  $cat = $_POST['cat'] ?? '';
-  $sort = $_POST['sort'] ?? '';
+    // Access the data
+    $ytid = $_POST['ytid'] ?? '';
+    
+    try {
+        $res = $videoController->findById($ytid);
 
-  try {
-    echo $videoController->countByParams($cat, $sort);
-  } catch (Exception $e) {
-    echo $e->getMessage();
-  }
+        $video = new Video(
+          $res->id,
+          $res->title,
+          $res->description
+        ); 
+        
+        $template = '<a href="/footage?v='. $video->id .'" ><table id="tab-'. $video->id .'" class="tab-'. $video->id .' text-center"><tr><td style="padding-left: 5px;"><img src="https://img.youtube.com/vi/'. $video->id .'/mqdefault.jpg" width=120 alt="click here to see more"></td></tr><tr><td style="vertical-align: middle;"><p>'. $video->title .'</p></td></tr></table></a>';
+
+        echo $template;
+    } catch (Exception $e) {
+        echo $e->getMessage();
+    }
 }
-
-?>

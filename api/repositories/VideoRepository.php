@@ -20,6 +20,24 @@ class VideoRepository
             "GREENLAND TSUNAMI: Fishermen Run For Their Lives - Camera 3", 
             "Shocking video captures the impact when one of the tallest tsunamis recorded in history hits and devastates the village of Nuugaatsiaq (Greenland) in the late evening hours, causing four deaths. Subsequent tsunami waves surprised the residents when they were trying to secure their property.",
             "Rasmus J.");
+        $this->response['jtX3q3cY2rk'] = new VideoDAO(
+            "jtX3q3cY2rk",
+            "CLOSE CALL: Huge Landslide Makes Spectators Run For Their Lives In Nepal",
+            "During this lake tour, the mountains started to collapse and numerous rocks came flying down the hill where the tourists were. They tried their best to evacuate in time, but it’s unclear how many people might’ve gotten injured. This unexpected event happened on July 29th, 2020 in Bharatpur, Nepal.",
+            "Mukti K."
+        );
+        $this->response['QEWENb7eNBw'] = new VideoDAO(
+            "QEWENb7eNBw",
+            "FLASH FLOOD: Drivers TRAPPED In Traffic Fear For Their Lives!",
+            "Watch closely as you get to see the moment a flash flood unfolds, and the locals are forced to flee. This flash flood didn’t hold back, and swept the bridge, and all surrounding areas in under 2 minutes forcing all the drivers and the locals into a frenzy. All the cars were honking non-stop to try to rush each other out of the way.",
+            "Younes H."
+        );
+        $this->response['oH7gECQ0ZPc'] = new VideoDAO(
+            "oH7gECQ0ZPc",
+            "Crazy Landslide Crashes into Power Line Causing an Explosion",
+            "These locals noticed that the mountain was starting to crumble. Soon after, the earth collapsed onto the main roads, hitting the power lines and causing an explosion. This event happened on August 20, 2017 in Shimla, Himachal Pradesh, India.",
+            "Jag M."
+        );
     }
 
     public function findByParams(string $cat, string $sort, int $minIndex, int $maxIndex)

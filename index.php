@@ -707,7 +707,7 @@ ga('send', 'pageview');
             <div class="text-center" style="padding:1em;">
                 Questions? Get in touch:<br>
                 <a href="mailto:licensing@megavid.uk ">licensing@megavid.uk </a><br>
-                <a class="btn btn-default btn-primary" data-dismiss="modal" data-toggle="modal" data-target=".contact-modal" >Contact us</a>
+                <a class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target=".contact-modal" >Contact us</a>
             </div>
   </div>
 </div>
