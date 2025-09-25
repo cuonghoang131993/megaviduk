@@ -55,6 +55,11 @@ class VideoRepository
     {
         return $this->response[$id];
     }
+
+    public function findRelatedVideosById(string $id)
+    {
+        return $this->response;
+    }
 }
 
 ?>

@@ -21,6 +21,11 @@ class VideoService {
     {
         return $this->videoRepository->findById($id);
     }
+
+    public function findRelatedVideosById(string $id)
+    {
+        return $this->videoRepository->findRelatedVideosById($id);
+    }
 }
 
 ?>

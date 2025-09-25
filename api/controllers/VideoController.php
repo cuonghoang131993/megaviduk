@@ -24,6 +24,11 @@ class VideoController
     {
         return $this->videoService->findById($id);
     }
+
+    public function findRelatedVideosById(string $id)
+    {
+        return $this->videoService->findRelatedVideosById($id);
+    }
 }
 
 ?>

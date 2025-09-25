@@ -41,16 +41,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           $item->description
         );
       }
-    }
-  } catch (Exception $e) {
-    echo $e->getMessage();
-  }
-}
-?>
 
-<?php
-foreach ($response as $item) {
-  echo '<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+      foreach ($response as $item) {
+        echo '<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
               <div class="card " >
                 <div class="card-body" style="padding-top:4px;">
                 <div class="text-center" >
@@ -76,5 +69,9 @@ foreach ($response as $item) {
 
               </div>
             </div>';
+      }
+    }
+  } catch (Exception $e) {
+    echo $e->getMessage();
+  }
 }
-?>
