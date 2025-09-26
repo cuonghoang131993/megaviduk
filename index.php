@@ -887,7 +887,7 @@ $container->register('CartController', CartController::class);
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-toolkit.js" async></script>
+  <script src="js/bootstrap-toolkit.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
