@@ -97,25 +97,25 @@ $container->register('CartController', CartController::class);
         <header class="masthead" style="position: absolute;min-width:100%;min-height:100%;top:0px;left:0px;justify-content: center;align-items: center;text-align: center;display: flex;">
           <div class="header-content">
             <div class="header-content-inner">
-              <form action="./videos#search" method="get">
+              <form action="./videos.php#search" method="get">
                 <div class="d-none d-lg-block">
                   <h1>WANT TO LICENSE USER-GENERATED CONTENT AND VIRAL VIDEOS?</h1>
                   <!--<h3>Select license details, add videos to your cart and proceed to checkout.</h3>-->
-                  <a class="btn btn-primary" href="./videos">
+                  <a class="btn btn-primary" href="./videos.php">
                     <h3 style="margin:0px;"><b>Browse Video Library</b></h3>
                   </a>
                 </div>
                 <div class="d-none d-md-block d-lg-none">
                   <h1>WANT TO LICENSE USER-GENERATED CONTENT AND VIRAL VIDEOS?</h1>
                   <!--<h3>Select license details, add videos to your cart and proceed to checkout.</h3>-->
-                  <a class="btn btn-primary" href="./videos">
+                  <a class="btn btn-primary" href="./videos.php">
                     <h3 style="margin:0px;"><b>Browse Video Library</b></h3>
                   </a>
                 </div>
                 <div class="d-block d-md-none">
                   <h1>WANT TO LICENSE USER-GENERATED CONTENT AND VIRAL VIDEOS?</h1>
                   <!--<h3>Select license details, add videos to your cart and proceed to checkout.</h3>-->
-                  <a class="btn btn-primary" href="./videos">Browse Video Library</a>
+                  <a class="btn btn-primary" href="./videos.php">Browse Video Library</a>
                 </div>
               </form>
             </div>
@@ -172,16 +172,16 @@ $container->register('CartController', CartController::class);
           //       <div class="text-center" >
           //       <a onclick="addBookmark(\'' . $item->id . '\');" id="bookmarkSetter-' . $item->id . '" style="cursor:pointer;"><i style="font-size:24px;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
           //       </div>
-          //       <a href="./footage?v=' . $item->id . '">
+          //       <a href="./footage.php?v=' . $item->id . '">
           //       <div class="youtube" data-embed="' . $item->id . '"> 
           //       <div style="position: absolute;bottom: 0px;right: 0px; padding: 2px; margin:5px;z-index:50;background-color:black;"><font color="white">01:42</font></div>
           //       </div>
           //       </a>
           //         <h4 class="card-title carousselItemTitle">
-          //           <a class="videoInfoLink" <a href="./footage?v=' . $item->id . '">' . $item->title . '</a>
+          //           <a class="videoInfoLink" <a href="./footage.php?v=' . $item->id . '">' . $item->title . '</a>
           //         </h4>
           //         <input type="hidden" value="101.20" name="' . $item->id . '">
-          //         <a class="btn btn-default  orange" id="btn-' . $item->id . '" href="./footage?v=' . $item->id . '" style="width:100%;    white-space: normal;" ><i class="fa fa-arrow-circle-right" ></i> REQUEST LICENSE</a>
+          //         <a class="btn btn-default  orange" id="btn-' . $item->id . '" href="./footage.php?v=' . $item->id . '" style="width:100%;    white-space: normal;" ><i class="fa fa-arrow-circle-right" ></i> REQUEST LICENSE</a>
           //       </div>
           //     </div>
           //     </div>';

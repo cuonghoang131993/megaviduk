@@ -349,7 +349,7 @@
           <div class="row" align="center" style="padding-top: 30px;">
             <div class="col-12" style="padding:0;">
               <div class="btn-group btn-breadcrumb" style="margin:auto">
-                <a class="btn btn-orange" href="cart">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
+                <a class="btn btn-orange" href="cart.php">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
                 <div class="btn btn-orange">2. <span class="d-none d-md-block d-xl-inline">SIGN IN / UP</span></div>
                 <div class="btn btn-orange">3. <span class="d-inline d-md-block d-xl-inline">Licensee<span class="noneDisp-370"> Info</span></span></div>
                 <div class="btn btn-def">4. <span class="d-none d-md-block d-xl-inline">Payment Method</span></div>
@@ -360,7 +360,7 @@
 
           <div class="row">
             <div class="col-12">
-              <form class="form-signin" id="licenseeInfoForm" action="paymentmethod" method="post" style="margin-top:2rem;margin-bottom:1rem;">
+              <form class="form-signin" id="licenseeInfoForm" action="paymentmethod.php" method="post" style="margin-top:2rem;margin-bottom:1rem;">
                 <h1 class="h3 mb-3 font-weight-normal">Licensee Info <i style="color:rgb(0, 87, 255);" data-toggle="tooltip" data-placement="right" data-trigger="click" data-html="true" title="" class="fa fa-info-circle" aria-hidden="true" data-original-title="&lt;ul style='text-align: left;'&gt;&lt;li&gt;Only the company / organization entering as Licensee into the Buyer License Agreement with us will be entitled to use the video items you have on your cart.&lt;/li&gt;&lt;li&gt;Licensee must be a business / commercial customer; private consumers are not admitted.&lt;/li&gt;&lt;/ul&gt;"></i></h1>
                 <label for="inputCompany">Company / Organization<font color="rgb(0, 87, 255)">*</font></label>
                 <input type="text" id="inputCompany" name="inputCompany" class="form-control" value="cuong.hc" required="">
@@ -1274,7 +1274,7 @@
               <div class="d-block d-lg-none"></div>
               <a class="footerLinkCheckout" data-toggle="modal" data-target=".imprintModal" target="_blank">Imprint</a>
               <div class="d-block d-lg-none"></div>
-              <a class="footerLinkCheckout" href="./privacy" target="_blank">Privacy Policy</a>
+              <a class="footerLinkCheckout" href="./privacy.php" target="_blank">Privacy Policy</a>
               <div class="d-block d-lg-none"></div>
               <a class="footerLinkCheckout" href="./tos.pdf" target="_blank">Terms of Service</a>
               <div class="d-block d-lg-none"></div>

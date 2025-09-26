@@ -57804,7 +57804,7 @@
                 this.licenseDetailsService.getAllCartItems().subscribe(function(t) {
                     var n, r;
                     t && 0 != t.length || (sessionStorage.setItem("emptyCart", "true"),
-                    window.location.href = cp.API_ENDPOINT + "/videos#videos");
+                    window.location.href = cp.API_ENDPOINT + "/videos.php#videos");
                     try {
                         for (var i = im(t), o = i.next(); !o.done; o = i.next()) {
                             var a = o.value;
@@ -57835,7 +57835,7 @@
                 window.confirm("Are you sure to remove this video from your cart?") && this.licenseDetailsService.deleteItemFromCart(e.itemId).subscribe(function(e) {
                     var n, r;
                     e && e.items && 0 != e.items.length || (sessionStorage.setItem("emptyCart", "true"),
-                    window.location.href = cp.API_ENDPOINT + "/videos#videos"),
+                    window.location.href = cp.API_ENDPOINT + "/videos.php#videos"),
                     t.licenseDetailsService.updateOrderSummary(e.cart);
                     try {
                         for (var i = im(e.items), o = i.next(); !o.done; o = i.next()) {

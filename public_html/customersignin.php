@@ -300,7 +300,7 @@
                 <div class="row" align="center" style="padding-top: 30px;">
                     <div class="col-12" style="padding:0;">
                         <div class="btn-group btn-breadcrumb" style="margin:auto">
-                            <a class="btn btn-orange" href="cart">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
+                            <a class="btn btn-orange" href="cart.php">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
                             <div class="btn btn-orange">2. <span class="d-inline d-md-block d-xl-inline">SIGN IN<span class="noneDisp-350"> / UP</span></span></div>
                             <div class="btn btn-def">3. <span class="d-none d-md-block d-xl-inline">Licensee Info</span></div>
                             <div class="btn btn-def">4. <span class="d-none d-md-block d-xl-inline">Payment Method</span></div>
@@ -762,7 +762,7 @@
                         <div class="d-block d-lg-none"></div>
                         <a class="footerLinkCheckout" data-toggle="modal" data-target=".imprintModal" target="_blank">Imprint</a>
                         <div class="d-block d-lg-none"></div>
-                        <a class="footerLinkCheckout" href="./privacy" target="_blank">Privacy Policy</a>
+                        <a class="footerLinkCheckout" href="./privacy.php" target="_blank">Privacy Policy</a>
                         <div class="d-block d-lg-none"></div>
                         <a class="footerLinkCheckout" href="./tos.pdf" target="_blank">Terms of Service</a>
                         <div class="d-block d-lg-none"></div>

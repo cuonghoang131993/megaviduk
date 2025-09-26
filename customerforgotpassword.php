@@ -397,7 +397,7 @@
                                         <div class="card text-center">
                                             <div class="card-body">
                                                 <h2 class="card-title">Video Owner’s Sign Up</h2>
-                                                <p class="card-text" style="padding:35px;">Please sign up by<br><a href="./index#signup">submitting your video here.</a></p>
+                                                <p class="card-text" style="padding:35px;">Please sign up by<br><a href="./index.php#signup">submitting your video here.</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -748,7 +748,7 @@
                     <div style="margin:auto">
                         <h5 style="color:white;">VIDEO OWNERS</h5>
                         <ul class="list-unstyled quick-links">
-                            <li><a class="footerLink" href="./index#programs">Partnership Options</a></li>
+                            <li><a class="footerLink" href="./index.php#programs">Partnership Options</a></li>
                             <li><a class="footerLink" href="./index.php?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
                             <li class="btn-group dropup footerLink">
                                 <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;color:#EAE9E9;">Partnership Agreements</a>
@@ -780,7 +780,7 @@
                         </ul>
                         <h5 style="color:white;">VIDEO OWNERS</h5>
                         <ul class="list-unstyled quick-links" style="margin-bottom:0;">
-                            <li><a class="footerLink" href="./index#programs">Partnership Options</a></li>
+                            <li><a class="footerLink" href="./index.php#programs">Partnership Options</a></li>
                             <li><a class="footerLink" href="./index.php?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
                             <li class="btn-group dropup footerLink">
                                 <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;color:#EAE9E9;">Partnership Agreements</a>
@@ -826,7 +826,7 @@
                         </ul>
                         <h5 style="color:white;">VIDEO OWNERS</h5>
                         <ul class="list-unstyled quick-links">
-                            <li><a class="footerLink" href="./index#programs">Partnership Options</a></li>
+                            <li><a class="footerLink" href="./index.php#programs">Partnership Options</a></li>
                             <li><a class="footerLink" href="./index.php?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
                             <li class="btn-group dropup footerLink">
                                 <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;color:#EAE9E9;">Partnership Agreements</a>
