@@ -1,3 +1,46 @@
+<?php
+
+    ini_set("session.cookie_httponly", True);
+    session_start();
+
+    require_once('api/DI/Container.php');
+    require_once('api/controllers/CartController.php');
+    require_once('api/controllers/UserController.php');
+    require_once('api/services/UserService.php');
+    require_once('api/repositories/UserRepository.php');
+    require_once('api/infrastructures/db/Database.php');
+    require_once('api/utils/PriceUtils.php');
+
+    $container = new Container();
+    // Register a simple service (class name)
+    $container->register('DatabaseConnection', function () {
+        $c = include 'api/infrastructures/config/database.php';
+        return new DatabaseConnection("mysql:host=" . $c['host'] . ";dbname=" . $c['database'] . ";charset=" . $c['charset']);
+    });
+    // Register a service with a dependency
+    $container->register('UserRepository', UserRepository::class);
+    $container->register('UserService', UserService::class);
+    $container->register('UserController', UserController::class);
+    $container->register('CartController', CartController::class);
+    // Resolve and use the service
+    $userController = $container->get('UserController');
+    $cartController = $container->get('CartController');
+
+    $userLoggedIn = $userController->isLoggedIn();
+    $cart = $cartController->getCartSummary();
+
+    if (empty($cart['itemCount']) || $cart['itemCount'] === 0) {
+        header('Location: videos');
+        exit();
+    }
+
+
+    if ($userLoggedIn) {
+        header('Location: licenseeinfo');
+        exit();
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -108,16 +151,16 @@
 
         /** Active button **/
         .btn-breadcrumb .btn.btn-orange {
-            background-color: #F05F40;
-            color: black;
+            background-color: rgb(0, 87, 255);
+            color: white;
         }
 
         .btn-breadcrumb .btn.btn-orange:not(:last-child):after {
-            border-left: 10px solid #F05F40;
+            border-left: 10px solid rgb(0, 87, 255);
         }
 
         .btn-breadcrumb .btn.btn-orange:not(:last-child):before {
-            border-left: 10px solid #F05F40;
+            border-left: 10px solid rgb(0, 87, 255);
         }
 
         .checkoutAllPAge {
@@ -257,7 +300,7 @@
                 <div class="row" align="center" style="padding-top: 30px;">
                     <div class="col-12" style="padding:0;">
                         <div class="btn-group btn-breadcrumb" style="margin:auto">
-                            <a class="btn btn-orange" href="cart.php">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
+                            <a class="btn btn-orange" href="cart">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
                             <div class="btn btn-orange">2. <span class="d-inline d-md-block d-xl-inline">SIGN IN<span class="noneDisp-350"> / UP</span></span></div>
                             <div class="btn btn-def">3. <span class="d-none d-md-block d-xl-inline">Licensee Info</span></div>
                             <div class="btn btn-def">4. <span class="d-none d-md-block d-xl-inline">Payment Method</span></div>
@@ -269,37 +312,14 @@
                 <div class="row" style="margin-bottom:2em;">
                     <div class="col-12" style="padding-top:2em">
 
-                        <app-login checkout="true" _nghost-xtr-c38="" ng-version="11.2.14">
-                            <form _ngcontent-xtr-c38="" novalidate="" id="login-form" class="text-left form-signup bg-white w-100 login-form ng-untouched ng-pristine ng-valid">
-                                <h1 _ngcontent-xtr-c38="" class="h3 mb-3 font-weight-normal">Sign In</h1><!---->
-                                <div _ngcontent-xtr-c38="" class="main-login-form">
-                                    <div _ngcontent-xtr-c38="" class="login-group">
-                                        <div _ngcontent-xtr-c38="" class="form-group"><label _ngcontent-xtr-c38="" for="mail" class="sr-only">Email</label><input _ngcontent-xtr-c38="" type="email" name="email" id="mail" placeholder="Email" class="form-control ng-untouched ng-pristine ng-valid"></div>
-                                        <div _ngcontent-xtr-c38="" class="form-group"><label _ngcontent-xtr-c38="" for="lg_password" class="sr-only">Password</label><input _ngcontent-xtr-c38="" type="password" id="lg_password" name="password" placeholder="Password" class="form-control ng-untouched ng-pristine ng-valid"></div>
-                                    </div>
-                                    <div _ngcontent-xtr-c38=""><!----><a _ngcontent-xtr-c38="" href="customerforgotpassword.php" style="margin: auto;">Forgotten your password?</a><!----><button _ngcontent-xtr-c38="" type="button" name="login" class="btn btn-primary btn-lg btn-block mt-3 mb-3">Sign in <!----></button>
-                                        <div _ngcontent-xtr-c38=""><!----><!----><span _ngcontent-xtr-c38="">Don't have an account? <a _ngcontent-xtr-c38="" href="customersignin.php?newCustomer=1" style="margin: auto;">Sign up here</a></span><!----></div>
-                                    </div>
-                                </div>
-                            </form>
-                        </app-login>
+                        <?php
+                        if (!isset($_GET['newCustomer'])) {
+                            echo '<app-login checkout="true" _nghost-xtr-c38="" ng-version="11.2.14"></app-login><app-customer-sign-up-email-modal _nghost-xtr-c36="" ng-version="11.2.14"></app-customer-sign-up-email-modal>';
+                        } else {
+                            echo '<app-customer-sign-up checkout="true" _nghost-bvq-c35="" ng-version="11.2.14"></app-customer-sign-up>';
+                        }
+                        ?>
 
-                        <app-customer-sign-up-email-modal _nghost-xtr-c36="" ng-version="11.2.14">
-                            <div _ngcontent-xtr-c36="" data-backdrop="static" id="confirmEmailModal" tabindex="-1" role="dialog" aria-labelledby="confirmEmailModal" aria-hidden="true" class="modal fade">
-                                <div _ngcontent-xtr-c36="" class="modal-dialog modal-lg">
-                                    <div _ngcontent-xtr-c36="" class="modal-content">
-                                        <div _ngcontent-xtr-c36="" class="modal-header card-header">
-                                            <h3 _ngcontent-xtr-c36="" class="modal-title" style="color: #F05F40; font-weight: bold; margin: auto;"><span _ngcontent-xtr-c36="">Confirm E-Mail Address</span></h3><button _ngcontent-xtr-c36="" type="button" data-dismiss="modal" aria-label="Close" class="close" style="margin: 0; padding: 0; margin-top: auto; margin-bottom: auto;"><span _ngcontent-xtr-c36="" aria-hidden="true">×</span></button>
-                                        </div>
-                                        <div _ngcontent-xtr-c36="" class="card-body text-center" style="margin-top: 2rem;"><span _ngcontent-xtr-c36="">
-                                                <h4 _ngcontent-xtr-c36="">Almost done!</h4>
-                                                <p _ngcontent-xtr-c36="">Please confirm your email address with the 5-digit code we sent you.</p><input _ngcontent-xtr-c36="" type="text" maxlength="1" size="1" class="mailVal form-control ng-untouched ng-pristine ng-valid"><input _ngcontent-xtr-c36="" type="text" maxlength="1" size="1" class="mailVal form-control ng-untouched ng-pristine ng-valid"><input _ngcontent-xtr-c36="" type="text" maxlength="1" size="1" class="mailVal form-control ng-untouched ng-pristine ng-valid"><input _ngcontent-xtr-c36="" type="text" maxlength="1" size="1" class="mailVal form-control ng-untouched ng-pristine ng-valid"><input _ngcontent-xtr-c36="" type="text" maxlength="1" size="1" class="mailVal form-control ng-untouched ng-pristine ng-valid"><!----><br _ngcontent-xtr-c36=""><!---->
-                                                <p _ngcontent-xtr-c36="" class="mt-3 text-muted">No E-Mail received? <a _ngcontent-xtr-c36="" href="javascript:void(0);"> Send again</a></p><!----><!----><!---->
-                                            </span><!----><!----></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </app-customer-sign-up-email-modal>
                     </div>
                 </div>
             </div>
@@ -336,7 +356,7 @@
         <div class="modal-dialog modal-lg" style="max-height:98vh;">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Contact us</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Contact us</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -382,7 +402,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Video Owners' FAQ</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Video Owners' FAQ</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -500,7 +520,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>Imprint</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>Imprint</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -508,7 +528,7 @@
 
                 <div class="container" style="padding:2rem;padding-top:0;">
 
-                    <p>MegaVid GmbH</p>
+                    <p>MegaVid</p>
                     <p>Elisabeth-Anna-Straße 9</p>
                     <p>26486 Wangerooge</p>
                     <p>&nbsp;</p>
@@ -534,7 +554,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content ">
                 <div class="modal-header card-header" style="margin-bottom:1rem;">
-                    <h3 class="modal-title" style="color:#F05F40;font-weight: bold;margin:auto;"><span>How To buy videos at MegaVid</span></h3>
+                    <h3 class="modal-title" style="color:rgb(0, 87, 255);font-weight: bold;margin:auto;"><span>How To buy videos at MegaVid</span></h3>
                     <button class="close" type="button" style="margin:0;padding:0;margin-top: auto;margin-bottom: auto;" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -742,7 +762,7 @@
                         <div class="d-block d-lg-none"></div>
                         <a class="footerLinkCheckout" data-toggle="modal" data-target=".imprintModal" target="_blank">Imprint</a>
                         <div class="d-block d-lg-none"></div>
-                        <a class="footerLinkCheckout" href="./privacy.php" target="_blank">Privacy Policy</a>
+                        <a class="footerLinkCheckout" href="./privacy" target="_blank">Privacy Policy</a>
                         <div class="d-block d-lg-none"></div>
                         <a class="footerLinkCheckout" href="./tos.pdf" target="_blank">Terms of Service</a>
                         <div class="d-block d-lg-none"></div>

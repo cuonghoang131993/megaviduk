@@ -57,14 +57,14 @@
 
 /** Active button **/
 .btn-breadcrumb .btn.btn-orange {
-  background-color: #F05F40;
-  color: black;
+  background-color: rgb(0, 87, 255);
+  color: white;
 }
 .btn-breadcrumb .btn.btn-orange:not(:last-child):after {
-  border-left: 10px solid #F05F40;
+  border-left: 10px solid rgb(0, 87, 255);
 }
 .btn-breadcrumb .btn.btn-orange:not(:last-child):before {
-  border-left: 10px solid #F05F40;
+  border-left: 10px solid rgb(0, 87, 255);
 }
 
 
@@ -153,7 +153,7 @@
 
 /* When the checkbox is checked, add a blue background */
 .checkCont input:checked ~ .checkmark {
-    background-color: #F05F40;
+    background-color: rgb(0, 87, 255);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -182,8 +182,8 @@
 }
 
 .btn-primary.disabled, .btn-primary:disabled{
-    background-color: #F05F40;
-    border-color: #F05F40;
+    background-color: rgb(0, 87, 255);
+    border-color: rgb(0, 87, 255);
 }
 
 .tooltip-wrapper {

@@ -43,16 +43,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="text-center" >
                 <a onclick="addBookmark(\'' . $item->id . '\');" id="bookmarkSetter-' . $item->id . '" style="cursor:pointer;"><i style="font-size:24px;" class="fa fa-bookmark-o" title="Bookmark video for later" ></i></a>
                 </div>
-                <a href="./footage.php?v=' . $item->id . '">
+                <a href="./footage?v=' . $item->id . '">
                 <div class="youtube" data-embed="' . $item->id . '"> 
                 <div style="position: absolute;bottom: 0px;right: 0px; padding: 2px; margin:5px;z-index:50;background-color:black;"><font color="white">01:42</font></div>
                 </div>
                 </a>
                   <h4 class="card-title carousselItemTitle">
-                    <a class="videoInfoLink" <a href="./footage.php?v=' . $item->id . '">' . $item->title . '</a>
+                    <a class="videoInfoLink" <a href="./footage?v=' . $item->id . '">' . $item->title . '</a>
                   </h4>
                   <input type="hidden" value="101.20" name="' . $item->id . '">
-                  <a class="btn btn-default  orange" id="btn-' . $item->id . '" href="./footage.php?v=' . $item->id . '" style="width:100%;    white-space: normal;" ><i class="fa fa-arrow-circle-right" ></i> REQUEST LICENSE</a>
+                  <a class="btn btn-default  orange" id="btn-' . $item->id . '" href="./footage?v=' . $item->id . '" style="width:100%;    white-space: normal;" ><i class="fa fa-arrow-circle-right" ></i> REQUEST LICENSE</a>
                 </div>
               </div>
             </div>';

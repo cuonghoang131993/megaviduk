@@ -215,7 +215,7 @@ $container->register('CartController', CartController::class);
             <div class="card-body" style="padding-top:6px;">
               <div class="row" style="margin:auto;">
                 <div class="col-5 d-none d-lg-block" style="padding:0;padding-top: 5px;">
-                  <a href="./videos.php" style="font-size:large; color:black;"><b><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;To Video Library</b></a>
+                  <a href="./videos" style="font-size:large; color:black;"><b><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;To Video Library</b></a>
                 </div>
                 <div class="col-5 d-block d-lg-none" style="padding:0;">
                   <a id="scrollLicenseDetailsBtn" style="cursor:pointer;"><b><i class="fa fa-2x fa-shopping-cart" aria-hidden="true"></i></b></a>

@@ -13,7 +13,7 @@
       <div style="margin:auto">
         <h5 style="color:white;">BUYERS</h5>
         <ul class="list-unstyled quick-links">
-          <li><a href="./videos.php">Browse Video Library</a></li>
+          <li><a href="./videos">Browse Video Library</a></li>
           <li><a class="footerLink" href="javascript:void();" data-toggle="modal" data-target="#howToBuy-modal">How to Buy Videos?</a></li>
           <li><a class="footerLink" href="buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a></li>
         </ul>
@@ -21,8 +21,8 @@
       <div style="margin:auto">
         <h5 style="color:white;">VIDEO OWNERS</h5>
         <ul class="list-unstyled quick-links">
-          <li><a class="footerLink" href="./index.php#programs">Partnership Options</a></li>
-          <li><a class="footerLink" href="./index.php?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
+          <li><a class="footerLink" href="./index#programs">Partnership Options</a></li>
+          <li><a class="footerLink" href="./index?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
           <li class="btn-group dropup footerLink">
             <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;color:#EAE9E9;">Partnership Agreements</a>
             <div class="dropdown-menu" style="background-color:black;">
@@ -36,7 +36,7 @@
         <h5 style="color:white;">LEGAL</h5>
         <ul class="list-unstyled quick-links">
           <li><a class="footerLink" data-toggle="modal" data-target=".imprintModal">Imprint</a></li>
-          <li><a class="footerLink" href="./privacy.php" target="_blank">Privacy Policy</a></li>
+          <li><a class="footerLink" href="./privacy" target="_blank">Privacy Policy</a></li>
           <li><a class="footerLink" href="https://megavid.uk/tos.pdf" target="_blank">Terms of Service</a></li>
         </ul>
       </div>
@@ -53,8 +53,8 @@
         </ul>
         <h5 style="color:white;">VIDEO OWNERS</h5>
         <ul class="list-unstyled quick-links" style="margin-bottom:0;">
-          <li><a class="footerLink" href="./index.php#programs">Partnership Options</a></li>
-          <li><a class="footerLink" href="./index.php?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
+          <li><a class="footerLink" href="./index#programs">Partnership Options</a></li>
+          <li><a class="footerLink" href="./index?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
           <li class="btn-group dropup footerLink">
             <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;color:#EAE9E9;">Partnership Agreements</a>
             <div class="dropdown-menu" style="background-color:black;">
@@ -68,14 +68,14 @@
         <div style="display: inline-block;float: right;">
           <h5 style="color:white;">BUYERS</h5>
           <ul class="list-unstyled quick-links">
-            <li><a href="./videos.php">Browse Video Library</a></li>
+            <li><a href="./videos">Browse Video Library</a></li>
             <li><a class="footerLink" href="javascript:void();" data-toggle="modal" data-target="#howToBuy-modal">How to Buy Videos?</a></li>
             <li><a class="footerLink" href="https://megavid.uk/buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a></li>
           </ul>
           <h5 style="color:white;">LEGAL</h5>
           <ul class="list-unstyled quick-links" style="margin-bottom:0;">
             <li><a class="footerLink" data-toggle="modal" data-target=".imprintModal">Imprint</a></li>
-            <li><a class="footerLink" href="./privacy.php" target="_blank">Privacy Policy</a></li>
+            <li><a class="footerLink" href="./privacy" target="_blank">Privacy Policy</a></li>
             <li><a class="footerLink" href="https://megavid.uk/tos.pdf" target="_blank">Terms of Service</a></li>
           </ul>
         </div>
@@ -93,14 +93,14 @@
         </ul>
         <h5 style="color:white;">BUYERS</h5>
         <ul class="list-unstyled quick-links">
-          <li><a href="./videos.php">Browse Video Library</a></li>
+          <li><a href="./videos">Browse Video Library</a></li>
           <li><a class="footerLink" href="javascript:void();" data-toggle="modal" data-target="#howToBuy-modal">How to Buy Videos?</a></li>
           <li><a class="footerLink" href="buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a></li>
         </ul>
         <h5 style="color:white;">VIDEO OWNERS</h5>
         <ul class="list-unstyled quick-links">
-          <li><a class="footerLink" href="./index.php#programs">Partnership Options</a></li>
-          <li><a class="footerLink" href="./index.php?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
+          <li><a class="footerLink" href="./index#programs">Partnership Options</a></li>
+          <li><a class="footerLink" href="./index?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
           <li class="btn-group dropup footerLink">
             <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;color:#EAE9E9;">Partnership Agreements</a>
             <div class="dropdown-menu" style="background-color:black;">
@@ -112,7 +112,7 @@
         <h5 style="color:white;">LEGAL</h5>
         <ul class="list-unstyled quick-links" style="margin-bottom:0px;">
           <li><a class="footerLink" data-toggle="modal" data-target=".imprintModal">Imprint</a></li>
-          <li><a class="footerLink" href="./privacy.php" target="_blank">Privacy Policy</a></li>
+          <li><a class="footerLink" href="./privacy" target="_blank">Privacy Policy</a></li>
           <li><a class="footerLink" href="https://megavid.uk/terms-of-use/" target="_blank">Terms of Service</a></li>
         </ul>
       </div>

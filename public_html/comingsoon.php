@@ -118,37 +118,37 @@ ga('send', 'pageview');
     <tr>
       <td style="width:41%">
         <div class="row" style="margin-left:0; margin-right:0;">
-        <a class="navbar-brand js-scroll-trigger d-none d-md-block" href="./index.php" style="margin:auto auto auto 0"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="55"></a>
+        <a class="navbar-brand js-scroll-trigger d-none d-md-block" href="./index" style="margin:auto auto auto 0"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="55"></a>
         
         <div class="dropdown show nav-link" id="videolibdiv" style="margin:auto auto auto 0">
         <a href="videos" role="button" id="dropdownVideos"  aria-haspopup="true" aria-expanded="false" align="center">
         <center class="dropdown-toggle" style="color:white;">VIDEOS</center>
         </a>
         <div class="dropdown-menu blackdropdown" id="videosDropdown" aria-labelledby="dropdownVideos" style="top: 61px;left:-8px;">
-            <a class="dropdown-item" href="./videos.php?sort=0">Trending</a>
-            <a class="dropdown-item" href="./videos.php?sort=9">Most Views</a>
-            <a class="dropdown-item" href="./videos.php?sort=6">Most Likes</a>
-            <a class="dropdown-item" href="./videos.php?sort=2">Newest</a>
+            <a class="dropdown-item" href="./videos?sort=0">Trending</a>
+            <a class="dropdown-item" href="./videos?sort=9">Most Views</a>
+            <a class="dropdown-item" href="./videos?sort=6">Most Likes</a>
+            <a class="dropdown-item" href="./videos?sort=2">Newest</a>
             <div class="card">
               <div class="card-header">
                 Categories
               </div>
               <div class="card-body">
-                <a class="dropdown-item" href="./videos.php?cat=3">Animals</a>
-                <a class="dropdown-item" href="./videos.php?cat=4">Cute</a>
-                <a class="dropdown-item" href="./videos.php?cat=5">Crazy</a>
-                <a class="dropdown-item" href="./videos.php?cat=6">Funny</a>
-                <a class="dropdown-item" href="./videos.php?cat=1">Fails</a>
-                <a class="dropdown-item" href="./videos.php?cat=7">Sports</a>
-                <a class="dropdown-item" href="./videos.php?cat=8">Weather</a>
-                <a class="dropdown-item" href="./videos.php?cat=9">Wins</a>
-                <a class="dropdown-item" href="./videos.php?cat=10">Other</a>
+                <a class="dropdown-item" href="./videos?cat=3">Animals</a>
+                <a class="dropdown-item" href="./videos?cat=4">Cute</a>
+                <a class="dropdown-item" href="./videos?cat=5">Crazy</a>
+                <a class="dropdown-item" href="./videos?cat=6">Funny</a>
+                <a class="dropdown-item" href="./videos?cat=1">Fails</a>
+                <a class="dropdown-item" href="./videos?cat=7">Sports</a>
+                <a class="dropdown-item" href="./videos?cat=8">Weather</a>
+                <a class="dropdown-item" href="./videos?cat=9">Wins</a>
+                <a class="dropdown-item" href="./videos?cat=10">Other</a>
               </div>
             </div>
         </div>
         </div>
         <div class="dropdown show nav-link" id="submitdiv" style="margin:auto auto auto 0;">
-          <a href="./index.php#signup">
+          <a href="./index#signup">
           <center class="d-none d-submit-big-block" style="color:white;">SUBMIT VIDEO</center> 
           <center class="d-none d-submit-small-block" style="color:white;">SUBMIT</center> 
           </a>
@@ -159,7 +159,7 @@ ga('send', 'pageview');
         </td>
         <td style="width:18%">
           <div class="d-none d-xxxl-block">
-            <form class="input-group" method="get" action="./videos.php" >
+            <form class="input-group" method="get" action="./videos" >
               <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control"  placeholder="Search videos by Keyword or URL" value="">
               <span class="input-group-btn">
                 <button class="btn btn-default orange" type="submit" > <i class="fa fa-1x fa-search "></i></button>
@@ -167,7 +167,7 @@ ga('send', 'pageview');
             </form>
           </div>
           <div class="d-xxxl-none">
-            <form class="input-group" method="get" action="./videos.php" >
+            <form class="input-group" method="get" action="./videos" >
               <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control"  placeholder="Search videos" value="">
               <span class="input-group-btn">
                 <button class="btn btn-default orange" type="submit" > <i class="fa fa-1x fa-search "></i></button>
@@ -182,12 +182,12 @@ ga('send', 'pageview');
       <center ><i class="fa fa-2x fa-user" ></i><br><span class="d-none d-llg-block">MY ACCOUNT</span></center>
       </a>
       <div class="dropdown-menu" id="accountDropdown" aria-labelledby="dropdownMenuAccount" >
-          <a class="dropdown-item" href="./comingsoon.php" >Order History</a>
-          <a class="dropdown-item" href="./comingsoon.php" >My Folders</a>
-          <a class="dropdown-item" href="./comingsoon.php" >Notification Settings </a>
-          <a class="dropdown-item" href="./comingsoon.php" >Advanced Settings</a>
+          <a class="dropdown-item" href="./comingsoon" >Order History</a>
+          <a class="dropdown-item" href="./comingsoon" >My Folders</a>
+          <a class="dropdown-item" href="./comingsoon" >Notification Settings </a>
+          <a class="dropdown-item" href="./comingsoon" >Advanced Settings</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="customerLogout.php" >Sign out</a>
+          <a class="dropdown-item" href="customerLogout" >Sign out</a>
       </div>
     </div>
     <div class="dropdown show nav-link" id="bookmarkdiv" style="margin:auto 0 auto auto">
@@ -200,7 +200,7 @@ ga('send', 'pageview');
 
 
     <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
-      <a href="cart.php" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
+      <a href="cart" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
       <center><i class="fa fa-2x fa-shopping-cart"></i><br>CART (2)</center> 
       </a>
     </div>
@@ -225,24 +225,24 @@ ga('send', 'pageview');
         <center class="dropdown-toggle" style="color:white;">VIDEOS</center>
         </a>
         <div class="dropdown-menu blackdropdown" id="videosDropdownSmall" aria-labelledby="dropdownVideos" style="left:-8px;">
-            <a class="dropdown-item" href="./videos.php?sort=0">Trending</a>
-            <a class="dropdown-item" href="./videos.php?sort=9">Most Views</a>
-            <a class="dropdown-item" href="./videos.php?sort=6">Most Likes</a>
-            <a class="dropdown-item" href="./videos.php?sort=2">Newest</a>
+            <a class="dropdown-item" href="./videos?sort=0">Trending</a>
+            <a class="dropdown-item" href="./videos?sort=9">Most Views</a>
+            <a class="dropdown-item" href="./videos?sort=6">Most Likes</a>
+            <a class="dropdown-item" href="./videos?sort=2">Newest</a>
             <div class="card">
               <div class="card-header">
                 Categories
               </div>
               <div class="card-body">
-              <a class="dropdown-item" href="./videos.php?cat=3">Animals</a>
-                <a class="dropdown-item" href="./videos.php?cat=4">Cute</a>
-                <a class="dropdown-item" href="./videos.php?cat=5">Crazy</a>
-                <a class="dropdown-item" href="./videos.php?cat=6">Funny</a>
-                <a class="dropdown-item" href="./videos.php?cat=1">Fails</a>
-                <a class="dropdown-item" href="./videos.php?cat=7">Sports</a>
-                <a class="dropdown-item" href="./videos.php?cat=8">Weather</a>
-                <a class="dropdown-item" href="./videos.php?cat=9">Wins</a>
-                <a class="dropdown-item" href="./videos.php?cat=10">Other</a>
+              <a class="dropdown-item" href="./videos?cat=3">Animals</a>
+                <a class="dropdown-item" href="./videos?cat=4">Cute</a>
+                <a class="dropdown-item" href="./videos?cat=5">Crazy</a>
+                <a class="dropdown-item" href="./videos?cat=6">Funny</a>
+                <a class="dropdown-item" href="./videos?cat=1">Fails</a>
+                <a class="dropdown-item" href="./videos?cat=7">Sports</a>
+                <a class="dropdown-item" href="./videos?cat=8">Weather</a>
+                <a class="dropdown-item" href="./videos?cat=9">Wins</a>
+                <a class="dropdown-item" href="./videos?cat=10">Other</a>
               </div>
             </div>
         </div>
@@ -250,7 +250,7 @@ ga('send', 'pageview');
 
 
         <div class="dropdown show nav-link" id="submitdiv" style="margin:auto auto auto 0;">
-          <a href="./index.php#signup">
+          <a href="./index#signup">
           <center class="d-none d-submit-smbig-block" style="color:white;">SUBMIT VIDEO</center> 
           <center class="d-none d-submit-smsmall-block" style="color:white;">SUBMIT</center> 
           </a>
@@ -258,7 +258,7 @@ ga('send', 'pageview');
         </div>
         </td>
         <td style="width:18%">
-          <a class="navbar-brand js-scroll-trigger" href="./index.php"><img src="img/blue-black-minimalist-play-media-logo-design.png" style="margin-right:0;" alt="Megavid" height="45"></a>
+          <a class="navbar-brand js-scroll-trigger" href="./index"><img src="img/blue-black-minimalist-play-media-logo-design.png" style="margin-right:0;" alt="Megavid" height="45"></a>
       
         </td>
         <td style="width:41%">
@@ -268,12 +268,12 @@ ga('send', 'pageview');
       <center ><i class="fa fa-2x fa-user" ></i><br><span class="d-none d-llg-block">MY ACCOUNT</span></center>
       </a>
       <div class="dropdown-menu" id="accountDropdown" aria-labelledby="dropdownMenuAccount" >
-          <a class="dropdown-item" href="./comingsoon.php" >Order History</a>
-          <a class="dropdown-item" href="./comingsoon.php" >My Folders</a>
-          <a class="dropdown-item" href="./comingsoon.php" >Notification Settings </a>
-          <a class="dropdown-item" href="./comingsoon.php" >Advanced Settings</a>
+          <a class="dropdown-item" href="./comingsoon" >Order History</a>
+          <a class="dropdown-item" href="./comingsoon" >My Folders</a>
+          <a class="dropdown-item" href="./comingsoon" >Notification Settings </a>
+          <a class="dropdown-item" href="./comingsoon" >Advanced Settings</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="customerLogout.php" >Sign out</a>
+          <a class="dropdown-item" href="customerLogout" >Sign out</a>
       </div>
     </div>
     <div class="dropdown show nav-link" id="bookmarkdivSmall" style="margin:auto 0 auto auto">
@@ -286,7 +286,7 @@ ga('send', 'pageview');
 
 
     <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
-      <a href="cart.php" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
+      <a href="cart" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
       <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPill" class="badge badge-pill" style="background-color:rgb(0, 87, 255);position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">2</span></center>
       </a>
     </div>
@@ -296,7 +296,7 @@ ga('send', 'pageview');
 
 <tr>
 <td colspan="3">
-  <form class="input-group" method="get" action="./videos.php" >
+  <form class="input-group" method="get" action="./videos" >
     <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control"  placeholder="Search videos by Keyword or URL" value="">
     <span class="input-group-btn">
       <button class="btn btn-default orange" type="submit" > <i class="fa fa-1x fa-search "></i></button>
@@ -314,7 +314,7 @@ ga('send', 'pageview');
     <table style="width:100%"> 
     <tr>
         <td>
-          <a class="navbar-brand js-scroll-trigger" href="./index.php" style="margin-right:0;"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="35"></a>
+          <a class="navbar-brand js-scroll-trigger" href="./index" style="margin-right:0;"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="35"></a>
         </td>
         <td >
         <div class="row" style="margin-left:0;">
@@ -323,12 +323,12 @@ ga('send', 'pageview');
       <center ><i class="fa fa-2x fa-user" ></i><br><span class="d-none d-llg-block">MY ACCOUNT</span></center>
       </a>
       <div class="dropdown-menu" id="accountDropdown" aria-labelledby="dropdownMenuAccount" >
-          <a class="dropdown-item" href="./comingsoon.php" >Order History</a>
-          <a class="dropdown-item" href="./comingsoon.php" >My Folders</a>
-          <a class="dropdown-item" href="./comingsoon.php" >Notification Settings </a>
-          <a class="dropdown-item" href="./comingsoon.php" >Advanced Settings</a>
+          <a class="dropdown-item" href="./comingsoon" >Order History</a>
+          <a class="dropdown-item" href="./comingsoon" >My Folders</a>
+          <a class="dropdown-item" href="./comingsoon" >Notification Settings </a>
+          <a class="dropdown-item" href="./comingsoon" >Advanced Settings</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="customerLogout.php" >Sign out</a>
+          <a class="dropdown-item" href="customerLogout" >Sign out</a>
       </div>
     </div>
     <div class="dropdown show nav-link" id="bookmarkdivXtraSmall" style="margin:auto 0 auto auto">
@@ -341,7 +341,7 @@ ga('send', 'pageview');
 
 
     <div class="dropdown show nav-link" id="cartdiv" style="margin:auto 0 auto auto ;">
-      <a href="cart.php" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
+      <a href="cart" role="button" id="dropdownCart" aria-haspopup="true" aria-expanded="false">
       <center><i class="fa fa-2x fa-shopping-cart"></i><span id="cartNumPillSmall" class="badge badge-pill" style="background-color:rgb(0, 87, 255);position: absolute;top: 0px;left: 36px;font-size: 10px;color:white">2</span></center>
       </a>
     </div>
@@ -351,7 +351,7 @@ ga('send', 'pageview');
 
   <tr>
     <td colspan="3">
-      <form class="input-group" method="get" action="./videos.php" >
+      <form class="input-group" method="get" action="./videos" >
         <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control mobile-log-xs"  placeholder="Search videos by Keyword or URL" value="">
         <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control mobile-log-xss"  placeholder="Search videos" value="">
         <span class="input-group-btn">
@@ -367,24 +367,24 @@ ga('send', 'pageview');
               <center class="dropdown-toggle" style="color:white;">VIDEOS</center>
             </a>
             <div class="dropdown-menu blackdropdown" id="videosDropdownXtraSmall" aria-labelledby="dropdownVideos" style="top: 45px;left:20px;">
-                <a class="dropdown-item" href="./videos.php?sort=0">Trending</a>
-                <a class="dropdown-item" href="./videos.php?sort=9">Most Views</a>
-                <a class="dropdown-item" href="./videos.php?sort=6">Most Likes</a>
-                <a class="dropdown-item" href="./videos.php?sort=2">Newest</a>
+                <a class="dropdown-item" href="./videos?sort=0">Trending</a>
+                <a class="dropdown-item" href="./videos?sort=9">Most Views</a>
+                <a class="dropdown-item" href="./videos?sort=6">Most Likes</a>
+                <a class="dropdown-item" href="./videos?sort=2">Newest</a>
                 <div class="card">
                   <div class="card-header">
                     Categories
                   </div>
                   <div class="card-body">
-                    <a class="dropdown-item" href="./videos.php?cat=3">Animals</a>
-                    <a class="dropdown-item" href="./videos.php?cat=4">Cute</a>
-                    <a class="dropdown-item" href="./videos.php?cat=5">Crazy</a>
-                    <a class="dropdown-item" href="./videos.php?cat=6">Funny</a>
-                    <a class="dropdown-item" href="./videos.php?cat=1">Fails</a>
-                    <a class="dropdown-item" href="./videos.php?cat=7">Sports</a>
-                    <a class="dropdown-item" href="./videos.php?cat=8">Weather</a>
-                    <a class="dropdown-item" href="./videos.php?cat=9">Wins</a>
-                    <a class="dropdown-item" href="./videos.php?cat=10">Other</a>
+                    <a class="dropdown-item" href="./videos?cat=3">Animals</a>
+                    <a class="dropdown-item" href="./videos?cat=4">Cute</a>
+                    <a class="dropdown-item" href="./videos?cat=5">Crazy</a>
+                    <a class="dropdown-item" href="./videos?cat=6">Funny</a>
+                    <a class="dropdown-item" href="./videos?cat=1">Fails</a>
+                    <a class="dropdown-item" href="./videos?cat=7">Sports</a>
+                    <a class="dropdown-item" href="./videos?cat=8">Weather</a>
+                    <a class="dropdown-item" href="./videos?cat=9">Wins</a>
+                    <a class="dropdown-item" href="./videos?cat=10">Other</a>
                   </div>
                 </div>
             </div>
@@ -392,7 +392,7 @@ ga('send', 'pageview');
       </td>
       <td>
       <div class="dropdown show nav-link" id="submitdiv">
-          <a href="./index.php#signup">
+          <a href="./index#signup">
           <center  style="color:white;">SUBMIT VIDEO</center> 
           </a>
         </div>
@@ -904,7 +904,7 @@ ga('send', 'pageview');
 				<div style="margin:auto">
 					<h5 style="color:white;">BUYERS</h5>
 					<ul class="list-unstyled quick-links">
-						<li><a href="./videos.php">Browse Video Library</a></li>
+						<li><a href="./videos">Browse Video Library</a></li>
 						<li><a class="footerLink" href="javascript:void();" data-toggle="modal" data-target="#howToBuy-modal">How to Buy Videos?</a></li>
 						<li><a class="footerLink" href="buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a></li>
 					</ul>
@@ -913,7 +913,7 @@ ga('send', 'pageview');
 					<h5 style="color:white;">VIDEO OWNERS</h5>
 					<ul class="list-unstyled quick-links">
             <li><a class="footerLink" href="./index#programs">Partnership Options</a></li>
-						<li><a class="footerLink" href="./index.php?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
+						<li><a class="footerLink" href="./index?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
             <li class="btn-group dropup footerLink">
                   <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;color:#EAE9E9;">Partnership Agreements</a>
                   <div class="dropdown-menu" style="background-color:black;">
@@ -927,7 +927,7 @@ ga('send', 'pageview');
 					<h5 style="color:white;">LEGAL</h5>
 					<ul class="list-unstyled quick-links">
 						<li><a class="footerLink" data-toggle="modal" data-target=".imprintModal">Imprint</a></li>
-						<li><a class="footerLink" href="./privacy.php"  target="_blank">Privacy Policy</a></li>
+						<li><a class="footerLink" href="./privacy"  target="_blank">Privacy Policy</a></li>
 						<li><a class="footerLink" href="./tos.pdf"  target="_blank">Terms of Service</a></li>
 					</ul>
 				</div>
@@ -945,7 +945,7 @@ ga('send', 'pageview');
               <h5 style="color:white;">VIDEO OWNERS</h5>
               <ul class="list-unstyled quick-links" style="margin-bottom:0;">
                 <li><a class="footerLink" href="./index#programs">Partnership Options</a></li>
-                <li><a class="footerLink" href="./index.php?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
+                <li><a class="footerLink" href="./index?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
                 <li class="btn-group dropup footerLink">
                   <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;color:#EAE9E9;">Partnership Agreements</a>
                   <div class="dropdown-menu" style="background-color:black;">
@@ -959,14 +959,14 @@ ga('send', 'pageview');
               <div style="display: inline-block;float: right;">
                 <h5 style="color:white;">BUYERS</h5>
                 <ul class="list-unstyled quick-links">
-                  <li><a href="./videos.php">Browse Video Library</a></li>
+                  <li><a href="./videos">Browse Video Library</a></li>
                   <li><a class="footerLink" href="javascript:void();" data-toggle="modal" data-target="#howToBuy-modal">How to Buy Videos?</a></li>
                   <li><a class="footerLink" href="buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a></li>
                 </ul>
                 <h5 style="color:white;">LEGAL</h5>
                 <ul class="list-unstyled quick-links" style="margin-bottom:0;">
                   <li><a class="footerLink" data-toggle="modal" data-target=".imprintModal">Imprint</a></li>
-                  <li><a class="footerLink" href="./privacy.php"  target="_blank">Privacy Policy</a></li>
+                  <li><a class="footerLink" href="./privacy"  target="_blank">Privacy Policy</a></li>
                   <li><a class="footerLink" href="./tos.pdf"  target="_blank">Terms of Service</a></li>
                 </ul>
               </div>
@@ -984,14 +984,14 @@ ga('send', 'pageview');
               </ul>
               <h5 style="color:white;">BUYERS</h5>
               <ul class="list-unstyled quick-links">
-                <li><a href="./videos.php">Browse Video Library</a></li>
+                <li><a href="./videos">Browse Video Library</a></li>
                 <li><a class="footerLink" href="javascript:void();" data-toggle="modal" data-target="#howToBuy-modal">How to Buy Videos?</a></li>
                 <li><a class="footerLink" href="buyerlicenseagreement.pdf" target="_blank">Buyer License Agreement</a></li>
               </ul>
               <h5 style="color:white;">VIDEO OWNERS</h5>
               <ul class="list-unstyled quick-links">
                 <li><a class="footerLink" href="./index#programs">Partnership Options</a></li>
-                <li><a class="footerLink" href="./index.php?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
+                <li><a class="footerLink" href="./index?video-owners-FAQ#ques">Video Owners' FAQ</a></li>
                 <li class="btn-group dropup footerLink">
                   <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;color:#EAE9E9;">Partnership Agreements</a>
                   <div class="dropdown-menu" style="background-color:black;">
@@ -1003,7 +1003,7 @@ ga('send', 'pageview');
               <h5 style="color:white;">LEGAL</h5>
               <ul class="list-unstyled quick-links" style="margin-bottom:0px;">
                 <li><a class="footerLink" data-toggle="modal" data-target=".imprintModal">Imprint</a></li>
-                <li><a class="footerLink" href="./privacy.php"  target="_blank">Privacy Policy</a></li>
+                <li><a class="footerLink" href="./privacy"  target="_blank">Privacy Policy</a></li>
                 <li><a class="footerLink" href="./tos.pdf"  target="_blank">Terms of Service</a></li>
               </ul>
           </div>

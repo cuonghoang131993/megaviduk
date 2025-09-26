@@ -14,31 +14,31 @@
         <tr>
           <td style="width:41%">
             <div class="row" style="margin-left:0; margin-right:0;">
-              <a class="navbar-brand js-scroll-trigger d-none d-md-block" href="./index.php" style="margin:auto auto auto 0"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="55"></a>
+              <a class="navbar-brand js-scroll-trigger d-none d-md-block" href="./index" style="margin:auto auto auto 0"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="55"></a>
 
               <div class="dropdown show nav-link" id="videolibdiv" style="margin:auto auto auto 0">
-                <a href="./videos.php" role="button" id="dropdownVideos" aria-haspopup="true" aria-expanded="false" align="center">
+                <a href="./videos" role="button" id="dropdownVideos" aria-haspopup="true" aria-expanded="false" align="center">
                   <center class="dropdown-toggle" style="color:white;">VIDEOS</center>
                 </a>
                 <div class="dropdown-menu blackdropdown" id="videosDropdown" aria-labelledby="dropdownVideos" style="top: 61px;left:-8px;">
-                  <a class="dropdown-item" href="./videos.php?sort=0">Trending</a>
-                  <a class="dropdown-item" href="./videos.php?sort=9">Most Views</a>
-                  <a class="dropdown-item" href="./videos.php?sort=6">Most Likes</a>
-                  <a class="dropdown-item" href="./videos.php?sort=2">Newest</a>
+                  <a class="dropdown-item" href="./videos?sort=0">Trending</a>
+                  <a class="dropdown-item" href="./videos?sort=9">Most Views</a>
+                  <a class="dropdown-item" href="./videos?sort=6">Most Likes</a>
+                  <a class="dropdown-item" href="./videos?sort=2">Newest</a>
                   <div class="card">
                     <div class="card-header">
                       Categories
                     </div>
                     <div class="card-body">
-                      <a class="dropdown-item" href="./videos.php?cat=3">Animals</a>
-                      <a class="dropdown-item" href="./videos.php?cat=4">Cute</a>
-                      <a class="dropdown-item" href="./videos.php?cat=5">Crazy</a>
-                      <a class="dropdown-item" href="./videos.php?cat=6">Funny</a>
-                      <a class="dropdown-item" href="./videos.php?cat=1">Fails</a>
-                      <a class="dropdown-item" href="./videos.php?cat=7">Sports</a>
-                      <a class="dropdown-item" href="./videos.php?cat=8">Weather</a>
-                      <a class="dropdown-item" href="./videos.php?cat=9">Wins</a>
-                      <a class="dropdown-item" href="./videos.php?cat=10">Other</a>
+                      <a class="dropdown-item" href="./videos?cat=3">Animals</a>
+                      <a class="dropdown-item" href="./videos?cat=4">Cute</a>
+                      <a class="dropdown-item" href="./videos?cat=5">Crazy</a>
+                      <a class="dropdown-item" href="./videos?cat=6">Funny</a>
+                      <a class="dropdown-item" href="./videos?cat=1">Fails</a>
+                      <a class="dropdown-item" href="./videos?cat=7">Sports</a>
+                      <a class="dropdown-item" href="./videos?cat=8">Weather</a>
+                      <a class="dropdown-item" href="./videos?cat=9">Wins</a>
+                      <a class="dropdown-item" href="./videos?cat=10">Other</a>
                     </div>
                   </div>
                 </div>
@@ -82,12 +82,12 @@
       <center><i class="fa fa-2x fa-user"></i><br><span class="d-none d-llg-block">MY ACCOUNT</span></center>
       </a>
       <div class="dropdown-menu" id="accountDropdown" aria-labelledby="dropdownMenuAccount" style="display: none;">
-          <a class="dropdown-item" href="./comingsoon.php">Order History</a>
-          <a class="dropdown-item" href="./comingsoon.php">My Folders</a>
-          <a class="dropdown-item" href="./comingsoon.php">Notification Settings </a>
-          <a class="dropdown-item" href="./comingsoon.php">Advanced Settings</a>
+          <a class="dropdown-item" href="./comingsoon">Order History</a>
+          <a class="dropdown-item" href="./comingsoon">My Folders</a>
+          <a class="dropdown-item" href="./comingsoon">Notification Settings </a>
+          <a class="dropdown-item" href="./comingsoon">Advanced Settings</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="customerLogout.php">Sign out</a>
+          <a class="dropdown-item" href="customerLogout">Sign out</a>
       </div>';
               } else {
                 echo '<div class="dropdown show nav-link" id="accountdiv" style="margin:auto 0 auto auto">
@@ -161,24 +161,24 @@
                   <center class="dropdown-toggle" style="color:white;">VIDEOS</center>
                 </a>
                 <div class="dropdown-menu blackdropdown" id="videosDropdownSmall" aria-labelledby="dropdownVideos" style="left:-8px;">
-                  <a class="dropdown-item" href="./videos.php?sort=0">Trending</a>
-                  <a class="dropdown-item" href="./videos.php?sort=9">Most Views</a>
-                  <a class="dropdown-item" href="./videos.php?sort=6">Most Likes</a>
-                  <a class="dropdown-item" href="./videos.php?sort=2">Newest</a>
+                  <a class="dropdown-item" href="./videos?sort=0">Trending</a>
+                  <a class="dropdown-item" href="./videos?sort=9">Most Views</a>
+                  <a class="dropdown-item" href="./videos?sort=6">Most Likes</a>
+                  <a class="dropdown-item" href="./videos?sort=2">Newest</a>
                   <div class="card">
                     <div class="card-header">
                       Categories
                     </div>
                     <div class="card-body">
-                      <a class="dropdown-item" href="./videos.php?cat=3">Animals</a>
-                      <a class="dropdown-item" href="./videos.php?cat=4">Cute</a>
-                      <a class="dropdown-item" href="./videos.php?cat=5">Crazy</a>
-                      <a class="dropdown-item" href="./videos.php?cat=6">Funny</a>
-                      <a class="dropdown-item" href="./videos.php?cat=1">Fails</a>
-                      <a class="dropdown-item" href="./videos.php?cat=7">Sports</a>
-                      <a class="dropdown-item" href="./videos.php?cat=8">Weather</a>
-                      <a class="dropdown-item" href="./videos.php?cat=9">Wins</a>
-                      <a class="dropdown-item" href="./videos.php?cat=10">Other</a>
+                      <a class="dropdown-item" href="./videos?cat=3">Animals</a>
+                      <a class="dropdown-item" href="./videos?cat=4">Cute</a>
+                      <a class="dropdown-item" href="./videos?cat=5">Crazy</a>
+                      <a class="dropdown-item" href="./videos?cat=6">Funny</a>
+                      <a class="dropdown-item" href="./videos?cat=1">Fails</a>
+                      <a class="dropdown-item" href="./videos?cat=7">Sports</a>
+                      <a class="dropdown-item" href="./videos?cat=8">Weather</a>
+                      <a class="dropdown-item" href="./videos?cat=9">Wins</a>
+                      <a class="dropdown-item" href="./videos?cat=10">Other</a>
                     </div>
                   </div>
                 </div>
@@ -228,7 +228,7 @@
 
         <tr>
           <td colspan="3">
-            <form class="input-group" method="get" action="./videos.php">
+            <form class="input-group" method="get" action="./videos">
               <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control" placeholder="Search videos by Keyword or URL" value="">
               <span class="input-group-btn">
                 <button class="btn btn-default orange" type="submit"> <i class="fa fa-1x fa-search "></i></button>
@@ -246,7 +246,7 @@
       <table style="width:100%">
         <tr>
           <td>
-            <a class="navbar-brand js-scroll-trigger" href="./index.php" style="margin-right:0;"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="35"></a>
+            <a class="navbar-brand js-scroll-trigger" href="./index" style="margin-right:0;"><img src="img/blue-black-minimalist-play-media-logo-design.png" alt="Megavid" height="35"></a>
           </td>
           <td>
             <div class="row" style="margin-left:0;">
@@ -279,7 +279,7 @@
 
         <tr>
           <td colspan="3">
-            <form class="input-group" method="get" action="./videos.php">
+            <form class="input-group" method="get" action="./videos">
               <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control mobile-log-xs" placeholder="Search videos by Keyword or URL" value="">
               <input style="border-radius: 300px;border-bottom-right-radius: 0;border-top-right-radius: 0;" type="text" name="searchstr" class="form-control mobile-log-xss" placeholder="Search videos" value="">
               <span class="input-group-btn">
@@ -295,24 +295,24 @@
                 <center class="dropdown-toggle" style="color:white;">VIDEOS</center>
               </a>
               <div class="dropdown-menu blackdropdown" id="videosDropdownXtraSmall" aria-labelledby="dropdownVideos" style="top: 45px;left:20px;">
-                <a class="dropdown-item" href="./videos.php?sort=0">Trending</a>
-                <a class="dropdown-item" href="./videos.php?sort=9">Most Views</a>
-                <a class="dropdown-item" href="./videos.php?sort=6">Most Likes</a>
-                <a class="dropdown-item" href="./videos.php?sort=2">Newest</a>
+                <a class="dropdown-item" href="./videos?sort=0">Trending</a>
+                <a class="dropdown-item" href="./videos?sort=9">Most Views</a>
+                <a class="dropdown-item" href="./videos?sort=6">Most Likes</a>
+                <a class="dropdown-item" href="./videos?sort=2">Newest</a>
                 <div class="card">
                   <div class="card-header">
                     Categories
                   </div>
                   <div class="card-body">
-                    <a class="dropdown-item" href="./videos.php?cat=3">Animals</a>
-                    <a class="dropdown-item" href="./videos.php?cat=4">Cute</a>
-                    <a class="dropdown-item" href="./videos.php?cat=5">Crazy</a>
-                    <a class="dropdown-item" href="./videos.php?cat=6">Funny</a>
-                    <a class="dropdown-item" href="./videos.php?cat=1">Fails</a>
-                    <a class="dropdown-item" href="./videos.php?cat=7">Sports</a>
-                    <a class="dropdown-item" href="./videos.php?cat=8">Weather</a>
-                    <a class="dropdown-item" href="./videos.php?cat=9">Wins</a>
-                    <a class="dropdown-item" href="./videos.php?cat=10">Other</a>
+                    <a class="dropdown-item" href="./videos?cat=3">Animals</a>
+                    <a class="dropdown-item" href="./videos?cat=4">Cute</a>
+                    <a class="dropdown-item" href="./videos?cat=5">Crazy</a>
+                    <a class="dropdown-item" href="./videos?cat=6">Funny</a>
+                    <a class="dropdown-item" href="./videos?cat=1">Fails</a>
+                    <a class="dropdown-item" href="./videos?cat=7">Sports</a>
+                    <a class="dropdown-item" href="./videos?cat=8">Weather</a>
+                    <a class="dropdown-item" href="./videos?cat=9">Wins</a>
+                    <a class="dropdown-item" href="./videos?cat=10">Other</a>
                   </div>
                 </div>
               </div>
@@ -320,7 +320,7 @@
           </td>
           <td>
             <div class="dropdown show nav-link" id="submitdiv">
-              <a href="./index.php#signup">
+              <a href="./index#signup">
                 <center style="color:white;">SUBMIT VIDEO</center>
               </a>
             </div>
@@ -372,7 +372,7 @@
                 <div class="card text-center">
                   <div class="card-body">
                     <h2 class="card-title">Video Owner’s Sign Up</h2>
-                    <p class="card-text" style="padding:35px;">Please sign up by<br><a href="./index.php#signup">submitting your video here.</a></p>
+                    <p class="card-text" style="padding:35px;">Please sign up by<br><a href="./index#signup">submitting your video here.</a></p>
                   </div>
                 </div>
               </div>

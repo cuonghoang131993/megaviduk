@@ -208,7 +208,7 @@ $container->register('CartController', CartController::class);
 
                     <div class="row" style="margin-top:40px;">
                         <div style="margin:auto;">
-                            <a class="btn btn-default sr-button orange" id="btnPrevPage" style="margin-right:1em;visibility:hidden !important;" onclick="prevPage();">PREVIOUS PAGE</a><input type="number" id="pageNum" name="pageNum" value="1" min="1" max="999" onchange="changePage()"><span style="margin:1em;margin-top:auto;margin-bottom:auto;">of</span><a id="maxPageLink" style="margin-right:1em;margin-top:auto;margin-bottom:auto;color:orange;" href="./videos.php?cat=9#" onclick="showLastPage();">1</a> <a id="btnNextPage" class="btn btn-default sr-button orange" onclick="nextPage();">NEXT PAGE</a>
+                            <a class="btn btn-default sr-button orange" id="btnPrevPage" style="margin-right:1em;visibility:hidden !important;" onclick="prevPage();">PREVIOUS PAGE</a><input type="number" id="pageNum" name="pageNum" value="1" min="1" max="999" onchange="changePage()"><span style="margin:1em;margin-top:auto;margin-bottom:auto;">of</span><a id="maxPageLink" style="margin-right:1em;margin-top:auto;margin-bottom:auto;color:orange;" href="./videos?cat=9#" onclick="showLastPage();">1</a> <a id="btnNextPage" class="btn btn-default sr-button orange" onclick="nextPage();">NEXT PAGE</a>
 
                         </div>
                     </div>
@@ -232,7 +232,7 @@ $container->register('CartController', CartController::class);
 
                     <div class="container" style="padding:2rem;padding-top:0;">
 
-                        <form id="newsletter-form" class="text-left" action="./videos.php?cat=9" method="post">
+                        <form id="newsletter-form" class="text-left" action="./videos?cat=9" method="post">
                             <div class="login-form-main-message"></div>
                             Subscribe to our newsletter and receive the latest announcements and updates about us, our services, and more!
 
@@ -292,7 +292,7 @@ $container->register('CartController', CartController::class);
                 </div>
 
                 <div class="container" style="padding:2rem;padding-top:0;">
-                    <form id="contactForm" class="text-left" action="./videos.php?cat=9" method="post">
+                    <form id="contactForm" class="text-left" action="./videos?cat=9" method="post">
                         <div class="login-form-main-message"></div>
                         <div class="main-login-form">
                             <div style="padding-bottom:1em;">Get in touch via the contact form below or contact us via email at <a href="mailto:info@megavid.uk">info@megavid.uk</a> or via phone at <a href="tel:490780392311">+49 (0) 780 392 311</a> (Monday-Friday from 9:00 a.m. to 12:00 a.m. and 2:30 p.m. to 5:30 p.m. CEST).</div>
