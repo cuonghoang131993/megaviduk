@@ -25,8 +25,9 @@ $response = [];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   try {
-    
-    $res = $videoController->findRelatedVideosById('');
+    $videoID = $_POST['videoID'] ?? '';
+
+    $res = $videoController->findRelatedVideosById($videoID);
 
     if ($res !== null) {
       foreach ($res as $item) {

@@ -52,6 +52,13 @@ $container->register('CartController', CartController::class);
   <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js/yt.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+
+
   <script>
     document.addEventListener("touchstart", function() {}, true);
   </script>
@@ -833,11 +840,7 @@ $container->register('CartController', CartController::class);
   ?>
   <!-- ./Footer -->
 
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" async></script>
-  <script src="js/yt.min.js" async></script>
   <script type="text/javascript" src="js/jquery.qtip.min.js" async></script>
-  <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 
   <script>
     function setRadioBasic() {

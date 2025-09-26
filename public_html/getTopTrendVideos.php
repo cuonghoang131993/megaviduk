@@ -25,9 +25,7 @@ $response = [];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   try {
-    $videoID = $_POST['videoID'] ?? '';
-
-    $res = $videoController->findByParams($videoID);
+    $res = $videoController->findByParams('', '0', 0, 10);
 
     if ($res !== null) {
       foreach ($res as $item) {
