@@ -51863,7 +51863,7 @@
                     name: "@ Author Name via Megavid",
                     id: "short"
                 }, {
-                    name: "\xa9 Author Name | Licensed via https://megavid.uk/videos ",
+                    name: "\xa9 Author Name | Licensed via https://megavid.uk/videos.php ",
                     id: "long"
                 }],
                 this.eventSub = new H,
@@ -51908,7 +51908,7 @@
                     name: "\xa9 " + e + " via Megavid",
                     id: "short"
                 }, {
-                    name: "\xa9 " + e + " | Licensed via https://megavid.uk/videos ",
+                    name: "\xa9 " + e + " | Licensed via https://megavid.uk/videos.php ",
                     id: "long"
                 }] : this.credit
             }
