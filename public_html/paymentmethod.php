@@ -30,12 +30,12 @@
     $cart = $cartController->getCartSummary();
 
     if (empty($cart['itemCount']) || $cart['itemCount'] === 0) {
-        header('Location: videos');
+        header('Location: videos.php');
         exit();
     }
 
     if (!isset($userLoggedIn)) {
-        header('Location: customersignin');
+        header('Location: customersignin.php');
         exit();
     }
 

@@ -62,7 +62,7 @@
                                     <a class="navbar-brand js-scroll-trigger d-none d-md-block" href="./index.php" style="margin:auto auto auto 0"><img src="img/Licet Studios - Viral Video Licensing.svg" alt="Licet Studios" height="55"></a>
 
                                     <div class="dropdown show nav-link" id="videolibdiv" style="margin:auto auto auto 0">
-                                        <a href="videos" role="button" id="dropdownVideos" aria-haspopup="true" aria-expanded="false" align="center">
+                                        <a href="videos.php" role="button" id="dropdownVideos" aria-haspopup="true" aria-expanded="false" align="center">
                                             <center class="dropdown-toggle" style="color:white;">VIDEOS</center>
                                         </a>
                                         <div class="dropdown-menu blackdropdown" id="videosDropdown" aria-labelledby="dropdownVideos" style="top: 61px;left:-8px;">

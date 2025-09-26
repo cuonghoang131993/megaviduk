@@ -513,7 +513,7 @@ $container->register('CartController', CartController::class);
                 <div class="card-body" align="justify">
                   We recommend to forward such message to <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a> and to send the following passage as reply additionally:
                   <br><br>
-                  <em>Thank you for your message. Please visit <a href="https://megavid.uk/videos">www.megavid.uk/videos</a> or email <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a> to license / use this video. Thank you!</em>
+                  <em>Thank you for your message. Please visit <a href="../videos.php">www.megavid.uk/videos</a> or email <a href="mailto:licensing@megavid.uk">licensing@megavid.uk</a> to license / use this video. Thank you!</em>
                 </div>
               </div>
             </div>
