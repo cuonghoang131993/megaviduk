@@ -237,7 +237,7 @@ $container->register('CartController', CartController::class);
                       </div>
                       <div class="modal-body">
                         <div class="input-group">
-                          <input class="form-control" type="text" value="megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                          <input class="form-control" type="text" value="megavid.uk/footage.php?v=<?php if (isset($_GET['v'])) {
                                                                                                 echo $_GET['v'];
                                                                                               } ?>" id="shareLink" readonly>
                           <button class="btn btn-outline-secondary" type="button" onclick="copyShareLink();">Copy</button>
@@ -258,16 +258,16 @@ $container->register('CartController', CartController::class);
                         <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Fmegavid.uk%2Ffootage%3Fv%<?php if (isset($_GET['v'])) {
                                                                                                                                                         echo $_GET['v'];
                                                                                                                                                       } ?>" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
-                        <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                        <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage.php?v=<?php if (isset($_GET['v'])) {
                                                                                                                                                                                                         echo $_GET['v'];
                                                                                                                                                                                                       } ?>&amp;hashtags=viral,videos&amp;rel=megaviduk" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a>
-                        <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                        <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage.php?v=<?php if (isset($_GET['v'])) {
                                                                                                                                                                                                                                 echo $_GET['v'];
                                                                                                                                                                                                                               } ?>"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
                         <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v<?php if (isset($_GET['v'])) {
                                                                                                                                                                                                                     echo $_GET['v'];
                                                                                                                                                                                                                   } ?>"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
-                        <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                        <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage.php?v=<?php if (isset($_GET['v'])) {
                                                                                                                                         echo $_GET['v'];
                                                                                                                                       } ?>}&title={Video%20Recommendation%20on%20MegaVidUK}&description={I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
 
@@ -284,16 +284,16 @@ $container->register('CartController', CartController::class);
                     <a title="Share this site on Facebook" href="https://www.facebook.com/sharer/sharer?u=https%3A%2F%2Fmegavid.uk%2Ffootage%3Fv%<?php if (isset($_GET['v'])) {
                                                                                                                                                     echo $_GET['v'];
                                                                                                                                                   } ?>" target="_blank"><i style="color:#3b5998;" class="fa fa-2x fa-facebook-official"></i></a>
-                    <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    <a title="Share this site on Twitter" href="https://twitter.com/intent/tweet?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage.php?v=<?php if (isset($_GET['v'])) {
                                                                                                                                                                                                     echo $_GET['v'];
                                                                                                                                                                                                   } ?>&amp;hashtags=viral,videos&amp;rel=megaviduk" target="_blank"><i style="color:#1da1f2;" class="fa fa-2x fa-twitter"></i></a>
-                    <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    <a title="Share this site via Mail" href="mailto:?&amp;subject=Video Recommendation on megaviduk&amp;body=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage.php?v=<?php if (isset($_GET['v'])) {
                                                                                                                                                                                                                             echo $_GET['v'];
                                                                                                                                                                                                                           } ?>"><i style="color:grey;" class="fa fa-2x fa-envelope"></i></a>
                     <a title="Share this site on WhatsApp" target="_blank" href="https://api.whatsapp.com/send?text=I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK%20https%3A//megavid.uk/footage?v<?php if (isset($_GET['v'])) {
                                                                                                                                                                                                                 echo $_GET['v'];
                                                                                                                                                                                                               } ?>"><i style="color:#075e54;" class="fa fa-2x fa-whatsapp"></i></a>
-                    <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage?v=<?php if (isset($_GET['v'])) {
+                    <a title="Share this site on VK" target="_blank" href="https://vk.com/share?url={https://megavid.uk/footage.php?v=<?php if (isset($_GET['v'])) {
                                                                                                                                     echo $_GET['v'];
                                                                                                                                   } ?>}&title={Video%20Recommendation%20on%20MegaVidUK}&description={I%20want%20to%20recommend%20this%20video%20at%20MegaVidUK}"><i style="color:#45668e;" class="fa fa-2x fa-vk"></i></a>
 

@@ -224,10 +224,10 @@
                   <div class="row" align="center" style="padding-top: 30px;">
                       <div class="col-12 placeOrderNavBar" style="padding:0;">
                           <div class="btn-group btn-breadcrumb" style="margin:auto">
-                              <a class="btn btn-primary" href="cart">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
+                              <a class="btn btn-primary" href="cart.php">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
                               <div class="btn btn-primary">2. <span class="d-none d-md-block d-xl-inline">SIGN IN / UP</span></div>
-                              <a class="btn btn-primary" href="licenseeinfo">3. <span class="d-none d-md-block d-xl-inline">Licensee<span class="noneDisp-370"> Info</span></span></a>
-                              <a class="btn btn-primary" href="paymentmethod">4. <span class="d-none d-md-block d-xl-inline">Payment<span class="noneDisp-400"> Method</span></span></a>
+                              <a class="btn btn-primary" href="licenseeinfo.php">3. <span class="d-none d-md-block d-xl-inline">Licensee<span class="noneDisp-370"> Info</span></span></a>
+                              <a class="btn btn-primary" href="paymentmethod.php">4. <span class="d-none d-md-block d-xl-inline">Payment<span class="noneDisp-400"> Method</span></span></a>
                               <div class="btn btn-primary">5. <span class="d-inline d-md-block d-xl-inline placeOrderSmall"><span class="noneDisp-860">Review &amp;</span> Place Order</span></div>
                           </div>
                       </div>
@@ -297,7 +297,7 @@
                                               <span aria-hidden="true">×</span>
                                           </button>
                                       </div>
-                                      <form class="form-signin" action="placeorder" style="max-width:100%;" method="post">
+                                      <form class="form-signin" action="placeorder.php" style="max-width:100%;" method="post">
                                           <label for="inputCompanyLicensee">Company / Organization<font color="rgb(0, 87, 255)">*</font></label>
                                           <input type="text" id="inputCompanyLicensee" name="inputCompanyLicensee" class="form-control" value="cuong.hc" data-toggle="tooltip" data-placement="right" data-trigger="click" data-html="true" title="" required="" data-original-title="&lt;ul style='text-align: left;'&gt;&lt;li&gt;Only the company / organization entering as Licensee into the Buyer License Agreement with us will be entitled to use the video items you have on your cart.&lt;/li&gt;&lt;li&gt;Licensee must be a business / commercial customer; private consumers are not admitted.&lt;/li&gt;&lt;/ul&gt;">
                                           <div class="row">
@@ -601,7 +601,7 @@
                                           </button>
                                       </div>
                                       <div>
-                                          <form class="form-signin" id="billingForm" action="placeorder" style="max-width:100%;" method="post">
+                                          <form class="form-signin" id="billingForm" action="placeorder.php" style="max-width:100%;" method="post">
                                               <div id="billingOneofTwo" data-toggle="tooltip" data-placement="right" data-trigger="manual" title="" data-original-title="Please enter first name and last name and/or the company / organization which should appear in the invoice.">
                                                   <div class="row">
                                                       <div class="col-12 col-sm-6">
@@ -910,7 +910,7 @@
                                           </button>
                                       </div>
                                       <div>
-                                          <form class="form-signin" style="max-width:100%;" method="post" action="placeorder">
+                                          <form class="form-signin" style="max-width:100%;" method="post" action="placeorder.php">
                                               <table style="width:100%;">
                                                   <tbody>
                                                       <tr>
@@ -1689,7 +1689,7 @@
                           <div class="d-block d-lg-none"></div>
                           <a class="footerLinkCheckout" data-toggle="modal" data-target=".imprintModal" target="_blank">Imprint</a>
                           <div class="d-block d-lg-none"></div>
-                          <a class="footerLinkCheckout" href="./privacy" target="_blank">Privacy Policy</a>
+                          <a class="footerLinkCheckout" href="./privacy.php" target="_blank">Privacy Policy</a>
                           <div class="d-block d-lg-none"></div>
                           <a class="footerLinkCheckout" href="./tos.pdf" target="_blank">Terms of Service</a>
                           <div class="d-block d-lg-none"></div>

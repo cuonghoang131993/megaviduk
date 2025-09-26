@@ -277,9 +277,9 @@
                   <div class="row" align="center" style="padding-top: 30px;">
                       <div class="col-12" style="padding:0;">
                           <div class="btn-group btn-breadcrumb" style="margin:auto">
-                              <a class="btn btn-orange" href="cart">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
+                              <a class="btn btn-orange" href="cart.php">1. <span class="d-none d-md-block d-xl-inline">Your Cart</span></a>
                               <div class="btn btn-orange">2. <span class="d-none d-md-block d-xl-inline">SIGN IN / UP</span></div>
-                              <a class="btn btn-orange" href="licenseeinfo">3. <span class="d-none d-md-block d-xl-inline">Licensee<span class="noneDisp-370"> Info</span></span></a>
+                              <a class="btn btn-orange" href="licenseeinfo.php">3. <span class="d-none d-md-block d-xl-inline">Licensee<span class="noneDisp-370"> Info</span></span></a>
                               <div class="btn btn-orange">4. <span class="d-inline d-md-block d-xl-inline">Payment<span class="noneDisp-400"> Method</span></span></div>
                               <div class="btn btn-def">5. <span class="d-none d-md-block d-xl-inline"><span class="noneDisp-860">Review &amp;</span> Place Order</span></div>
                           </div>
@@ -288,7 +288,7 @@
 
                   <div class="row">
                       <div class="col-12">
-                          <form class="form-signin" style="margin-top:2rem;" method="post" action="placeorder">
+                          <form class="form-signin" style="margin-top:2rem;" method="post" action="placeorder.php">
                               <h1 class="h3 mb-3 font-weight-normal">Payment Method</h1>
 
                               <table style="width:100%;">
@@ -668,7 +668,7 @@
                           <div class="d-block d-lg-none"></div>
                           <a class="footerLinkCheckout" data-toggle="modal" data-target=".imprintModal" target="_blank">Imprint</a>
                           <div class="d-block d-lg-none"></div>
-                          <a class="footerLinkCheckout" href="./privacy" target="_blank">Privacy Policy</a>
+                          <a class="footerLinkCheckout" href="./privacy.php" target="_blank">Privacy Policy</a>
                           <div class="d-block d-lg-none"></div>
                           <a class="footerLinkCheckout" href="./tos.pdf" target="_blank">Terms of Service</a>
                           <div class="d-block d-lg-none"></div>

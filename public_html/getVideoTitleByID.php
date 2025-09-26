@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           $res->description
         ); 
         
-        $template = '<a href="/footage?v='. $video->id .'" ><table id="tab-'. $video->id .'" class="tab-'. $video->id .' text-center"><tr><td style="padding-left: 5px;"><img src="https://img.youtube.com/vi/'. $video->id .'/mqdefault.jpg" width=120 alt="click here to see more"></td></tr><tr><td style="vertical-align: middle;"><p>'. $video->title .'</p></td></tr></table></a>';
+        $template = '<a href="./footage.php?v='. $video->id .'" ><table id="tab-'. $video->id .'" class="tab-'. $video->id .' text-center"><tr><td style="padding-left: 5px;"><img src="https://img.youtube.com/vi/'. $video->id .'/mqdefault.jpg" width=120 alt="click here to see more"></td></tr><tr><td style="vertical-align: middle;"><p>'. $video->title .'</p></td></tr></table></a>';
 
         echo $template;
     } catch (Exception $e) {
