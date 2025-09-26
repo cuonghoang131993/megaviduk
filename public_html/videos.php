@@ -616,7 +616,7 @@ $container->register('CartController', CartController::class);
                 }
                 for (var i = 0; i < existingBookmarks.length; i++) {
                     //var id = existingBookmarks[i];
-                    $.post("getVideoTitleByID", {
+                    $.post("getVideoTitleByID.php", {
                             ytid: existingBookmarks[i],
                         },
                         function(data, status) {
@@ -674,7 +674,7 @@ $container->register('CartController', CartController::class);
                     Cookies.set('videoBookmarks', JSON.stringify(existingBookmarks), {
                         expires: 20
                     });
-                    $.post("getVideoTitleByID", {
+                    $.post("getVideoTitleByID.php", {
                             ytid: videoID,
                         },
                         function(data, status) {

@@ -1516,7 +1516,7 @@ $( document ).ready(function() {
       $('#bookmarksDropdownXtraSmall')('');
     }
     for (var i=0; i<existingBookmarks.length; i++){
-        $.post("getVideoTitleByID",
+        $.post("getVideoTitleByID.php",
         {
             ytid: existingBookmarks[i],
         },
